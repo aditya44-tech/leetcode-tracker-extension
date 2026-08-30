@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetCode Tracker — Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+/* ============================================================
+   popup.css — LeetCode Tracker  (v2 — editorial light theme)
+   Font pairing: DM Serif Display (headings) + Inter (body)
+   ============================================================ */
+
+:root {
+  --bg:         #faf7f2;
+  --surface:    #ffffff;
+  --border:     #e8e2d9;
+  --border-lt:  #f0ebe3;
+  --text:       #1a1a1a;
+  --text-dim:   #8a8279;
+  --text-mid:   #5c554b;
+  --easy:       #0a9668;
+  --easy-bg:    #e6f5ef;
+  --medium:     #c08a00;
+  --medium-bg:  #fdf4dc;
+  --hard:       #dc3545;
+  --hard-bg:    #fce8ea;
+  --accent:     #1a1a1a;
+  --serif:      "DM Serif Display", Georgia, "Times New Roman", serif;
+  --sans:       "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  width: 380px;
+  padding: 20px 20px 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Header ---- */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--accent);
+  line-height: 1.1;
+}
+
+.header h1 em {
+  font-style: italic;
+  color: var(--hard);
+}
+
+.header .subtitle {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 4px;
+  letter-spacing: 0.3px;
+}
+
+/* ---- Section headings ---- */
+h2 {
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text);
+  margin: 20px 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ---- Summary cards ---- */
+#summary {
+  display: flex;
+  gap: 8px;
+}
+
+.card {
+  flex: 1;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 8px 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.card-value {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--text);
+}
+
+.card-label {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.card.easy .card-value  { color: var(--easy);  }
+.card.medium .card-value { color: var(--medium); }
+.card.hard .card-value  { color: var(--hard);  }
+
+/* ---- Average times ---- */
+#avgTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#avgTable th,
+#avgTable td {
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 13px;
+}
+
+#avgTable thead th {
+  font-weight: 500;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+}
+
+#avgTable tbody td {
+  border-bottom: 1px solid var(--border-lt);
+  color: var(--text);
+}
+
+#avgTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+#avgTable .time-val {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Difficulty badges ---- */
+.diff-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.diff-badge.easy   { background: var(--easy-bg);   color: var(--easy);   }
+.diff-badge.medium { background: var(--medium-bg); color: var(--medium); }
+.diff-badge.hard   { background: var(--hard-bg);   color: var(--hard);   }
+
+/* ---- Recent solves table ---- */
+#recentTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#recentTable th,
+#recentTable td {
+  padding: 8px 10px;
+  text-align: left;
+  font-size: 12px;
+}
+
+#recentTable thead th {
+  font-weight: 500;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+}
+
+#recentTable tbody td {
+  border-bottom: 1px solid var(--border-lt);
+  color: var(--text);
+  vertical-align: middle;
+}
+
+#recentTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+#recentTable tbody tr:hover {
+  background: rgba(0, 0, 0, 0.015);
+}
+
+td.problem-name {
+  max-width: 170px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+td.time-col {
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  color: var(--text-mid);
+  white-space: nowrap;
+}
+
+td.date-col {
+  color: var(--text-dim);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+/* ---- Empty state ---- */
+#emptyState {
+  text-align: center;
+  padding: 32px 16px;
+}
+
+#emptyState .empty-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+  opacity: 0.6;
+}
+
+#emptyState p {
+  color: var(--text-dim);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* ---- Clear button ---- */
+#actions {
+  margin-top: 16px;
+  text-align: center;
+}
+
+#clearBtn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 7px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: all 0.2s ease;
+}
+
+#clearBtn:hover {
+  border-color: var(--hard);
+  color: var(--hard);
+  background: var(--hard-bg);
+}
+
+/* ---- Utility ---- */
+.hidden {
+  display: none !important;
+}
+
+/* ---- Preview banner ---- */
+.preview-banner {
+  background: #f0ebe3;
+  color: #8a8279;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  padding: 5px 0;
+  margin: -20px -20px 16px;
+  border-bottom: 1px solid #e8e2d9;
+  letter-spacing: 0.3px;
+}
+  </style>
+</head>
+<body>
+  <div class="preview-banner">PREVIEW — mock data for demonstration</div>
+
+  <div class="header">
+    <h1>Leet<em>Code</em> Tracker</h1>
+    <div class="subtitle">Track your progress</div>
+  </div>
+
+  <!-- Summary cards -->
+  <div id="summary">
+    <div class="card">
+      <span class="card-value" id="totalSolved">24</span>
+      <span class="card-label">Solved</span>
+    </div>
+    <div class="card easy">
+      <span class="card-value" id="easyCount">8</span>
+      <span class="card-label">Easy</span>
+    </div>
+    <div class="card medium">
+      <span class="card-value" id="mediumCount">11</span>
+      <span class="card-label">Medium</span>
+    </div>
+    <div class="card hard">
+      <span class="card-value" id="hardCount">5</span>
+      <span class="card-label">Hard</span>
+    </div>
+  </div>
+
+  <!-- Average solve times -->
+  <div id="averages">
+    <h2>Average Time</h2>
+    <table id="avgTable">
+      <thead>
+        <tr><th>Difficulty</th><th>Avg. Time</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="diff-badge easy">Easy</span></td>
+          <td class="time-val">5m 23s</td>
+        </tr>
+        <tr>
+          <td><span class="diff-badge medium">Medium</span></td>
+          <td class="time-val">18m 47s</td>
+        </tr>
+        <tr>
+          <td><span class="diff-badge hard">Hard</span></td>
+          <td class="time-val">42m 12s</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Recent solves -->
+  <div id="recent">
+    <h2>Recent Solves</h2>
+    <table id="recentTable">
+      <thead>
+        <tr><th>Problem</th><th></th><th>Time</th><th>Date</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="problem-name" title="Median of Two Sorted Arrays">Median of Two Sorted Arrays</td>
+          <td><span class="diff-badge hard">Hard</span></td>
+          <td class="time-col">38m 12s</td>
+          <td class="date-col">Aug 30</td>
+        </tr>
+        <tr>
+          <td class="problem-name" title="Longest Substring Without Repeating Characters">Longest Substring Without Repeating Characters</td>
+          <td><span class="diff-badge medium">Medium</span></td>
+          <td class="time-col">14m 5s</td>
+          <td class="date-col">Aug 29</td>
+        </tr>
+        <tr>
+          <td class="problem-name" title="Two Sum">Two Sum</td>
+          <td><span class="diff-badge easy">Easy</span></td>
+          <td class="time-col">3m 42s</td>
+          <td class="date-col">Aug 29</td>
+        </tr>
+        <tr>
+          <td class="problem-name" title="Merge Intervals">Merge Intervals</td>
+          <td><span class="diff-badge medium">Medium</span></td>
+          <td class="time-col">22m 18s</td>
+          <td class="date-col">Aug 28</td>
+        </tr>
+        <tr>
+          <td class="problem-name" title="Trapping Rain Water">Trapping Rain Water</td>
+          <td><span class="diff-badge hard">Hard</span></td>
+          <td class="time-col">51m 30s</td>
+          <td class="date-col">Aug 27</td>
+        </tr>
+        <tr>
+          <td class="problem-name" title="Valid Parentheses">Valid Parentheses</td>
+          <td><span class="diff-badge easy">Easy</span></td>
+          <td class="time-col">2m 15s</td>
+          <td class="date-col">Aug 27</td>
+        </tr>
+        <tr>
+          <td class="problem-name" title="Group Anagrams">Group Anagrams</td>
+          <td><span class="diff-badge medium">Medium</span></td>
+          <td class="time-col">12m 40s</td>
+          <td class="date-col">Aug 26</td>
+        </tr>
+        <tr>
+          <td class="problem-name" title="Climbing Stairs">Climbing Stairs</td>
+          <td><span class="diff-badge easy">Easy</span></td>
+          <td class="time-col">4m 8s</td>
+          <td class="date-col">Aug 25</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Empty state (hidden) -->
+  <div id="emptyState" class="hidden">
+    <div class="empty-icon">⌨</div>
+    <p>No solves yet.<br/>Open a LeetCode problem to start tracking.</p>
+  </div>
+
+  <!-- Clear button -->
+  <div id="actions">
+    <button id="clearBtn">Clear Stats</button>
+  </div>
+
+  <script>
+    document.getElementById('clearBtn').addEventListener('click', () => {
+      if (window.confirm('Are you sure you want to delete ALL solve stats? This cannot be undone.')) {
+        alert('Stats cleared! (In the actual extension, this wipes chrome.storage.local)');
+      }
+    });
+  </script>
+</body>
+</html>

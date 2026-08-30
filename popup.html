@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetCode Tracker</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>Leet<em>Code</em> Tracker</h1>
+    <div class="subtitle">Track your progress</div>
+  </div>
+
+  <!-- Company filter -->
+  <div id="filterBar" class="hidden">
+    <label for="companyFilter">Filter by company</label>
+    <div class="filter-row">
+      <select id="companyFilter">
+        <option value="">All companies</option>
+      </select>
+      <button id="clearFilter" class="hidden">Clear</button>
+    </div>
+  </div>
+
+  <!-- Summary cards -->
+  <div id="summary" class="hidden">
+    <div class="card">
+      <span class="card-value" id="totalSolved">0</span>
+      <span class="card-label">Solved</span>
+    </div>
+    <div class="card easy">
+      <span class="card-value" id="easyCount">0</span>
+      <span class="card-label">Easy</span>
+    </div>
+    <div class="card medium">
+      <span class="card-value" id="mediumCount">0</span>
+      <span class="card-label">Medium</span>
+    </div>
+    <div class="card hard">
+      <span class="card-value" id="hardCount">0</span>
+      <span class="card-label">Hard</span>
+    </div>
+  </div>
+
+  <!-- Average solve times -->
+  <div id="averages" class="hidden">
+    <h2>Average Time</h2>
+    <table id="avgTable">
+      <thead>
+        <tr><th>Difficulty</th><th>Avg. Time</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <!-- Recent solves -->
+  <div id="recent" class="hidden">
+    <h2>Recent Solves</h2>
+    <table id="recentTable">
+      <thead>
+        <tr><th>Problem</th><th></th><th>Time</th><th>Date</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <!-- Empty state -->
+  <div id="emptyState">
+    <div class="empty-icon">⌨</div>
+    <p>No solves yet.<br/>Open a LeetCode problem to start tracking.</p>
+  </div>
+
+  <!-- Clear button -->
+  <div id="actions">
+    <button id="clearBtn" class="hidden">Clear Stats</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

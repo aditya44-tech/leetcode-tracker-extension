@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Tracker",
+  "version": "1.0.0",
+  "description": "Tracks difficulty and solve time for LeetCode problems.",
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "LeetCode Tracker"
+  }
+}
