@@ -6,6 +6,9 @@
   "permissions": [
     "storage"
   ],
+  "host_permissions": [
+    "https://leetcode.com/*"
+  ],
   "background": {
     "service_worker": "background.js"
   },
@@ -19,5 +22,11 @@
   "action": {
     "default_popup": "popup.html",
     "default_title": "LeetCode Tracker"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["logos/*.png", "logos/*.svg"],
+      "matches": ["https://leetcode.com/*"]
+    }
+  ]
 }

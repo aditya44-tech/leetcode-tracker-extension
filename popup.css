@@ -251,11 +251,17 @@ td.date-col {
   text-align: center;
 }
 
-#clearBtn {
+.actions-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.actions-row button {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text-dim);
-  padding: 7px 20px;
+  padding: 7px 16px;
   border-radius: 8px;
   cursor: pointer;
   font-family: var(--sans);
@@ -263,6 +269,12 @@ td.date-col {
   font-weight: 500;
   letter-spacing: 0.3px;
   transition: all 0.2s ease;
+}
+
+.actions-row button:hover {
+  border-color: var(--text-mid);
+  color: var(--text-mid);
+  background: var(--surface);
 }
 
 #clearBtn:hover {
@@ -520,6 +532,46 @@ td.date-col {
   height: 22px;
   border-radius: 4px;
   font-size: 11px;
+}
+
+/* ---- Sync profile ---- */
+#syncBar {
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 4px;
+}
+
+#syncBtn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-mid);
+  padding: 7px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+#syncBtn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+#syncBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#syncStatus {
+  display: block;
+  font-size: 10px;
+  color: var(--text-dim);
+  margin-top: 4px;
+  min-height: 14px;
 }
 
 /* ---- Utility ---- */

@@ -38,6 +38,7 @@ function render(filterCompany) {
     document.getElementById("summary").classList.remove("hidden");
     document.getElementById("averages").classList.remove("hidden");
     document.getElementById("recent").classList.remove("hidden");
+    document.getElementById("exportBtn").classList.remove("hidden");
     document.getElementById("clearBtn").classList.remove("hidden");
     document.getElementById("filterBar").classList.remove("hidden");
 
@@ -135,24 +136,86 @@ function renderCurrentProblem(problem) {
 
 /* ---- Company logo helper ---- */
 
+// Local logo mapping: company name -> filename in logos/
+const LOCAL_LOGOS = {
+  amazon:    "amazon.svg",
+  google:    "google.png",
+  microsoft: "microsoft.svg",
+  apple:     "apple.png",
+  facebook:  "facebook.png",
+  meta:      "facebook.png",
+  adobe:     "adobe.svg",
+};
+
+// Fallback colors for companies without a local logo
+const COMPANY_COLORS = {
+  amazon:    "#FF9900",
+  google:    "#4285F4",
+  microsoft: "#737373",
+  apple:     "#555555",
+  facebook:  "#1877F2",
+  meta:      "#1877F2",
+  adobe:     "#FF0000",
+  netflix:   "#E50914",
+  twitter:   "#1DA1F2",
+  tiktok:    "#000000",
+  bytedance: "#000000",
+  spotify:   "#1DB954",
+  uber:      "#000000",
+  airbnb:    "#FF5A5F",
+  linkedin:  "#0A66C2",
+  nvidia:    "#76B900",
+  samsung:   "#1428A0",
+  oracle:    "#C74634",
+  salesforce:"#00A1E0",
+  walmart:   "#0071CE",
+};
+
 function companyLogoURL(company) {
-  // Clearbit Logo API — free, no auth needed for this use case
-  const slug = company.toLowerCase().replace(/\s+/g, "");
-  return `https://logo.clearbit.com/${slug}.com`;
+  const key = company.toLowerCase().replace(/\s+/g, "");
+  const file = LOCAL_LOGOS[key];
+  if (file) {
+    return chrome.runtime.getURL(`logos/${file}`);
+  }
+  return null; // no local logo
+}
+
+function companyColor(company) {
+  const key = company.toLowerCase().replace(/\s+/g, "");
+  return COMPANY_COLORS[key] || "#8a8279"; // default to text-dim
 }
 
 function companyLogoHTML(company, solveIndex) {
   const url = companyLogoURL(company);
-  return `<span class="company-logo-pill" title="${escapeHtml(company)}" data-company="${escapeHtml(company)}" data-index="${solveIndex}">
-    <img class="company-logo" src="${url}" alt="${escapeHtml(company)}" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'" />
-    <span class="company-logo-fallback" style="display:none">${escapeHtml(company.charAt(0))}</span>
-    <button class="pill-remove" data-company="${escapeHtml(company)}" data-index="${solveIndex}" title="Remove">×</button>
+  const color = companyColor(company);
+  const initial = escapeHtml(company.charAt(0).toUpperCase());
+  const name = escapeHtml(company);
+
+  if (url) {
+    // Has a local logo file
+    return `<span class="company-logo-pill" title="${name}" data-company="${name}" data-index="${solveIndex}">
+      <img class="company-logo" src="${url}" alt="${name}" onerror="this.style.display='none';this.nextElementSibling.style.display='inline-flex'" />
+      <span class="company-logo-fallback" style="display:none;background:${color};color:#fff">${initial}</span>
+      <button class="pill-remove" data-company="${name}" data-index="${solveIndex}" title="Remove">×</button>
+    </span>`;
+  }
+  // No local logo — colored initial badge
+  return `<span class="company-logo-pill" title="${name}" data-company="${name}" data-index="${solveIndex}">
+    <span class="company-logo-fallback" style="display:inline-flex;background:${color};color:#fff">${initial}</span>
+    <button class="pill-remove" data-company="${name}" data-index="${solveIndex}" title="Remove">×</button>
   </span>`;
 }
 
 function companyLogoHTMLNoRemove(company) {
   const url = companyLogoURL(company);
-  return `<img class="company-logo current-logo" src="${url}" alt="${escapeHtml(company)}" title="${escapeHtml(company)}" onerror="this.style.display='none';this.nextElementSibling.style.display='inline-flex'" /><span class="company-logo-fallback current-fallback" style="display:none">${escapeHtml(company.charAt(0))}</span>`;
+  const color = companyColor(company);
+  const initial = escapeHtml(company.charAt(0).toUpperCase());
+  const name = escapeHtml(company);
+
+  if (url) {
+    return `<img class="company-logo current-logo" src="${url}" alt="${name}" title="${name}" onerror="this.style.display='none';this.nextElementSibling.style.display='inline-flex'" /><span class="company-logo-fallback current-fallback" style="display:none;background:${color};color:#fff">${initial}</span>`;
+  }
+  return `<span class="company-logo-fallback current-fallback" style="display:inline-flex;background:${color};color:#fff">${initial}</span>`;
 }
 
 /* ---- Company filter ---- */
@@ -278,7 +341,221 @@ function removeTag(solveIndex, company) {
   });
 }
 
-/* ---- Clear button ---- */
+/* ---- Sync LeetCode profile ---- */
+
+async function syncProfile() {
+  const syncBtn = document.getElementById("syncBtn");
+  const syncStatus = document.getElementById("syncStatus");
+
+  syncBtn.disabled = true;
+  syncBtn.textContent = "Syncing...";
+  syncStatus.textContent = "";
+
+  try {
+    // Step 1: Get current user via GraphQL (no HTML parsing needed)
+    syncStatus.textContent = "Checking login...";
+    const userResp = await fetch("https://leetcode.com/graphql", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      credentials: "include",
+      body: JSON.stringify({
+        query: `query { userStatus { username isSignedIn } }`,
+      }),
+    });
+    const userData = await userResp.json();
+    const userStatus = userData?.data?.userStatus;
+
+    if (!userStatus?.isSignedIn || !userStatus?.username) {
+      syncStatus.textContent = "Not logged in — please log in to LeetCode first.";
+      syncBtn.disabled = false;
+      syncBtn.textContent = "Sync my LeetCode profile";
+      return;
+    }
+    const username = userStatus.username;
+    console.log(`[LeetCode Tracker Popup] Detected username: ${username}`);
+
+    // Step 2: Get solve stats via GraphQL
+    syncStatus.textContent = `Fetching stats for ${username}...`;
+    const graphqlResp = await fetch("https://leetcode.com/graphql", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      credentials: "include",
+      body: JSON.stringify({
+        query: `
+          query getUserProfile($username: String!) {
+            matchedUser(username: $username) {
+              submitStats {
+                acSubmissionNum {
+                  difficulty
+                  count
+                  submissions
+                }
+              }
+            }
+          }`,
+        variables: { username },
+      }),
+    });
+    const graphqlData = await graphqlResp.json();
+    const stats = graphqlData?.data?.matchedUser?.submitStats?.acSubmissionNum;
+
+    if (!stats) {
+      syncStatus.textContent = "Could not fetch solve stats.";
+      syncBtn.disabled = false;
+      syncBtn.textContent = "Sync my LeetCode profile";
+      return;
+    }
+
+    // Step 3: Get recent accepted submissions
+    syncStatus.textContent = "Fetching recent submissions...";
+    const recentResp = await fetch("https://leetcode.com/graphql", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      credentials: "include",
+      body: JSON.stringify({
+        query: `
+          query recentAcSubmissions($username: String!, $limit: Int!) {
+            recentAcSubmissionList(username: $username, limit: $limit) {
+              id
+              title
+              titleSlug
+              timestamp
+            }
+          }`,
+        variables: { username, limit: 50 },
+      }),
+    });
+    const recentData = await recentResp.json();
+    const recentSubs = recentData?.data?.recentAcSubmissionList || [];
+
+    // Step 4: Merge into storage
+    syncStatus.textContent = "Saving to storage...";
+    await new Promise((resolve) => {
+      chrome.storage.local.get({ solves: [] }, (data) => {
+        const existing = data.solves;
+        const existingKeys = new Set(
+          existing.map((s) => `${s.problemName}|${s.date?.slice(0, 10)}`)
+        );
+
+        // Load company dataset for auto-tagging
+        let companyDataset = null;
+        try {
+          // Can't fetch chrome.runtime.getURL from popup, so skip for now
+        } catch (e) {}
+
+        let added = 0;
+        for (const sub of recentSubs) {
+          const date = new Date(parseInt(sub.timestamp) * 1000).toISOString();
+          const key = `${sub.title}|${date.slice(0, 10)}`;
+          if (existingKeys.has(key)) continue;
+
+          existing.push({
+            problemName: sub.title,
+            difficulty: null, // unknown from API
+            timeSpentSeconds: 0, // unknown from API
+            date,
+            url: `https://leetcode.com/problems/${sub.titleSlug}/`,
+            slug: sub.titleSlug,
+            companies: [],
+          });
+          existingKeys.add(key);
+          added++;
+        }
+
+        chrome.storage.local.set({ solves: existing }, () => {
+          console.log(`[LeetCode Tracker Popup] Synced ${added} new solve(s) from profile`);
+          syncStatus.textContent = `Synced ${added} new solve(s). Total: ${existing.length}`;
+          syncBtn.disabled = false;
+          syncBtn.textContent = "Sync my LeetCode profile";
+          if (added > 0) render();
+          resolve();
+        });
+      });
+    });
+  } catch (err) {
+    console.error("[LeetCode Tracker Popup] Sync error:", err);
+    syncStatus.textContent = `Sync failed: ${err.message}`;
+    syncBtn.disabled = false;
+    syncBtn.textContent = "Sync my LeetCode profile";
+  }
+}
+
+document.getElementById("syncBtn").addEventListener("click", syncProfile);
+
+/* ---- Export / Import / Clear ---- */
+
+document.getElementById("exportBtn").addEventListener("click", () => {
+  chrome.storage.local.get({ solves: [] }, (data) => {
+    const blob = new Blob([JSON.stringify(data.solves, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `leetcode-tracker-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    console.log(`[LeetCode Tracker Popup] Exported ${data.solves.length} solve(s)`);
+  });
+});
+
+document.getElementById("importBtn").addEventListener("click", () => {
+  document.getElementById("importFile").click();
+});
+
+document.getElementById("importFile").addEventListener("change", (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = (evt) => {
+    try {
+      const imported = JSON.parse(evt.target.result);
+      if (!Array.isArray(imported)) {
+        alert("Invalid backup file — expected a JSON array of solve records.");
+        return;
+      }
+
+      // Validate each record has required fields
+      const valid = imported.filter((r) => r.problemName && r.date);
+      if (valid.length === 0) {
+        alert("No valid solve records found in the file.");
+        return;
+      }
+
+      const confirmed = window.confirm(
+        `Import ${valid.length} solve(s)? This will ADD to your existing data (no duplicates by name+date).`
+      );
+      if (!confirmed) return;
+
+      chrome.storage.local.get({ solves: [] }, (data) => {
+        const existing = data.solves;
+        const existingKeys = new Set(
+          existing.map((s) => `${s.problemName}|${s.date.slice(0, 10)}`)
+        );
+
+        let added = 0;
+        for (const record of valid) {
+          const key = `${record.problemName}|${record.date.slice(0, 10)}`;
+          if (!existingKeys.has(key)) {
+            existing.push(record);
+            existingKeys.add(key);
+            added++;
+          }
+        }
+
+        chrome.storage.local.set({ solves: existing }, () => {
+          console.log(`[LeetCode Tracker Popup] Imported ${added} new solve(s) (${valid.length - added} duplicates skipped)`);
+          alert(`Imported ${added} new solve(s).${added < valid.length ? ` ${valid.length - added} duplicates were skipped.` : ""}`);
+          window.location.reload();
+        });
+      });
+    } catch (err) {
+      alert(`Failed to parse backup file: ${err.message}`);
+    }
+  };
+  reader.readAsText(file);
+  // Reset input so the same file can be re-imported
+  e.target.value = "";
+});
 
 document.getElementById("clearBtn").addEventListener("click", () => {
   const confirmed = window.confirm(
