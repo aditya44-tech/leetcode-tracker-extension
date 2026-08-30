@@ -150,7 +150,7 @@
     }
 
     log("Submit button found — attaching click listener");
-    submitBtnListener = function on submitClick() {
+    submitBtnListener = function onSubmitClick() {
       log("✅ Submit button clicked — starting timer and attaching observer");
 
       // Reset state for this submission
@@ -362,11 +362,23 @@
     alreadyAccepted = false;
     startTime = null;
 
+    if (!newURL.includes("/problems/")) {
+      chrome.storage.local.remove(["currentProblem"]);
+      return;
+    }
+
     // 2 — Detect new problem
     problemName = detectProblemName();
     difficulty  = detectDifficulty();
-    log(`New problem — "${problemName}" [${difficulty || "unknown"}]`);
 
+    if (!problemName) {
+      const slug = slugFromURL();
+      problemName = slugToName(slug);
+    }
+    
+    log(`New problem — "${problemName}" [${difficulty || "unknown"}]`);
+    saveCurrentProblem();
+    
     // 3 — Re-attach submit listener
     attachSubmitListener();
   }
@@ -415,27 +427,47 @@
   }
 
   /* --------------------------------------------------------------- */
-  function init() {
+  async function loadDataset() {
+    try {
+      const resp = await fetch(chrome.runtime.getURL("companyData.json"));
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      companyDataset = await resp.json();
+      log(`Dataset loaded — ${Object.keys(companyDataset).length} slugs`);
+    } catch (err) {
+      log(`⚠ Dataset load failed (${err.message}) — manual-only tagging`);
+    }
+  }
+
+  function slugToName(slug) {
+    if (!slug) return null;
+    return slug
+      .split("-")
+      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(" ");
+  }
+
+  async function init() {
     log("Content script loaded on: " + window.location.href);
 
-    // Load company dataset (non-blocking — if it fails, we skip auto-tagging)
-    fetch(chrome.runtime.getURL("companyData.json"))
-      .then((resp) => {
-        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-        return resp.json();
-      })
-      .then((data) => {
-        companyDataset = data;
-        log(`Dataset loaded — ${Object.keys(data).length} slugs`);
-        // Re-save now that we have the dataset (companies may be richer)
-        saveCurrentProblem();
-      })
-      .catch((err) => {
-        log(`⚠ Dataset load failed (${err.message}) — manual-only tagging`);
-      });
+    // Load dataset first so companies are available immediately
+    await loadDataset();
+
+    if (!window.location.pathname.startsWith("/problems/")) {
+      log("Not on a problem page — skipping initialization");
+      return;
+    }
 
     problemName = detectProblemName();
     difficulty  = detectDifficulty();
+
+    // Fallback: derive name from URL slug if title detection failed
+    if (!problemName) {
+      const slug = slugFromURL();
+      problemName = slugToName(slug);
+      if (problemName) {
+        log(`Fallback name from slug: "${problemName}"`);
+      }
+    }
 
     if (!problemName) {
       log("⚠ Could not detect problem name — retrying in 3 s");
@@ -446,8 +478,9 @@
     log(`Problem detected — "${problemName}" [${difficulty || "unknown"}]`);
     log("⏳ Timer NOT started yet — waiting for Submit button click");
 
-    // Save immediately (may have empty companies until dataset loads)
+    // Save with full company data
     saveCurrentProblem();
+    chrome.runtime.sendMessage({ type: "DATASET_LOADED" }).catch(() => {});
 
     // Attach submit-button listener (no MutationObserver yet!)
     attachSubmitListener();

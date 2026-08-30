@@ -166,9 +166,10 @@ h2 {
   letter-spacing: 0.2px;
 }
 
-.diff-badge.easy   { background: var(--easy-bg);   color: var(--easy);   }
-.diff-badge.medium { background: var(--medium-bg); color: var(--medium); }
-.diff-badge.hard   { background: var(--hard-bg);   color: var(--hard);   }
+.diff-badge.easy    { background: var(--easy-bg);   color: var(--easy);   }
+.diff-badge.medium  { background: var(--medium-bg); color: var(--medium); }
+.diff-badge.hard    { background: var(--hard-bg);   color: var(--hard);   }
+.diff-badge.unknown { background: var(--border);    color: var(--text-dim); }
 
 /* ---- Recent solves table ---- */
 #recentTable {
@@ -207,12 +208,23 @@ h2 {
 }
 
 td.problem-name {
-  max-width: 170px;
+  max-width: 140px;
+  min-width: 100px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-weight: 500;
 }
+
+#recentTable {
+  table-layout: fixed;
+  width: 100%;
+}
+
+#recentTable col:nth-child(1) { width: 40%; }
+#recentTable col:nth-child(2) { width: auto; }
+#recentTable col:nth-child(3) { width: 60px; }
+#recentTable col:nth-child(4) { width: 55px; }
 
 td.time-col {
   font-variant-numeric: tabular-nums;
@@ -342,10 +354,7 @@ td.date-col {
 /* ---- Company pills (tags) ---- */
 .tags-cell {
   white-space: nowrap;
-  max-width: 120px;
 }
-
-
 
 .tag-add-btn {
   display: inline-block;
@@ -452,17 +461,52 @@ td.date-col {
   font-style: italic;
 }
 
-/* ---- Company logo pills (recent list) ---- */
+/* ---- Company pills (recent list — text only) ---- */
 .tags-cell {
   white-space: nowrap;
-  max-width: 110px;
+}
+
+.company-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 1px 5px 1px 6px;
+  border-radius: 10px;
+  font-size: 9px;
+  font-weight: 600;
+  background: var(--border);
+  color: var(--text-mid);
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+.company-pill .pill-remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 9px;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.company-pill .pill-remove:hover {
+  background: var(--hard-bg);
+  color: var(--hard);
 }
 
 .company-logo-pill {
   display: inline-flex;
   align-items: center;
-  gap: 3px;
-  padding: 2px 4px 2px 2px;
+  gap: 1px;
+  padding: 1px 2px 1px 1px;
   border-radius: 10px;
   background: var(--surface);
   border: 1px solid var(--border);
@@ -501,12 +545,12 @@ td.date-col {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   border: none;
   background: transparent;
   color: var(--text-dim);
-  font-size: 11px;
+  font-size: 9px;
   line-height: 1;
   padding: 0;
   cursor: pointer;

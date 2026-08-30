@@ -14,7 +14,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://leetcode.com/problems/*"],
+      "matches": ["https://leetcode.com/*"],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
@@ -25,7 +25,7 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["logos/*.png", "logos/*.svg"],
+      "resources": ["logos/*.svg", "companyData.json", "problemMeta.json"],
       "matches": ["https://leetcode.com/*"]
     }
   ]

@@ -4,326 +4,489 @@
     "Apple"
   ],
   "number-of-islands": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Spotify",
+    "Uber",
+    "X"
   ],
   "critical-connections-in-a-network": [
+    "Adobe",
     "Amazon",
     "Google",
-    "Microsoft",
-    "Adobe"
+    "Microsoft"
   ],
   "two-sum": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Samsung",
+    "Spotify",
+    "Uber",
+    "X"
   ],
   "lru-cache": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Spotify",
+    "Uber",
+    "X"
   ],
   "k-closest-points-to-origin": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "most-common-word": [
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple"
+    "Oracle"
   ],
   "copy-list-with-random-pointer": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "longest-palindromic-substring": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Samsung",
+    "Uber"
   ],
   "rotting-oranges": [
+    "Adobe",
     "Amazon",
-    "Microsoft",
-    "Adobe"
+    "Microsoft"
   ],
   "trapping-rain-water": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "merge-k-sorted-lists": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "partition-labels": [
     "Amazon",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Meta"
   ],
   "add-two-numbers": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Uber"
   ],
   "valid-parentheses": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Samsung",
+    "Spotify",
+    "Uber",
+    "X"
   ],
   "merge-two-sorted-lists": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Samsung",
+    "Uber"
   ],
   "word-ladder": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Samsung",
+    "Spotify",
+    "Uber"
   ],
   "find-median-from-data-stream": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Netflix",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "serialize-and-deserialize-binary-tree": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "top-k-frequent-words": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "subtree-of-another-tree": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Samsung"
   ],
   "search-a-2d-matrix-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "word-ladder-ii": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "concatenated-words": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "design-search-autocomplete-system": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "prison-cells-after-n-days": [
     "Amazon"
   ],
   "best-time-to-buy-and-sell-stock": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "integer-to-english-words": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "median-of-two-sorted-arrays": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "longest-substring-without-repeating-characters": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Samsung",
+    "Spotify",
+    "Uber"
   ],
   "meeting-rooms-ii": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "letter-combinations-of-a-phone-number": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "design-tic-tac-toe": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "word-break": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "min-stack": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Netflix",
+    "Oracle",
+    "Uber"
   ],
   "rotate-image": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Uber"
   ],
   "lowest-common-ancestor-of-a-binary-tree": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "product-of-array-except-self": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "word-search-ii": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "integer-to-roman": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "X"
   ],
   "sliding-window-maximum": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "alien-dictionary": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber",
+    "X"
   ],
   "lfu-cache": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Apple",
-    "Adobe"
+    "Google",
+    "LinkedIn",
+    "Microsoft",
+    "Uber"
   ],
   "3sum": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Samsung",
+    "Uber"
   ],
   "search-in-rotated-sorted-array": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Samsung",
+    "Uber"
   ],
   "cut-off-trees-for-golf-event": [
     "Amazon"
@@ -333,97 +496,139 @@
   ],
   "snakes-and-ladders": [
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple"
+    "Uber"
   ],
   "compare-version-numbers": [
     "Amazon",
+    "Apple",
     "Google",
-    "Microsoft",
-    "Apple"
+    "Microsoft"
   ],
   "merge-intervals": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Netflix",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "insert-delete-getrandom-o1": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "maximum-subarray": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Uber"
   ],
   "group-anagrams": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "boundary-of-binary-tree": [
+    "Adobe",
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple",
-    "Adobe"
+    "Oracle"
   ],
   "container-with-most-water": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "minimum-window-substring": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "spiral-matrix": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "analyze-user-website-visit-pattern": [
     "Amazon"
   ],
   "jump-game-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "reverse-linked-list": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Spotify",
+    "Uber",
+    "X"
   ],
   "minimum-cost-to-connect-sticks": [
     "Amazon",
@@ -431,443 +636,622 @@
   ],
   "find-the-celebrity": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "binary-tree-maximum-path-sum": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber",
+    "X"
   ],
   "coin-change": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "all-nodes-distance-k-in-binary-tree": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "number-of-distinct-islands": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "binary-tree-zigzag-level-order-traversal": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Samsung"
   ],
   "flood-fill": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "reverse-nodes-in-k-group": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "flatten-nested-list-iterator": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "validate-binary-search-tree": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "the-maze": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber",
+    "X"
   ],
   "implement-trie-prefix-tree": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "encode-and-decode-tinyurl": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "search-suggestions-system": [
     "Amazon"
   ],
   "basic-calculator": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "recover-binary-search-tree": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "game-of-life": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle",
+    "Uber"
   ],
   "find-all-anagrams-in-a-string": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle",
+    "Uber"
   ],
   "populating-next-right-pointers-in-each-node": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "generate-parentheses": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Samsung",
+    "Spotify",
+    "Uber"
   ],
   "the-skyline-problem": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber",
+    "X"
   ],
   "basic-calculator-iii": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "binary-tree-vertical-order-traversal": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "first-unique-character-in-a-string": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft"
   ],
   "construct-binary-tree-from-preorder-and-inorder-traversal": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "X"
   ],
   "kth-largest-element-in-an-array": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Spotify",
+    "Uber"
   ],
   "binary-tree-level-order-traversal": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "course-schedule": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "decode-ways": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "word-break-ii": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "minimum-path-sum": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Uber"
   ],
   "largest-rectangle-in-histogram": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "X"
   ],
   "prime-palindrome": [
     "Amazon"
   ],
   "roman-to-integer": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "basic-calculator-ii": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "populating-next-right-pointers-in-each-node-ii": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle"
   ],
   "the-maze-ii": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Oracle"
   ],
   "serialize-and-deserialize-bst": [
     "Amazon",
+    "Facebook",
     "Google",
+    "LinkedIn",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle",
+    "Uber"
   ],
   "jump-game": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "max-area-of-island": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "design-hit-counter": [
     "Amazon",
+    "Apple",
     "Google",
+    "LinkedIn",
     "Microsoft",
-    "Apple"
+    "Netflix",
+    "Oracle",
+    "Uber"
   ],
   "lowest-common-ancestor-of-a-binary-search-tree": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "restore-ip-addresses": [
+    "Adobe",
     "Amazon",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "minimum-cost-to-merge-stones": [
     "Amazon",
     "Google"
   ],
   "search-a-2d-matrix": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "string-to-integer-atoi": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Uber"
   ],
   "path-with-maximum-minimum-value": [
     "Amazon",
     "Google"
   ],
   "maximal-square": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "diameter-of-binary-tree": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "symmetric-tree": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "number-of-distinct-islands-ii": [
     "Amazon"
   ],
   "binary-search-tree-iterator": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "add-two-numbers-ii": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "reorder-list": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "next-permutation": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Samsung",
+    "Uber"
   ],
   "gas-station": [
     "Amazon",
+    "Apple",
     "Google",
-    "Microsoft",
-    "Apple"
+    "Microsoft"
   ],
   "palindrome-linked-list": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "binary-tree-right-side-view": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Uber"
   ],
   "edit-distance": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "max-points-on-a-line": [
     "Amazon",
+    "Apple",
     "Google",
+    "LinkedIn",
     "Microsoft",
-    "Apple"
+    "Uber",
+    "X"
   ],
   "word-search": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "top-k-frequent-elements": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Spotify",
+    "Uber"
   ],
   "unique-paths": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "design-excel-sum-formula": [
     "Amazon",
@@ -875,50 +1259,71 @@
   ],
   "decode-string": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "design-snake-game": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Uber"
   ],
   "shuffle-an-array": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft"
   ],
   "number-of-connected-components-in-an-undirected-graph": [
     "Amazon",
+    "Facebook",
     "Google",
+    "LinkedIn",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "X"
   ],
   "clone-graph": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber",
+    "X"
   ],
   "design-hashmap": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "palindrome-pairs": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Uber"
   ],
   "baseball-game": [
     "Amazon",
@@ -926,220 +1331,291 @@
   ],
   "employee-free-time": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "zigzag-iterator": [
     "Amazon",
+    "Apple",
     "Google",
-    "Microsoft",
-    "Apple"
+    "Microsoft"
   ],
   "shortest-path-in-binary-matrix": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "maximum-average-subtree": [
     "Amazon"
   ],
   "department-top-three-salaries": [
+    "Adobe",
     "Amazon",
     "Google",
-    "Adobe"
+    "Netflix"
   ],
   "evaluate-reverse-polish-notation": [
     "Amazon",
+    "Facebook",
     "Google",
+    "LinkedIn",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle",
+    "Uber"
   ],
   "regular-expression-matching": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "find-the-closest-palindrome": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "simplify-path": [
+    "Adobe",
     "Amazon",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "two-sum-less-than-k": [
     "Amazon",
     "Google"
   ],
   "unique-binary-search-trees": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "pacific-atlantic-water-flow": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "traffic-light-controlled-intersection": [
     "Amazon"
   ],
   "best-time-to-buy-and-sell-stock-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "maximum-frequency-stack": [
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple"
+    "Uber"
   ],
   "interleaving-string": [
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple"
+    "Nvidia",
+    "Uber"
   ],
   "walls-and-gates": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Spotify",
+    "Uber"
   ],
   "solve-the-equation": [
     "Amazon",
-    "Google"
+    "Google",
+    "Uber"
   ],
   "combination-sum": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "spiral-matrix-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "shortest-distance-from-all-buildings": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "minesweeper": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle",
+    "Uber"
   ],
   "majority-element": [
+    "Adobe",
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple",
-    "Adobe"
+    "Oracle",
+    "X"
   ],
   "maximum-product-subarray": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "next-greater-element-ii": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle"
   ],
   "course-schedule-ii": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "two-sum-ii-input-array-is-sorted": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "subsets": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "burst-balloons": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Samsung"
   ],
   "merge-sorted-array": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Netflix",
+    "Oracle",
+    "Uber"
   ],
   "count-of-smaller-numbers-after-self": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "add-and-search-word-data-structure-design": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "meeting-rooms": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "reverse-linked-list-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "number-of-dice-rolls-with-target-sum": [
     "Amazon",
@@ -1148,536 +1624,712 @@
   ],
   "intersection-of-two-linked-lists": [
     "Amazon",
+    "Facebook",
     "Google",
+    "LinkedIn",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle"
   ],
   "convert-bst-to-greater-tree": [
     "Amazon"
   ],
   "valid-sudoku": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "graph-valid-tree": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "LinkedIn",
+    "Meta"
   ],
   "first-missing-positive": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "sort-colors": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "reconstruct-itinerary": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "longest-absolute-file-path": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Uber"
   ],
   "unique-paths-iii": [
     "Amazon",
     "Google"
   ],
   "longest-valid-parentheses": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Samsung",
+    "Uber"
   ],
   "longest-consecutive-sequence": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Spotify",
+    "Uber"
   ],
   "two-sum-iv-input-is-a-bst": [
     "Amazon",
+    "Facebook",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Samsung"
   ],
   "find-minimum-in-rotated-sorted-array": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "permutations": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "insert-interval": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "subarray-sum-equals-k": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "summary-ranges": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "remove-nth-node-from-end-of-list": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "bus-routes": [
     "Amazon",
-    "Google"
+    "Google",
+    "Uber"
   ],
   "convert-sorted-list-to-binary-search-tree": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle"
   ],
   "nth-highest-salary": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Apple",
-    "Adobe"
+    "Google",
+    "Uber"
   ],
   "robot-room-cleaner": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "missing-number": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "reorganize-string": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "best-time-to-buy-and-sell-stock-iii": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "next-greater-element-i": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle",
+    "X"
   ],
   "largest-number": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "daily-temperatures": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Uber"
   ],
   "candy": [
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple"
+    "Uber"
   ],
   "largest-bst-subtree": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "max-stack": [
     "Amazon",
+    "Facebook",
     "Google",
+    "LinkedIn",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "X"
   ],
   "minimum-cost-for-tickets": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "peeking-iterator": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "kth-largest-element-in-a-stream": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "frog-jump": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "vertical-order-traversal-of-a-binary-tree": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Samsung"
   ],
   "connecting-cities-with-minimum-cost": [
-    "Amazon"
+    "Amazon",
+    "Uber"
   ],
   "swap-nodes-in-pairs": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "path-sum-iii": [
     "Amazon",
+    "Facebook",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle",
+    "Uber"
   ],
   "longest-increasing-subsequence": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "maximal-rectangle": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Samsung",
+    "Uber"
   ],
   "132-pattern": [
     "Amazon",
-    "Google"
+    "Google",
+    "Oracle"
   ],
   "linked-list-cycle": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "path-sum-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "inorder-successor-in-bst": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "find-k-pairs-with-smallest-sums": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "best-time-to-buy-and-sell-stock-iv": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta"
   ],
   "moving-average-from-data-stream": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber",
+    "X"
   ],
   "3sum-closest": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "climbing-stairs": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Uber"
   ],
   "n-queens": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "next-greater-element-iii": [
     "Amazon",
-    "Microsoft",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "sort-list": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "find-the-duplicate-number": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "coin-change-2": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "second-highest-salary": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "triangle": [
     "Amazon",
+    "Apple",
     "Google",
-    "Microsoft",
-    "Apple"
+    "Microsoft"
   ],
   "4sum": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Samsung"
   ],
   "closest-binary-search-tree-value": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "LinkedIn",
+    "Meta",
+    "Microsoft"
   ],
   "kth-smallest-element-in-a-sorted-matrix": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber",
+    "X"
   ],
   "single-element-in-a-sorted-array": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "X"
   ],
   "isomorphic-strings": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "unique-paths-ii": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "longest-duplicate-substring": [
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple"
+    "Oracle"
   ],
   "set-matrix-zeroes": [
+    "Adobe",
     "Amazon",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "sliding-window-median": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Spotify"
   ],
   "text-justification": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber",
+    "X"
   ],
   "implement-queue-using-stacks": [
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple"
+    "Oracle",
+    "Uber"
   ],
   "maximum-product-of-three-numbers": [
     "Amazon",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Meta"
   ],
   "find-all-duplicates-in-an-array": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "majority-element-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "longest-common-prefix": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "cheapest-flights-within-k-stops": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "longest-substring-with-at-most-k-distinct-characters": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle",
+    "Uber"
   ],
   "maximum-size-subarray-sum-equals-k": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "wildcard-matching": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "X"
   ],
   "basic-calculator-iv": [
     "Amazon",
     "Google"
   ],
   "single-number": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "binary-tree-longest-consecutive-sequence": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "longest-increasing-path-in-a-matrix": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "find-the-shortest-superstring": [
     "Amazon",
@@ -1685,173 +2337,229 @@
   ],
   "exclusive-time-of-functions": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "plus-one-linked-list": [
     "Amazon",
     "Google"
   ],
   "rectangle-overlap": [
+    "Adobe",
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple",
-    "Adobe"
+    "Oracle"
   ],
   "maximum-depth-of-binary-tree": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "implement-strstr": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "find-duplicate-subtrees": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle",
+    "Uber"
   ],
   "zigzag-conversion": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "evaluate-division": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "longest-palindromic-subsequence": [
     "Amazon",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "valid-parenthesis-string": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "substring-with-concatenation-of-all-words": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "valid-anagram": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "intersection-of-two-arrays": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "knight-probability-in-chessboard": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "time-based-key-value-store": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Netflix",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "reverse-string": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "capacity-to-ship-packages-within-d-days": [
     "Amazon",
+    "Apple",
     "Google",
-    "Apple"
+    "Uber"
   ],
   "remove-invalid-parentheses": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Uber"
   ],
   "divide-two-integers": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "path-sum": [
+    "Adobe",
     "Amazon",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "binary-search-tree-to-greater-sum-tree": [
     "Amazon",
+    "Apple",
     "Microsoft",
-    "Apple"
+    "Uber"
   ],
   "find-k-length-substrings-with-no-repeated-characters": [
     "Amazon"
   ],
   "powx-n": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "find-the-town-judge": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "sudoku-solver": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "split-array-with-same-average": [
     "Amazon",
     "Google",
-    "Microsoft"
+    "Microsoft",
+    "Uber"
   ],
   "implement-stack-using-queues": [
     "Amazon",
@@ -1863,24 +2571,32 @@
   ],
   "kth-smallest-element-in-a-bst": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "accounts-merge": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "design-circular-queue": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "longest-palindrome": [
     "Amazon",
@@ -1888,241 +2604,311 @@
   ],
   "01-matrix": [
     "Amazon",
+    "Apple",
     "Google",
-    "Apple"
+    "Uber"
   ],
   "number-of-atoms": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta"
   ],
   "convert-binary-search-tree-to-sorted-doubly-linked-list": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle",
+    "Uber"
   ],
   "data-stream-as-disjoint-intervals": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Oracle"
   ],
   "valid-tic-tac-toe-state": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle"
   ],
   "flatten-a-multilevel-doubly-linked-list": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "binary-tree-paths": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "surrounded-regions": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "move-zeroes": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "binary-tree-inorder-traversal": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "palindrome-partitioning": [
+    "Adobe",
     "Amazon",
     "Google",
     "Microsoft",
-    "Adobe"
+    "Uber"
   ],
   "search-in-rotated-sorted-array-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "repeated-dna-sequences": [
     "Amazon",
+    "Apple",
     "Google",
-    "Microsoft",
-    "Apple"
+    "LinkedIn",
+    "Microsoft"
   ],
   "palindrome-permutation": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "reverse-integer": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "insert-delete-getrandom-o1-duplicates-allowed": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "diagonal-traverse": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "path-with-maximum-gold": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "friend-circles": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber",
+    "X"
   ],
   "partition-list": [
     "Amazon",
-    "Microsoft",
-    "Apple"
+    "Apple",
+    "Microsoft"
   ],
   "stream-of-characters": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "most-frequent-subtree-sum": [
     "Amazon"
   ],
   "invert-binary-tree": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "perfect-squares": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "employees-earning-more-than-their-managers": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta"
   ],
   "flatten-binary-tree-to-linked-list": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle",
+    "Uber"
   ],
   "palindromic-substrings": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber",
+    "X"
   ],
   "fizz-buzz": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Apple",
-    "Adobe"
+    "Google",
+    "LinkedIn",
+    "Microsoft",
+    "Oracle",
+    "Spotify"
   ],
   "convert-sorted-array-to-binary-search-tree": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "web-crawler": [
     "Amazon",
+    "Facebook",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle"
   ],
   "two-sum-bsts": [
     "Amazon"
   ],
   "cousins-in-binary-tree": [
+    "Adobe",
     "Amazon",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Meta",
+    "Microsoft"
   ],
   "design-log-storage-system": [
     "Amazon",
-    "Google"
+    "Google",
+    "X"
   ],
   "reverse-words-in-a-string-ii": [
     "Amazon",
-    "Microsoft"
+    "Microsoft",
+    "Uber"
   ],
   "rotate-list": [
+    "Adobe",
     "Amazon",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "LinkedIn",
+    "Meta",
+    "Microsoft"
   ],
   "pairs-of-songs-with-total-durations-divisible-by-60": [
-    "Amazon",
-    "Adobe"
+    "Adobe",
+    "Amazon"
   ],
   "find-first-and-last-position-of-element-in-sorted-array": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Netflix",
+    "Oracle",
+    "Uber"
   ],
   "combine-two-tables": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Apple",
-    "Adobe"
+    "Google"
   ],
   "closest-binary-search-tree-value-ii": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "LinkedIn",
+    "Meta"
   ],
   "shortest-path-visiting-all-nodes": [
     "Amazon",
@@ -2131,138 +2917,173 @@
   "shortest-word-distance": [
     "Amazon",
     "Google",
-    "Microsoft"
+    "LinkedIn",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "count-primes": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "linked-list-cycle-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Apple",
-    "Adobe"
+    "Google",
+    "LinkedIn",
+    "Microsoft"
   ],
   "sqrtx": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "battleships-in-a-board": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "palindrome-number": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "fraction-to-recurring-decimal": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "last-stone-weight": [
     "Amazon"
   ],
   "island-perimeter": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "queue-reconstruction-by-height": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "longest-turbulent-subarray": [
     "Amazon"
   ],
   "find-peak-element": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "find-leaves-of-binary-tree": [
     "Amazon",
-    "Google"
+    "Google",
+    "LinkedIn"
   ],
   "employee-importance": [
     "Amazon",
-    "Google"
+    "Google",
+    "Uber"
   ],
   "partition-to-k-equal-sum-subsets": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "LinkedIn",
+    "Meta",
+    "Microsoft"
   ],
   "random-pick-with-weight": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber",
+    "X"
   ],
   "count-and-say": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "interval-list-intersections": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Oracle",
+    "Uber"
   ],
   "falling-squares": [
-    "Amazon"
+    "Amazon",
+    "Uber"
   ],
   "insert-into-a-sorted-circular-linked-list": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "remove-duplicate-letters": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "balanced-binary-tree": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "video-stitching": [
     "Amazon",
@@ -2270,28 +3091,36 @@
   ],
   "serialize-and-deserialize-n-ary-tree": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "string-compression": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Spotify"
   ],
   "remove-k-digits": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "bomb-enemy": [
     "Amazon",
-    "Google"
+    "Google",
+    "Uber"
   ],
   "number-of-digit-one": [
     "Amazon",
@@ -2299,86 +3128,109 @@
   ],
   "find-k-closest-elements": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "sort-characters-by-frequency": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "LinkedIn",
+    "Meta",
+    "Uber"
   ],
   "android-unlock-patterns": [
     "Amazon",
+    "Apple",
     "Google",
-    "Microsoft",
-    "Apple"
+    "Microsoft"
   ],
   "intersection-of-two-arrays-ii": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "smallest-range-covering-elements-from-k-lists": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "longest-substring-with-at-most-two-distinct-characters": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "guess-the-word": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "maximum-xor-of-two-numbers-in-an-array": [
     "Amazon",
     "Google"
   ],
   "house-robber": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Apple",
-    "Adobe"
+    "Google",
+    "LinkedIn",
+    "Microsoft",
+    "Uber"
   ],
   "all-oone-data-structure": [
     "Amazon",
+    "Facebook",
     "Google",
+    "LinkedIn",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "subarrays-with-k-different-integers": [
     "Amazon",
-    "Google"
+    "Google",
+    "Uber"
   ],
   "is-graph-bipartite": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "LinkedIn",
+    "Meta",
+    "Microsoft"
   ],
   "wiggle-sort": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "house-robber-iii": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "max-increase-to-keep-city-skyline": [
     "Amazon",
@@ -2386,57 +3238,73 @@
   ],
   "optimal-account-balancing": [
     "Amazon",
-    "Google"
+    "Google",
+    "Uber"
   ],
   "split-array-largest-sum": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "rotate-array": [
     "Amazon",
+    "Facebook",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "valid-palindrome": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "minimum-knight-moves": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "maximum-width-of-binary-tree": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "sales-analysis-ii": [
     "Amazon"
   ],
   "remove-duplicates-from-sorted-list": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "combination-sum-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "stepping-numbers": [
     "Amazon"
@@ -2444,20 +3312,22 @@
   "asteroid-collision": [
     "Amazon",
     "Google",
-    "Microsoft"
+    "Microsoft",
+    "Uber"
   ],
   "remove-duplicates-from-sorted-list-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Apple",
-    "Adobe"
+    "Google",
+    "Microsoft"
   ],
   "minimum-height-trees": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta"
   ],
   "sentence-similarity-ii": [
     "Amazon",
@@ -2465,27 +3335,32 @@
   ],
   "sum-root-to-leaf-numbers": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "excel-sheet-column-number": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "odd-even-linked-list": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "merge-two-binary-trees": [
+    "Adobe",
     "Amazon",
     "Apple",
-    "Adobe"
+    "Oracle"
   ],
   "first-unique-number": [
     "Amazon"
@@ -2495,32 +3370,39 @@
   ],
   "power-of-two": [
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple"
+    "Nvidia"
   ],
   "contiguous-array": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "valid-number": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft"
   ],
   "reverse-words-in-a-string": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle"
   ],
   "maximum-gap": [
     "Amazon"
@@ -2531,15 +3413,19 @@
   ],
   "fibonacci-number": [
     "Amazon",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Meta",
+    "Microsoft"
   ],
   "one-edit-distance": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber",
+    "X"
   ],
   "online-stock-span": [
     "Amazon",
@@ -2547,81 +3433,99 @@
     "Microsoft"
   ],
   "happy-number": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber",
+    "X"
   ],
   "meeting-scheduler": [
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple"
+    "Uber"
   ],
   "super-washing-machines": [
     "Amazon"
   ],
   "find-winner-on-a-tic-tac-toe-game": [
     "Amazon",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Meta"
   ],
   "sum-of-root-to-leaf-binary-numbers": [
     "Amazon"
   ],
   "subsets-ii": [
     "Amazon",
-    "Microsoft",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "global-and-local-inversions": [
     "Amazon"
   ],
   "remove-duplicates-from-sorted-array": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "minimum-genetic-mutation": [
     "Amazon",
-    "Google"
+    "Google",
+    "X"
   ],
   "single-number-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta"
   ],
   "department-highest-salary": [
     "Amazon",
-    "Apple"
+    "Apple",
+    "Oracle"
   ],
   "max-consecutive-ones-iii": [
     "Amazon",
-    "Microsoft",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "trapping-rain-water-ii": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "X"
   ],
   "combination-sum-iv": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "construct-binary-tree-from-inorder-and-postorder-traversal": [
     "Amazon",
+    "Facebook",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "X"
   ],
   "design-file-system": [
     "Amazon"
@@ -2630,70 +3534,89 @@
     "Amazon"
   ],
   "split-linked-list-in-parts": [
-    "Amazon",
-    "Adobe"
+    "Adobe",
+    "Amazon"
   ],
   "my-calendar-i": [
     "Amazon",
+    "Apple",
     "Google",
     "Microsoft",
-    "Apple"
+    "Uber"
   ],
   "palindrome-partitioning-ii": [
     "Amazon",
     "Google"
   ],
   "unique-email-addresses": [
+    "Adobe",
     "Amazon",
     "Google",
-    "Microsoft",
-    "Adobe"
+    "Microsoft"
   ],
   "count-univalue-subtrees": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "pascals-triangle": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber",
+    "X"
   ],
   "contains-duplicate": [
+    "Adobe",
     "Amazon",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "permutation-sequence": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "X"
   ],
   "best-meeting-point": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "LinkedIn",
+    "Meta",
+    "X"
   ],
   "plus-one": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Spotify",
+    "Uber"
   ],
   "design-twitter": [
-    "Amazon"
+    "Amazon",
+    "Oracle",
+    "X"
   ],
   "range-module": [
     "Amazon",
-    "Google"
+    "Google",
+    "LinkedIn",
+    "Oracle"
   ],
   "couples-holding-hands": [
     "Amazon",
@@ -2701,33 +3624,42 @@
   ],
   "valid-triangle-number": [
     "Amazon",
+    "Facebook",
+    "LinkedIn",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "bulls-and-cows": [
     "Amazon",
     "Google",
-    "Microsoft"
+    "Microsoft",
+    "Uber"
   ],
   "add-strings": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Nvidia",
+    "Oracle"
   ],
   "minimum-size-subarray-sum": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "reverse-words-in-a-string-iii": [
     "Amazon",
-    "Microsoft",
-    "Apple"
+    "Apple",
+    "Microsoft"
   ],
   "find-k-th-smallest-pair-distance": [
     "Amazon",
@@ -2739,39 +3671,45 @@
   ],
   "utf-8-validation": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta"
   ],
   "word-frequency": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta"
   ],
   "campus-bikes": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "insert-into-a-binary-search-tree": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "jewels-and-stones": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta"
   ],
   "repeated-string-match": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta"
   ],
   "reverse-string-ii": [
     "Amazon",
@@ -2780,12 +3718,15 @@
   ],
   "average-of-levels-in-binary-tree": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta"
   ],
   "missing-ranges": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Oracle"
   ],
   "network-delay-time": [
     "Amazon",
@@ -2795,26 +3736,34 @@
   "water-and-jug-problem": [
     "Amazon",
     "Google",
-    "Microsoft"
+    "Microsoft",
+    "Uber"
   ],
   "bulb-switcher": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta"
   ],
   "longest-substring-with-at-least-k-repeating-characters": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Uber"
   ],
   "nested-list-weight-sum": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "LinkedIn",
+    "Meta",
+    "Uber"
   ],
   "maximum-sum-of-two-non-overlapping-subarrays": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "relative-sort-array": [
     "Amazon",
@@ -2827,15 +3776,17 @@
   ],
   "minimum-depth-of-binary-tree": [
     "Amazon",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Meta",
+    "Microsoft"
   ],
   "sum-of-two-integers": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta"
   ],
   "logical-or-of-two-binary-grids-represented-as-quad-trees": [
     "Amazon",
@@ -2843,9 +3794,12 @@
   ],
   "backspace-string-compare": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle",
+    "Uber"
   ],
   "russian-doll-envelopes": [
     "Amazon",
@@ -2854,9 +3808,11 @@
   ],
   "sliding-puzzle": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "maximum-level-sum-of-a-binary-tree": [
     "Amazon",
@@ -2864,62 +3820,81 @@
   ],
   "arithmetic-slices": [
     "Amazon",
-    "Microsoft",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "find-largest-value-in-each-tree-row": [
     "Amazon",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "LinkedIn",
+    "Meta",
+    "Microsoft"
   ],
   "construct-quad-tree": [
     "Amazon",
+    "Apple",
     "Google",
-    "Apple"
+    "Uber"
   ],
   "delete-node-in-a-bst": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "same-tree": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft"
   ],
   "validate-ip-address": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber",
+    "X"
   ],
   "number-of-islands-ii": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle",
+    "Uber"
   ],
   "find-common-characters": [
+    "Adobe",
     "Amazon",
-    "Apple",
-    "Adobe"
+    "Apple"
   ],
   "dinner-plate-stacks": [
     "Amazon"
   ],
   "number-of-days-between-two-dates": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta"
   ],
   "next-greater-node-in-linked-list": [
     "Amazon",
+    "Facebook",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "matchsticks-to-square": [
     "Amazon"
@@ -2942,37 +3917,45 @@
   ],
   "multiply-strings": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber",
+    "X"
   ],
   "maximize-distance-to-closest-person": [
     "Amazon",
     "Google"
   ],
   "rank-scores": [
+    "Adobe",
     "Amazon",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Meta"
   ],
   "count-complete-tree-nodes": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "range-sum-query-2d-immutable": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "car-pooling": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta"
   ],
   "campus-bikes-ii": [
     "Amazon",
@@ -2980,52 +3963,64 @@
   ],
   "partition-equal-subset-sum": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "minimum-difficulty-of-a-job-schedule": [
     "Amazon"
   ],
   "different-ways-to-add-parentheses": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "binary-tree-postorder-traversal": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Uber"
   ],
   "maximum-sum-bst-in-binary-tree": [
     "Amazon"
   ],
   "longest-univalue-path": [
     "Amazon",
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "permutations-ii": [
+    "Adobe",
     "Amazon",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "design-bounded-blocking-queue": [
     "Amazon",
     "Google",
-    "Microsoft"
+    "LinkedIn",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "delete-node-in-a-linked-list": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "number-of-submatrices-that-sum-to-target": [
     "Amazon",
@@ -3033,7 +4028,9 @@
   ],
   "maximum-length-of-pair-chain": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Uber"
   ],
   "minimize-malware-spread": [
     "Amazon",
@@ -3048,58 +4045,72 @@
   ],
   "permutation-in-string": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "range-sum-query-mutable": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "X"
   ],
   "pancake-sorting": [
     "Amazon",
+    "Facebook",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "construct-binary-tree-from-preorder-and-postorder-traversal": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "distinct-subsequences": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Adobe"
+    "Google"
   ],
   "smallest-subsequence-of-distinct-characters": [
     "Amazon"
   ],
   "longest-common-subsequence": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "shortest-palindrome": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "reverse-vowels-of-a-string": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta"
   ],
   "minimum-distance-between-bst-nodes": [
     "Amazon",
     "Google"
   ],
   "ugly-number-ii": [
-    "Amazon"
+    "Amazon",
+    "Oracle",
+    "Uber"
   ],
   "consecutive-numbers": [
     "Amazon",
@@ -3109,29 +4120,35 @@
     "Amazon"
   ],
   "binary-tree-level-order-traversal-ii": [
+    "Adobe",
     "Amazon",
-    "Microsoft",
     "Apple",
-    "Adobe"
+    "Microsoft",
+    "Oracle"
   ],
   "sort-array-by-parity": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "lemonade-change": [
     "Amazon"
   ],
   "shortest-unsorted-continuous-subarray": [
     "Amazon",
-    "Google"
+    "Google",
+    "Uber"
   ],
   "increasing-triplet-subsequence": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "elimination-game": [
     "Amazon"
@@ -3140,20 +4157,24 @@
     "Amazon"
   ],
   "trips-and-users": [
-    "Amazon"
+    "Amazon",
+    "Uber"
   ],
   "longest-happy-string": [
     "Amazon"
   ],
   "strong-password-checker": [
+    "Adobe",
     "Amazon",
     "Google",
-    "Adobe"
+    "Uber"
   ],
   "making-a-large-island": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "sum-of-nodes-with-even-valued-grandparent": [
     "Amazon",
@@ -3161,9 +4182,10 @@
   ],
   "longest-repeating-substring": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "number-of-boomerangs": [
     "Amazon",
@@ -3171,49 +4193,61 @@
   ],
   "k-diff-pairs-in-an-array": [
     "Amazon",
-    "Microsoft"
+    "Microsoft",
+    "Oracle",
+    "X"
   ],
   "get-watched-videos-by-your-friends": [
     "Amazon"
   ],
   "word-pattern": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "middle-of-the-linked-list": [
+    "Adobe",
     "Amazon",
-    "Microsoft",
     "Apple",
-    "Adobe"
+    "Microsoft",
+    "Oracle",
+    "Samsung"
   ],
   "random-pick-with-blacklist": [
     "Amazon",
-    "Google"
+    "Google",
+    "Uber"
   ],
   "maximum-sum-circular-subarray": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Uber"
   ],
   "number-of-1-bits": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "length-of-longest-fibonacci-subsequence": [
     "Amazon"
   ],
   "customer-placing-the-largest-number-of-orders": [
-    "Amazon"
+    "Amazon",
+    "X"
   ],
   "ransom-note": [
     "Amazon",
+    "Apple",
     "Microsoft",
-    "Apple"
+    "Spotify"
   ],
   "dungeon-game": [
     "Amazon",
@@ -3234,31 +4268,38 @@
   ],
   "range-sum-of-bst": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "unique-binary-search-trees-ii": [
+    "Adobe",
     "Amazon",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "remove-linked-list-elements": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "logger-rate-limiter": [
     "Amazon",
+    "Apple",
     "Google",
+    "LinkedIn",
     "Microsoft",
-    "Apple"
+    "Uber"
   ],
   "complete-binary-tree-inserter": [
     "Amazon",
@@ -3266,8 +4307,10 @@
   ],
   "rotate-string": [
     "Amazon",
+    "Apple",
+    "LinkedIn",
     "Microsoft",
-    "Apple"
+    "Oracle"
   ],
   "maximum-depth-of-n-ary-tree": [
     "Amazon",
@@ -3275,9 +4318,11 @@
   ],
   "read-n-characters-given-read4-ii-call-multiple-times": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "path-in-zigzag-labelled-binary-tree": [
     "Amazon",
@@ -3285,8 +4330,9 @@
   ],
   "linked-list-random-node": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "my-calendar-iii": [
     "Amazon",
@@ -3297,28 +4343,33 @@
     "Google"
   ],
   "shortest-word-distance-ii": [
-    "Amazon"
+    "Amazon",
+    "LinkedIn",
+    "Uber"
   ],
   "combinations": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "third-maximum-number": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "defanging-an-ip-address": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta"
   ],
   "partition-array-into-three-parts-with-equal-sum": [
     "Amazon",
@@ -3326,10 +4377,12 @@
   ],
   "pascals-triangle-ii": [
     "Amazon",
-    "Google"
+    "Google",
+    "Oracle"
   ],
   "largest-1-bordered-square": [
-    "Amazon"
+    "Amazon",
+    "Samsung"
   ],
   "min-cost-climbing-stairs": [
     "Amazon"
@@ -3346,18 +4399,20 @@
   ],
   "find-duplicate-file-in-system": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "prime-number-of-set-bits-in-binary-representation": [
     "Amazon"
   ],
   "largest-divisible-subset": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Adobe"
+    "Google"
   ],
   "boats-to-save-people": [
     "Amazon",
@@ -3365,9 +4420,10 @@
   ],
   "minimum-number-of-arrows-to-burst-balloons": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "my-calendar-ii": [
     "Amazon",
@@ -3375,8 +4431,10 @@
   ],
   "remove-all-adjacent-duplicates-in-string": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Oracle"
   ],
   "k-th-symbol-in-grammar": [
     "Amazon",
@@ -3390,11 +4448,11 @@
     "Amazon"
   ],
   "search-insert-position": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Apple",
-    "Adobe"
+    "Google",
+    "Microsoft"
   ],
   "integer-replacement": [
     "Amazon",
@@ -3403,55 +4461,66 @@
   ],
   "subdomain-visit-count": [
     "Amazon",
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "sparse-matrix-multiplication": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "LinkedIn",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "minimum-area-rectangle": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Nvidia"
   ],
   "non-overlapping-intervals": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "trim-a-binary-search-tree": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "exchange-seats": [
     "Amazon"
   ],
   "cherry-pickup": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Apple",
-    "Adobe"
+    "Google",
+    "Oracle",
+    "Uber"
   ],
   "shortest-subarray-with-sum-at-least-k": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "minimum-remove-to-make-valid-parentheses": [
     "Amazon",
-    "Microsoft",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "smallest-string-with-swaps": [
     "Amazon"
@@ -3462,13 +4531,16 @@
   ],
   "construct-binary-search-tree-from-preorder-traversal": [
     "Amazon",
+    "Facebook",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle"
   ],
   "number-of-closed-islands": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "bulb-switcher-iii": [
     "Amazon",
@@ -3476,13 +4548,15 @@
   ],
   "missing-element-in-sorted-array": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta"
   ],
   "human-traffic-of-stadium": [
+    "Adobe",
     "Amazon",
-    "Adobe"
+    "Uber"
   ],
   "find-smallest-common-element-in-all-rows": [
     "Amazon",
@@ -3494,13 +4568,15 @@
   ],
   "rearrange-string-k-distance-apart": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "minimum-number-of-k-consecutive-bit-flips": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta"
   ],
   "shortest-path-to-get-all-keys": [
     "Amazon",
@@ -3508,46 +4584,53 @@
   ],
   "binary-tree-longest-consecutive-sequence-ii": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta"
   ],
   "rle-iterator": [
     "Amazon",
     "Google"
   ],
   "next-closest-time": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "redundant-connection": [
     "Amazon",
     "Google"
   ],
   "contains-duplicate-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Apple",
-    "Adobe"
+    "Google",
+    "Microsoft"
   ],
   "number-of-matching-subsequences": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "peak-index-in-a-mountain-array": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "construct-binary-tree-from-string": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta"
   ],
   "string-transforms-into-another-string": [
     "Amazon",
@@ -3555,8 +4638,9 @@
   ],
   "tree-diameter": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "minimum-number-of-refueling-stops": [
     "Amazon",
@@ -3565,50 +4649,60 @@
   ],
   "predict-the-winner": [
     "Amazon",
+    "Apple",
     "Google",
-    "Apple"
+    "Uber"
   ],
   "longest-arithmetic-sequence": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "squares-of-a-sorted-array": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "continuous-subarray-sum": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Samsung"
   ],
   "maximum-swap": [
     "Amazon",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "count-number-of-nice-subarrays": [
     "Amazon"
   ],
   "array-partition-i": [
+    "Adobe",
     "Amazon",
-    "Apple",
-    "Adobe"
+    "Apple"
   ],
   "score-of-parentheses": [
-    "Amazon",
-    "Adobe"
+    "Adobe",
+    "Amazon"
   ],
   "design-linked-list": [
     "Amazon",
-    "Microsoft"
+    "Microsoft",
+    "Oracle"
   ],
   "as-far-from-land-as-possible": [
     "Amazon"
@@ -3618,18 +4712,21 @@
   ],
   "maximum-difference-between-node-and-ancestor": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "minimum-area-rectangle-ii": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "reverse-pairs": [
     "Amazon",
     "Google",
-    "Microsoft"
+    "Microsoft",
+    "Uber"
   ],
   "longest-string-chain": [
     "Amazon",
@@ -3637,39 +4734,47 @@
   ],
   "counting-bits": [
     "Amazon",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "longest-word-in-dictionary": [
     "Amazon",
     "Google"
   ],
   "sum-of-left-leaves": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta"
   ],
   "find-pivot-index": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "minimum-time-difference": [
     "Amazon"
   ],
   "distribute-coins-in-binary-tree": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "web-crawler-multithreaded": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Oracle"
   ],
   "count-number-of-teams": [
     "Amazon"
@@ -3689,24 +4794,30 @@
   ],
   "best-time-to-buy-and-sell-stock-with-transaction-fee": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "wiggle-subsequence": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Uber"
   ],
   "number-of-longest-increasing-subsequence": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta"
   ],
   "maximize-sum-of-array-after-k-negations": [
     "Amazon"
   ],
   "exam-room": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "search-in-a-sorted-array-of-unknown-size": [
     "Amazon",
@@ -3718,8 +4829,9 @@
   ],
   "is-subsequence": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "sales-by-day-of-the-week": [
     "Amazon"
@@ -3729,21 +4841,25 @@
   ],
   "best-time-to-buy-and-sell-stock-with-cooldown": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta"
   ],
   "check-completeness-of-a-binary-tree": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Oracle"
   ],
   "subarray-sums-divisible-by-k": [
     "Amazon"
   ],
   "building-h2o": [
-    "Amazon"
+    "Amazon",
+    "LinkedIn"
   ],
   "all-paths-from-source-lead-to-destination": [
     "Amazon",
@@ -3755,20 +4871,24 @@
   ],
   "remove-sub-folders-from-the-filesystem": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "task-scheduler": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "find-and-replace-pattern": [
     "Amazon",
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "sort-an-array": [
     "Amazon",
@@ -3776,26 +4896,30 @@
   ],
   "maximum-binary-tree": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "print-in-order": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Apple",
-    "Adobe"
+    "Google",
+    "Microsoft"
   ],
   "letter-case-permutation": [
     "Amazon",
+    "Facebook",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Spotify"
   ],
   "similar-string-groups": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "fruit-into-baskets": [
     "Amazon",
@@ -3815,21 +4939,28 @@
   ],
   "24-game": [
     "Amazon",
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber",
+    "X"
   ],
   "add-binary": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
-    "Facebook",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Oracle"
   ],
   "second-minimum-node-in-a-binary-tree": [
     "Amazon",
-    "Microsoft"
+    "LinkedIn",
+    "Microsoft",
+    "Uber"
   ],
   "product-sales-analysis-i": [
     "Amazon"
@@ -3842,26 +4973,32 @@
   ],
   "closest-leaf-in-a-binary-tree": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "vowel-spellchecker": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta"
   ],
   "group-shifted-strings": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "factorial-trailing-zeroes": [
     "Amazon",
-    "Microsoft",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "minimum-time-visiting-all-points": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta"
   ],
   "rotate-function": [
     "Amazon"
@@ -3869,7 +5006,8 @@
   "palindrome-permutation-ii": [
     "Amazon",
     "Google",
-    "Microsoft"
+    "Microsoft",
+    "Uber"
   ],
   "max-consecutive-ones": [
     "Amazon",
@@ -3895,29 +5033,38 @@
   ],
   "hamming-distance": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta"
   ],
   "open-the-lock": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "can-place-flowers": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "LinkedIn",
+    "Meta"
   ],
   "most-profit-assigning-work": [
-    "Amazon"
+    "Amazon",
+    "Uber"
   ],
   "valid-perfect-square": [
     "Amazon",
     "Google",
+    "LinkedIn",
     "Microsoft"
   ],
   "custom-sort-string": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "combination-sum-iii": [
     "Amazon",
@@ -3929,17 +5076,19 @@
   ],
   "word-subsets": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "kill-process": [
     "Amazon",
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "minimum-add-to-make-parentheses-valid": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta"
   ],
   "repeated-substring-pattern": [
     "Amazon",
@@ -3947,22 +5096,26 @@
     "Microsoft"
   ],
   "first-bad-version": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Microsoft",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "uncommon-words-from-two-sentences": [
     "Amazon",
-    "Microsoft",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "koko-eating-bananas": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta"
   ],
   "design-hashset": [
     "Amazon",
@@ -3970,33 +5123,39 @@
   ],
   "longest-continuous-increasing-subsequence": [
     "Amazon",
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "sales-analysis-i": [
     "Amazon"
   ],
   "single-number-iii": [
     "Amazon",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Meta"
   ],
   "snapshot-array": [
     "Amazon",
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Uber"
   ],
   "verifying-an-alien-dictionary": [
     "Amazon",
-    "Microsoft",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "binary-tree-pruning": [
     "Amazon",
-    "Google"
+    "Google",
+    "X"
   ],
   "the-k-weakest-rows-in-a-matrix": [
     "Amazon"
@@ -4006,9 +5165,10 @@
   ],
   "leaf-similar-trees": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "find-customer-referee": [
     "Amazon"
@@ -4025,24 +5185,26 @@
   ],
   "minimum-swaps-to-make-sequences-increasing": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "product-sales-analysis-ii": [
     "Amazon"
   ],
   "minimum-falling-path-sum": [
     "Amazon",
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "n-queens-ii": [
     "Amazon"
   ],
   "remove-duplicates-from-sorted-array-ii": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "sort-array-by-parity-ii": [
     "Amazon"
@@ -4066,9 +5228,9 @@
     "Google"
   ],
   "height-checker": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Adobe"
+    "Google"
   ],
   "balance-a-binary-search-tree": [
     "Amazon"
@@ -4082,7 +5244,8 @@
   ],
   "univalued-binary-tree": [
     "Amazon",
-    "Google"
+    "Google",
+    "Oracle"
   ],
   "n-ary-tree-postorder-traversal": [
     "Amazon"
@@ -4101,13 +5264,15 @@
   ],
   "reverse-bits": [
     "Amazon",
+    "Apple",
     "Google",
-    "Apple"
+    "Samsung"
   ],
   "find-n-unique-integers-sum-up-to-zero": [
     "Amazon",
-    "Microsoft",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "delete-leaves-with-a-given-value": [
     "Amazon",
@@ -4123,33 +5288,36 @@
   ],
   "range-sum-query-immutable": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "non-decreasing-array": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Adobe"
+    "Google"
   ],
   "maximum-number-of-non-overlapping-substrings": [
     "Amazon"
   ],
   "find-minimum-in-rotated-sorted-array-ii": [
+    "Adobe",
     "Amazon",
-    "Google",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Uber"
   ],
   "find-the-difference": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Adobe"
+    "Google"
   ],
   "how-many-numbers-are-smaller-than-the-current-number": [
+    "Adobe",
     "Amazon",
-    "Google",
-    "Adobe"
+    "Google"
   ],
   "count-negative-numbers-in-a-sorted-matrix": [
     "Amazon"
@@ -4159,7 +5327,8 @@
   ],
   "equal-tree-partition": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta"
   ],
   "complex-number-multiplication": [
     "Amazon"
@@ -4175,8 +5344,9 @@
   ],
   "split-bst": [
     "Amazon",
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "loud-and-rich": [
     "Amazon"
@@ -4206,7 +5376,8 @@
     "Amazon"
   ],
   "recover-a-tree-from-preorder-traversal": [
-    "Amazon"
+    "Amazon",
+    "LinkedIn"
   ],
   "largest-unique-number": [
     "Amazon"
@@ -4258,7 +5429,9 @@
   ],
   "all-elements-in-two-binary-search-trees": [
     "Amazon",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Oracle"
   ],
   "list-the-products-ordered-in-a-period": [
     "Amazon"
@@ -4300,12 +5473,14 @@
     "Amazon"
   ],
   "license-key-formatting": [
-    "Google"
+    "Google",
+    "X"
   ],
   "range-sum-query-2d-mutable": [
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "unique-word-abbreviation": [
     "Google"
@@ -4321,12 +5496,15 @@
   ],
   "encode-and-decode-strings": [
     "Google",
-    "Microsoft"
+    "Microsoft",
+    "X"
   ],
   "maximum-vacation-days": [
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "most-stones-removed-with-same-row-or-column": [
     "Google"
@@ -4335,8 +5513,9 @@
     "Google"
   ],
   "strobogrammatic-number-iii": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "minimize-max-distance-to-gas-station": [
     "Google"
@@ -4345,7 +5524,8 @@
     "Google"
   ],
   "word-squares": [
-    "Google"
+    "Google",
+    "Oracle"
   ],
   "expressive-words": [
     "Google"
@@ -4354,34 +5534,39 @@
     "Google"
   ],
   "brace-expansion-ii": [
-    "Google",
-    "Adobe"
+    "Adobe",
+    "Google"
   ],
   "shortest-way-to-form-string": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "bricks-falling-when-hit": [
     "Google"
   ],
   "find-and-replace-in-string": [
     "Google",
+    "LinkedIn",
     "Microsoft"
   ],
   "confusing-number-ii": [
     "Google"
   ],
   "number-of-corner-rectangles": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "strobogrammatic-number-ii": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "strobogrammatic-number": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "divide-chocolate": [
     "Google"
@@ -4399,8 +5584,9 @@
     "Google"
   ],
   "sort-transformed-array": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "longest-word-in-dictionary-through-deleting": [
     "Google"
@@ -4418,24 +5604,28 @@
     "Google"
   ],
   "word-abbreviation": [
-    "Google"
+    "Google",
+    "Uber"
   ],
   "h-index": [
-    "Google",
+    "Adobe",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta"
   ],
   "toeplitz-matrix": [
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta"
   ],
   "flip-game-ii": [
     "Google"
   ],
   "read-n-characters-given-read4": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "hand-of-straights": [
     "Google"
@@ -4444,37 +5634,42 @@
     "Google"
   ],
   "student-attendance-record-ii": [
-    "Google"
+    "Google",
+    "Uber"
   ],
   "max-sum-of-rectangle-no-larger-than-k": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "add-bold-tag-in-string": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "paint-fence": [
     "Google"
   ],
   "new-21-game": [
+    "Apple",
     "Google",
-    "Apple"
+    "Uber"
   ],
   "online-election": [
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "split-array-into-consecutive-subsequences": [
     "Google"
   ],
   "candy-crush": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "guess-number-higher-or-lower-ii": [
-    "Google",
-    "Adobe"
+    "Adobe",
+    "Google"
   ],
   "circular-array-loop": [
     "Google",
@@ -4482,20 +5677,24 @@
   ],
   "remove-comments": [
     "Google",
-    "Microsoft"
+    "Microsoft",
+    "Oracle",
+    "Uber"
   ],
   "rectangle-area-ii": [
     "Google"
   ],
   "compare-strings-by-frequency-of-the-smallest-character": [
-    "Google"
+    "Google",
+    "Oracle"
   ],
   "maximum-product-of-word-lengths": [
     "Google"
   ],
   "perfect-rectangle": [
+    "Apple",
     "Google",
-    "Apple"
+    "Uber"
   ],
   "generalized-abbreviation": [
     "Google"
@@ -4504,30 +5703,34 @@
     "Google"
   ],
   "binary-watch": [
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "sequence-reconstruction": [
     "Google"
   ],
   "nth-digit": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "prefix-and-suffix-search": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "rotated-digits": [
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "find-permutation": [
     "Google"
   ],
   "validate-stack-sequences": [
-    "Google"
+    "Google",
+    "LinkedIn"
   ],
   "flip-game": [
     "Google"
@@ -4548,25 +5751,28 @@
     "Google"
   ],
   "excel-sheet-column-title": [
-    "Google",
-    "Microsoft",
-    "Facebook",
+    "Adobe",
     "Apple",
-    "Adobe"
+    "Facebook",
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "minimum-unique-word-abbreviation": [
     "Google"
   ],
   "wiggle-sort-ii": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "car-fleet": [
     "Google"
   ],
   "tag-validator": [
     "Google",
-    "Microsoft"
+    "Microsoft",
+    "Uber"
   ],
   "range-addition": [
     "Google"
@@ -4577,7 +5783,8 @@
   ],
   "max-chunks-to-make-sorted": [
     "Google",
-    "Microsoft"
+    "Microsoft",
+    "Uber"
   ],
   "smallest-rectangle-enclosing-black-pixels": [
     "Google"
@@ -4597,12 +5804,14 @@
     "Google"
   ],
   "knight-dialer": [
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "all-possible-full-binary-trees": [
-    "Google"
+    "Google",
+    "Oracle"
   ],
   "magic-squares-in-grid": [
     "Google"
@@ -4615,9 +5824,10 @@
     "Google"
   ],
   "implement-magic-dictionary": [
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "convex-polygon": [
     "Google"
@@ -4635,24 +5845,30 @@
     "Google"
   ],
   "expression-add-operators": [
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Uber"
   ],
   "maximum-points-you-can-obtain-from-cards": [
     "Google"
   ],
   "flatten-2d-vector": [
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Uber",
+    "X"
   ],
   "minimum-cost-to-cut-a-stick": [
     "Google"
   ],
   "number-of-music-playlists": [
-    "Google"
+    "Google",
+    "X"
   ],
   "remove-9": [
     "Google"
@@ -4667,8 +5883,9 @@
     "Google"
   ],
   "valid-square": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "beautiful-array": [
     "Google"
@@ -4677,16 +5894,19 @@
     "Google"
   ],
   "binary-tree-upside-down": [
-    "Google"
+    "Google",
+    "LinkedIn"
   ],
   "factor-combinations": [
-    "Google"
+    "Google",
+    "LinkedIn",
+    "Uber"
   ],
   "contains-duplicate-iii": [
-    "Google",
-    "Microsoft",
+    "Adobe",
     "Apple",
-    "Adobe"
+    "Google",
+    "Microsoft"
   ],
   "valid-word-square": [
     "Google"
@@ -4701,8 +5921,9 @@
     "Google"
   ],
   "valid-word-abbreviation": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "escape-a-large-maze": [
     "Google"
@@ -4711,8 +5932,10 @@
     "Google"
   ],
   "random-pick-index": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "divide-array-in-sets-of-k-consecutive-numbers": [
     "Google"
@@ -4724,20 +5947,22 @@
     "Google"
   ],
   "integer-break": [
-    "Google",
+    "Adobe",
     "Apple",
-    "Adobe"
+    "Google"
   ],
   "longest-repeating-character-replacement": [
     "Google"
   ],
   "super-egg-drop": [
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "valid-mountain-array": [
-    "Google"
+    "Google",
+    "Uber"
   ],
   "smallest-sufficient-team": [
     "Google"
@@ -4746,15 +5971,18 @@
     "Google"
   ],
   "unique-morse-code-words": [
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "paint-house-ii": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "LinkedIn",
+    "Meta"
   ],
   "minimum-number-of-taps-to-open-to-water-a-garden": [
-    "Google"
+    "Google",
+    "X"
   ],
   "find-two-non-overlapping-sub-arrays-each-with-target-sum": [
     "Google"
@@ -4767,8 +5995,10 @@
     "Google"
   ],
   "binary-tree-cameras": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "shortest-completing-word": [
     "Google"
@@ -4778,7 +6008,8 @@
   ],
   "parallel-courses": [
     "Google",
-    "Microsoft"
+    "Microsoft",
+    "Uber"
   ],
   "print-immutable-linked-list-in-reverse": [
     "Google"
@@ -4799,15 +6030,17 @@
     "Google"
   ],
   "tenth-line": [
-    "Google",
+    "Adobe",
     "Apple",
-    "Adobe"
+    "Google",
+    "Oracle"
   ],
   "number-of-recent-calls": [
     "Google"
   ],
   "can-i-win": [
-    "Google"
+    "Google",
+    "LinkedIn"
   ],
   "number-of-lines-to-write-string": [
     "Google"
@@ -4819,16 +6052,17 @@
     "Google"
   ],
   "swim-in-rising-water": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "guess-number-higher-or-lower": [
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "lexicographical-numbers": [
-    "Google",
-    "Adobe"
+    "Adobe",
+    "Google"
   ],
   "lonely-pixel-i": [
     "Google"
@@ -4872,8 +6106,9 @@
     "Google"
   ],
   "maximum-sum-of-3-non-overlapping-subarrays": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "buddy-strings": [
     "Google"
@@ -4882,43 +6117,49 @@
     "Google"
   ],
   "shortest-distance-to-a-character": [
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta"
   ],
   "delete-columns-to-make-sorted-iii": [
     "Google"
   ],
   "find-all-numbers-disappeared-in-an-array": [
-    "Google",
-    "Microsoft",
+    "Adobe",
     "Apple",
-    "Adobe"
+    "Google",
+    "Microsoft"
   ],
   "remove-outermost-parentheses": [
-    "Google",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta"
   ],
   "bold-words-in-string": [
     "Google"
   ],
   "design-skiplist": [
     "Google",
-    "Microsoft"
+    "Microsoft",
+    "X"
   ],
   "count-different-palindromic-subsequences": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "LinkedIn",
+    "Meta"
   ],
   "find-positive-integer-solution-for-a-given-equation": [
     "Google"
   ],
   "possible-bipartition": [
-    "Google",
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Google",
+    "Meta",
+    "Microsoft"
   ],
   "sort-items-by-groups-respecting-dependencies": [
     "Google"
@@ -4927,16 +6168,17 @@
     "Google"
   ],
   "largest-plus-sign": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "minimum-absolute-difference-in-bst": [
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "scramble-string": [
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "largest-number-at-least-twice-of-others": [
     "Google"
@@ -4952,9 +6194,10 @@
     "Google"
   ],
   "flipping-an-image": [
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "largest-component-size-by-common-factor": [
     "Google"
@@ -4963,19 +6206,21 @@
     "Google"
   ],
   "total-hamming-distance": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "find-in-mountain-array": [
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "iterator-for-combination": [
     "Google"
   ],
   "remove-all-adjacent-duplicates-in-string-ii": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "reorder-routes-to-make-all-paths-lead-to-the-city-zero": [
     "Google"
@@ -4990,15 +6235,16 @@
     "Google"
   ],
   "decode-ways-ii": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "rank-teams-by-votes": [
     "Google"
   ],
   "power-of-three": [
-    "Google",
-    "Apple"
+    "Apple",
+    "Google"
   ],
   "kth-ancestor-of-a-tree-node": [
     "Google"
@@ -5007,21 +6253,28 @@
     "Google"
   ],
   "stamping-the-sequence": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta",
+    "Uber"
   ],
   "brick-wall": [
-    "Google",
+    "Adobe",
     "Facebook",
-    "Adobe"
+    "Google",
+    "Meta",
+    "Oracle"
   ],
   "shortest-bridge": [
+    "Facebook",
     "Google",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "kth-smallest-number-in-multiplication-table": [
-    "Google"
+    "Google",
+    "Uber"
   ],
   "divisor-game": [
     "Google"
@@ -5030,8 +6283,9 @@
     "Google"
   ],
   "lowest-common-ancestor-of-deepest-leaves": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "bag-of-tokens": [
     "Google"
@@ -5043,7 +6297,9 @@
     "Google"
   ],
   "reaching-points": [
-    "Google"
+    "Google",
+    "Uber",
+    "X"
   ],
   "simplified-fractions": [
     "Google"
@@ -5062,31 +6318,35 @@
     "Google"
   ],
   "add-to-array-form-of-integer": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "sum-of-mutated-array-closest-to-target": [
     "Google"
   ],
   "target-sum": [
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "filling-bookcase-shelves": [
     "Google"
   ],
   "diagonal-traverse-ii": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "count-numbers-with-unique-digits": [
     "Google"
   ],
   "valid-palindrome-ii": [
+    "Facebook",
     "Google",
-    "Microsoft",
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "maximum-profit-in-job-scheduling": [
     "Google"
@@ -5104,9 +6364,9 @@
     "Microsoft"
   ],
   "to-lower-case": [
-    "Google",
+    "Adobe",
     "Apple",
-    "Adobe"
+    "Google"
   ],
   "number-of-steps-to-reduce-a-number-to-zero": [
     "Google"
@@ -5118,15 +6378,16 @@
     "Google"
   ],
   "subtract-the-product-and-sum-of-digits-of-an-integer": [
-    "Google"
+    "Google",
+    "Uber"
   ],
   "running-sum-of-1d-array": [
     "Google"
   ],
   "search-in-a-binary-search-tree": [
-    "Google",
+    "Adobe",
     "Apple",
-    "Adobe"
+    "Google"
   ],
   "number-of-good-leaf-nodes-pairs": [
     "Google"
@@ -5193,7 +6454,8 @@
     "Google"
   ],
   "profitable-schemes": [
-    "Google"
+    "Google",
+    "LinkedIn"
   ],
   "random-flip-matrix": [
     "Google"
@@ -5205,14 +6467,16 @@
     "Google"
   ],
   "array-of-doubled-pairs": [
-    "Google"
+    "Google",
+    "Uber"
   ],
   "delete-columns-to-make-sorted-ii": [
     "Google"
   ],
   "maximum-width-ramp": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "smallest-string-starting-from-leaf": [
     "Google"
@@ -5248,8 +6512,9 @@
     "Google"
   ],
   "element-appearing-more-than-25-in-sorted-array": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "minimum-falling-path-sum-ii": [
     "Google"
@@ -5285,8 +6550,9 @@
     "Google"
   ],
   "number-of-ways-to-stay-in-the-same-place-after-some-steps": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "check-if-n-and-its-double-exist": [
     "Google"
@@ -5343,8 +6609,9 @@
     "Google"
   ],
   "number-of-subsequences-that-satisfy-the-given-sum-condition": [
+    "Facebook",
     "Google",
-    "Facebook"
+    "Meta"
   ],
   "max-value-of-equation": [
     "Google"
@@ -5377,9 +6644,11 @@
     "Google"
   ],
   "rectangle-area": [
-    "Microsoft",
+    "Apple",
     "Facebook",
-    "Apple"
+    "Meta",
+    "Microsoft",
+    "Nvidia"
   ],
   "maximum-length-of-a-concatenated-string-with-unique-characters": [
     "Microsoft"
@@ -5388,19 +6657,24 @@
     "Microsoft"
   ],
   "implement-rand10-using-rand7": [
-    "Microsoft",
-    "Apple"
+    "Apple",
+    "LinkedIn",
+    "Microsoft"
   ],
   "print-binary-tree": [
+    "Facebook",
+    "LinkedIn",
+    "Meta",
     "Microsoft",
-    "Facebook"
+    "Uber"
   ],
   "swap-for-longest-repeated-character-substring": [
     "Microsoft"
   ],
   "convert-a-number-to-hexadecimal": [
-    "Microsoft",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "day-of-the-week": [
     "Microsoft"
@@ -5430,12 +6704,14 @@
     "Microsoft"
   ],
   "sum-of-subarray-minimums": [
-    "Microsoft",
-    "Apple"
+    "Apple",
+    "Microsoft"
   ],
   "paint-house": [
+    "Apple",
+    "LinkedIn",
     "Microsoft",
-    "Apple"
+    "X"
   ],
   "shortest-common-supersequence": [
     "Microsoft"
@@ -5444,20 +6720,20 @@
     "Microsoft"
   ],
   "add-digits": [
-    "Microsoft",
+    "Adobe",
     "Apple",
-    "Adobe"
+    "Microsoft"
   ],
   "transpose-matrix": [
-    "Microsoft",
-    "Apple"
+    "Apple",
+    "Microsoft"
   ],
   "distribute-candies": [
     "Microsoft"
   ],
   "shuffle-the-array": [
-    "Microsoft",
-    "Adobe"
+    "Adobe",
+    "Microsoft"
   ],
   "find-bottom-left-tree-value": [
     "Microsoft"
@@ -5472,8 +6748,9 @@
     "Microsoft"
   ],
   "previous-permutation-with-one-swap": [
-    "Microsoft",
-    "Facebook"
+    "Facebook",
+    "Meta",
+    "Microsoft"
   ],
   "statistics-from-a-large-sample": [
     "Microsoft"
@@ -5530,168 +6807,9 @@
     "Microsoft"
   ],
   "shuffle-string": [
-    "Microsoft",
-    "Facebook"
-  ],
-  "monotonic-array": [
-    "Facebook"
-  ],
-  "friends-of-appropriate-ages": [
-    "Facebook"
-  ],
-  "goat-latin": [
-    "Facebook"
-  ],
-  "friend-requests-i-overall-acceptance-rate": [
-    "Facebook"
-  ],
-  "leftmost-column-with-at-least-a-one": [
-    "Facebook"
-  ],
-  "friend-requests-ii-who-has-the-most-friends": [
-    "Facebook"
-  ],
-  "smallest-subtree-with-all-the-deepest-nodes": [
-    "Facebook"
-  ],
-  "spiral-matrix-iii": [
-    "Facebook"
-  ],
-  "split-array-with-equal-sum": [
-    "Facebook"
-  ],
-  "stickers-to-spell-word": [
-    "Facebook"
-  ],
-  "reported-posts": [
-    "Facebook"
-  ],
-  "nested-list-weight-sum-ii": [
-    "Facebook"
-  ],
-  "valid-palindrome-iii": [
-    "Facebook"
-  ],
-  "second-degree-follower": [
-    "Facebook"
-  ],
-  "word-pattern-ii": [
-    "Facebook"
-  ],
-  "user-activity-for-the-past-30-days-ii": [
-    "Facebook"
-  ],
-  "reported-posts-ii": [
-    "Facebook"
-  ],
-  "intersection-of-three-sorted-arrays": [
-    "Facebook"
-  ],
-  "increasing-subsequences": [
-    "Facebook"
-  ],
-  "page-recommendations": [
-    "Facebook"
-  ],
-  "generate-random-point-in-a-circle": [
-    "Facebook"
-  ],
-  "design-circular-deque": [
-    "Facebook"
-  ],
-  "arithmetic-slices-ii-subsequence": [
     "Facebook",
-    "Adobe"
-  ],
-  "get-highest-answer-rate-question": [
-    "Facebook"
-  ],
-  "partition-array-for-maximum-sum": [
-    "Facebook"
-  ],
-  "shifting-letters": [
-    "Facebook"
-  ],
-  "find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows": [
-    "Facebook"
-  ],
-  "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree": [
-    "Facebook"
-  ],
-  "number-of-ways-to-paint-n-3-grid": [
-    "Facebook"
-  ],
-  "user-activity-for-the-past-30-days-i": [
-    "Facebook"
-  ],
-  "project-employees-iii": [
-    "Facebook"
-  ],
-  "number-of-comments-per-post": [
-    "Facebook"
-  ],
-  "game-play-analysis-iv": [
-    "Facebook"
-  ],
-  "check-if-word-is-valid-after-substitutions": [
-    "Facebook"
-  ],
-  "apples-oranges": [
-    "Facebook"
-  ],
-  "n-th-tribonacci-number": [
-    "Facebook"
-  ],
-  "h-index-ii": [
-    "Facebook"
-  ],
-  "groups-of-special-equivalent-strings": [
-    "Facebook"
-  ],
-  "maximum-binary-tree-ii": [
-    "Facebook"
-  ],
-  "moving-stones-until-consecutive": [
-    "Facebook"
-  ],
-  "moving-stones-until-consecutive-ii": [
-    "Facebook"
-  ],
-  "project-employees-i": [
-    "Facebook"
-  ],
-  "project-employees-ii": [
-    "Facebook"
-  ],
-  "validate-binary-tree-nodes": [
-    "Facebook"
-  ],
-  "queries-quality-and-percentage": [
-    "Facebook"
-  ],
-  "report-contiguous-dates": [
-    "Facebook"
-  ],
-  "ads-performance": [
-    "Facebook"
-  ],
-  "apply-discount-every-n-orders": [
-    "Facebook"
-  ],
-  "customers-who-bought-products-a-and-b-but-not-c": [
-    "Facebook"
-  ],
-  "minimum-time-to-collect-all-apples-in-a-tree": [
-    "Facebook"
-  ],
-  "make-two-arrays-equal-by-reversing-sub-arrays": [
-    "Facebook"
-  ],
-  "maximum-number-of-darts-inside-of-a-circular-dartboard": [
-    "Facebook"
-  ],
-  "diameter-of-n-ary-tree": [
-    "Facebook"
+    "Meta",
+    "Microsoft"
   ],
   "largest-palindrome-product": [
     "Apple"
@@ -5703,7 +6821,8 @@
     "Apple"
   ],
   "palindrome-partitioning-iii": [
-    "Apple"
+    "Apple",
+    "Uber"
   ],
   "remove-boxes": [
     "Apple"
@@ -5719,6 +6838,221 @@
   ],
   "array-nesting": [
     "Apple"
+  ],
+  "monotonic-array": [
+    "Facebook",
+    "Meta"
+  ],
+  "friends-of-appropriate-ages": [
+    "Facebook",
+    "Meta"
+  ],
+  "goat-latin": [
+    "Facebook",
+    "Meta"
+  ],
+  "friend-requests-i-overall-acceptance-rate": [
+    "Facebook",
+    "Meta"
+  ],
+  "leftmost-column-with-at-least-a-one": [
+    "Facebook",
+    "Meta"
+  ],
+  "friend-requests-ii-who-has-the-most-friends": [
+    "Facebook",
+    "Meta"
+  ],
+  "smallest-subtree-with-all-the-deepest-nodes": [
+    "Facebook",
+    "Meta"
+  ],
+  "spiral-matrix-iii": [
+    "Facebook",
+    "Meta"
+  ],
+  "split-array-with-equal-sum": [
+    "Facebook",
+    "Meta"
+  ],
+  "stickers-to-spell-word": [
+    "Facebook",
+    "Meta"
+  ],
+  "reported-posts": [
+    "Facebook",
+    "Meta"
+  ],
+  "nested-list-weight-sum-ii": [
+    "Facebook",
+    "LinkedIn",
+    "Meta"
+  ],
+  "valid-palindrome-iii": [
+    "Facebook",
+    "Meta"
+  ],
+  "second-degree-follower": [
+    "Facebook",
+    "Meta"
+  ],
+  "word-pattern-ii": [
+    "Facebook",
+    "Meta",
+    "Uber"
+  ],
+  "user-activity-for-the-past-30-days-ii": [
+    "Facebook",
+    "Meta"
+  ],
+  "reported-posts-ii": [
+    "Facebook",
+    "Meta"
+  ],
+  "intersection-of-three-sorted-arrays": [
+    "Facebook",
+    "Meta"
+  ],
+  "increasing-subsequences": [
+    "Facebook",
+    "Meta"
+  ],
+  "page-recommendations": [
+    "Facebook",
+    "Meta"
+  ],
+  "generate-random-point-in-a-circle": [
+    "Facebook",
+    "Meta"
+  ],
+  "design-circular-deque": [
+    "Facebook",
+    "Meta"
+  ],
+  "arithmetic-slices-ii-subsequence": [
+    "Adobe",
+    "Facebook",
+    "Meta"
+  ],
+  "get-highest-answer-rate-question": [
+    "Facebook",
+    "Meta"
+  ],
+  "partition-array-for-maximum-sum": [
+    "Facebook",
+    "Meta"
+  ],
+  "shifting-letters": [
+    "Facebook",
+    "Meta"
+  ],
+  "find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows": [
+    "Facebook",
+    "Meta"
+  ],
+  "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree": [
+    "Facebook",
+    "Meta"
+  ],
+  "number-of-ways-to-paint-n-3-grid": [
+    "Facebook",
+    "Meta"
+  ],
+  "user-activity-for-the-past-30-days-i": [
+    "Facebook",
+    "Meta"
+  ],
+  "project-employees-iii": [
+    "Facebook",
+    "Meta"
+  ],
+  "number-of-comments-per-post": [
+    "Facebook",
+    "Meta"
+  ],
+  "game-play-analysis-iv": [
+    "Facebook",
+    "Meta"
+  ],
+  "check-if-word-is-valid-after-substitutions": [
+    "Facebook",
+    "Meta"
+  ],
+  "apples-oranges": [
+    "Facebook",
+    "Meta"
+  ],
+  "n-th-tribonacci-number": [
+    "Facebook",
+    "Meta"
+  ],
+  "h-index-ii": [
+    "Facebook",
+    "Meta"
+  ],
+  "groups-of-special-equivalent-strings": [
+    "Facebook",
+    "Meta"
+  ],
+  "maximum-binary-tree-ii": [
+    "Facebook",
+    "Meta"
+  ],
+  "moving-stones-until-consecutive": [
+    "Facebook",
+    "Meta"
+  ],
+  "moving-stones-until-consecutive-ii": [
+    "Facebook",
+    "Meta"
+  ],
+  "project-employees-i": [
+    "Facebook",
+    "Meta"
+  ],
+  "project-employees-ii": [
+    "Facebook",
+    "Meta"
+  ],
+  "validate-binary-tree-nodes": [
+    "Facebook",
+    "Meta"
+  ],
+  "queries-quality-and-percentage": [
+    "Facebook",
+    "Meta"
+  ],
+  "report-contiguous-dates": [
+    "Facebook",
+    "Meta"
+  ],
+  "ads-performance": [
+    "Facebook",
+    "Meta"
+  ],
+  "apply-discount-every-n-orders": [
+    "Facebook",
+    "Meta"
+  ],
+  "customers-who-bought-products-a-and-b-but-not-c": [
+    "Facebook",
+    "Meta"
+  ],
+  "minimum-time-to-collect-all-apples-in-a-tree": [
+    "Facebook",
+    "Meta"
+  ],
+  "make-two-arrays-equal-by-reversing-sub-arrays": [
+    "Facebook",
+    "Meta"
+  ],
+  "maximum-number-of-darts-inside-of-a-circular-dartboard": [
+    "Facebook",
+    "Meta"
+  ],
+  "diameter-of-n-ary-tree": [
+    "Facebook",
+    "Meta"
   ],
   "nim-game": [
     "Adobe"
@@ -5739,7 +7073,8 @@
     "Adobe"
   ],
   "reverse-substrings-between-each-pair-of-parentheses": [
-    "Adobe"
+    "Adobe",
+    "Oracle"
   ],
   "stone-game": [
     "Adobe"
@@ -5752,5 +7087,125 @@
   ],
   "smallest-range-ii": [
     "Adobe"
+  ],
+  "set-intersection-size-at-least-two": [
+    "Uber"
+  ],
+  "regions-cut-by-slashes": [
+    "Uber"
+  ],
+  "verify-preorder-sequence-in-binary-search-tree": [
+    "Uber"
+  ],
+  "remove-zero-sum-consecutive-nodes-from-linked-list": [
+    "Uber"
+  ],
+  "consecutive-numbers-sum": [
+    "Uber"
+  ],
+  "replace-words": [
+    "Uber"
+  ],
+  "delete-and-earn": [
+    "Uber"
+  ],
+  "find-the-distance-value-between-two-arrays": [
+    "Uber"
+  ],
+  "fixed-point": [
+    "Uber"
+  ],
+  "minimum-score-triangulation-of-polygon": [
+    "Uber"
+  ],
+  "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance": [
+    "Uber"
+  ],
+  "construct-k-palindrome-strings": [
+    "Uber"
+  ],
+  "course-schedule-iv": [
+    "Uber"
+  ],
+  "two-sum-iii-data-structure-design": [
+    "LinkedIn"
+  ],
+  "shortest-word-distance-iii": [
+    "LinkedIn"
+  ],
+  "find-smallest-letter-greater-than-target": [
+    "LinkedIn"
+  ],
+  "article-views-i": [
+    "LinkedIn"
+  ],
+  "flower-planting-with-no-adjacent": [
+    "LinkedIn"
+  ],
+  "sum-of-square-numbers": [
+    "LinkedIn"
+  ],
+  "new-users-daily-count": [
+    "LinkedIn"
+  ],
+  "user-purchase-platform": [
+    "LinkedIn"
+  ],
+  "article-views-ii": [
+    "LinkedIn"
+  ],
+  "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold": [
+    "LinkedIn"
+  ],
+  "number-of-paths-with-max-score": [
+    "Samsung"
+  ],
+  "maximum-product-of-two-elements-in-an-array": [
+    "Samsung"
+  ],
+  "number-of-nodes-in-the-sub-tree-with-the-same-label": [
+    "Samsung"
+  ],
+  "minimum-index-sum-of-two-lists": [
+    "Oracle"
+  ],
+  "team-scores-in-football-tournament": [
+    "Oracle"
+  ],
+  "lucky-numbers-in-a-matrix": [
+    "Oracle"
+  ],
+  "html-entity-parser": [
+    "Oracle"
+  ],
+  "tree-node": [
+    "X"
+  ],
+  "investments-in-2016": [
+    "X"
+  ],
+  "masking-personal-information": [
+    "X"
+  ],
+  "count-student-number-in-departments": [
+    "X"
+  ],
+  "minimum-increment-to-make-array-unique": [
+    "X"
+  ],
+  "tweet-counts-per-frequency": [
+    "X"
+  ],
+  "robot-bounded-in-circle": [
+    "X"
+  ],
+  "binary-gap": [
+    "X"
+  ],
+  "minimum-number-of-steps-to-make-two-strings-anagram": [
+    "X"
+  ],
+  "rectangles-area": [
+    "X"
   ]
 }
