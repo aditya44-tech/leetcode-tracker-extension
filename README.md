@@ -2,6 +2,52 @@
 
 A lightweight Chrome extension that automatically tracks your LeetCode solve time and difficulty breakdown.
 
+## Company Dataset (`companyData.json`)
+
+### Where it comes from
+
+The dataset is sourced from community-maintained LeetCode company question lists (e.g., the `leetcode_company_questions_combined.csv` from GitHub). **It is NOT live data from LeetCode** — it's a static snapshot that you can replace with a newer version at any time.
+
+### Structure
+
+```json
+{
+  "two-sum": ["Amazon", "Google", "Microsoft", "Facebook"],
+  "number-of-islands": ["Amazon", "Google", "Facebook"],
+  "lru-cache": ["Amazon", "Google", "Microsoft"]
+}
+```
+
+- **Keys** are LeetCode URL slugs (the part after `/problems/` in the URL)
+- **Values** are arrays of company names that have asked that problem
+
+### How auto-tagging works
+
+1. `content.js` extracts the slug from `window.location.pathname` (e.g., `/problems/two-sum/` → `two-sum`)
+2. On page load, it fetches `companyData.json` via `chrome.runtime.getURL()` (local extension file, no network request)
+3. When a solve is accepted, the slug is looked up in the dataset and the matching companies are attached to the record
+4. If no match is found, `companies: []` is saved — you can tag manually in the popup
+
+### How to refresh the dataset
+
+Replace `companyData.json` with a newer version (same slug→array format), then reload the extension at `chrome://extensions`. No code changes needed.
+
+### Verifying the lookup in DevTools
+
+```js
+// 1. Check the slug for the current page
+window.location.pathname.split('/').filter(Boolean)[1]
+// → "two-sum"
+
+// 2. Check if the dataset has it
+fetch(chrome.runtime.getURL('companyData.json'))
+  .then(r => r.json())
+  .then(d => console.log(d['two-sum']))
+// → ["Amazon", "Google", ...]
+```
+
+---
+
 ## File Structure
 
 ```
@@ -10,12 +56,13 @@ leetcode-tracker/
 ├── content.js         # Injected into LeetCode problem pages
 ├── background.js      # Service worker — receives records and writes to storage
 ├── popup.html         # Extension popup UI (markup)
-├── popup.css          # Popup styles (dark theme)
-├── popup.js           # Popup logic — reads storage, renders stats
+├── popup.css          # Popup styles (editorial light theme)
+├── popup.js           # Popup logic — reads storage, renders stats + tags
+├── companyData.json   # Bundled dataset: slug → company[] mapping
 └── README.md          # This file
 ```
 
-> **Note:** The manifest references icon files (`icons/icon16.png`, `icons/icon48.png`, `icons/icon128.png`). You can create simple PNG icons or remove the `icons` key from `manifest.json` — Chrome will use a default puzzle-piece icon.
+
 
 ---
 
@@ -27,11 +74,11 @@ When a page matching `https://leetcode.com/problems/*` loads, the content script
 
 - **Problem name:** Parsed from `document.title` (e.g., `"Two Sum - LeetCode"` → `"Two Sum"`).
 - **Difficulty:** Detected via a multi-strategy fallback (see DOM Selectors below).
-- **Timer:** `startTime = Date.now()` fires immediately after detection.
+- **Timer:** `startTime = Date.now()` fires when the Submit button is clicked (not on page load).
 
 ### 2. MutationObserver for "Accepted" (`content.js`)
 
-LeetCode is a React single-page app — there is **no page reload** when you submit code. The extension uses a `MutationObserver` attached to `document.body` to detect when the results panel updates.
+LeetCode is a React single-page app — there is **no page reload** when you submit code. The extension uses a `MutationObserver` to detect when the results panel updates. The observer is **only attached after the Submit button is clicked** — not on page load.
 
 ```
 MutationObserver observes:
@@ -60,7 +107,9 @@ Reads from `chrome.storage.local` on open and displays:
 - Total problems solved
 - Breakdown by difficulty (Easy / Medium / Hard)
 - Average solve time per difficulty
-- Last 10 solves (most recent first)
+- Last 10 solves (most recent first) with company tags
+- Company filter dropdown (filter solves by company)
+- Add/remove company tags per solve (manual fallback)
 - "Clear Stats" button with a `confirm()` dialog
 
 ---
@@ -73,11 +122,13 @@ All data lives under a single key in `chrome.storage.local`:
 {
   "solves": [
     {
-      "problemName":      "Two Sum",           // string
-      "difficulty":       "Easy",               // "Easy" | "Medium" | "Hard"
-      "timeSpentSeconds": 342,                   // number (seconds)
-      "date":             "2026-08-30T14:22:01.123Z", // ISO 8601
-      "url":              "https://leetcode.com/problems/two-sum/"
+      "problemName":      "Two Sum",
+      "difficulty":       "Easy",
+      "timeSpentSeconds": 342,
+      "date":             "2026-08-30T14:22:01.123Z",
+      "url":              "https://leetcode.com/problems/two-sum/",
+      "slug":             "two-sum",
+      "companies":        ["Amazon", "Google", "Microsoft"]
     }
   ]
 }
@@ -123,7 +174,9 @@ LeetCode obfuscates CSS class names and changes them frequently. This extension 
 
 2. **Accepted detection:** Submit an accepted solution, then in DevTools search (Ctrl+F in Elements panel) for the text `Accepted`. Note the nearest `data-*` attribute or stable parent element. If none exists, the TreeWalker fallback will catch it, but you can narrow the observer scope for better performance.
 
-3. **Timer accuracy:** The timer starts when `document_idle` fires (content script loads). LeetCode's SPA navigation may mean the timer starts slightly after the page visually renders. For most problems this is negligible, but very fast solves (<10s) may show slightly inflated times.
+3. **Timer accuracy:** The timer starts when the Submit button is clicked. LeetCode's SPA navigation may mean the click detection is slightly delayed. For most problems this is negligible, but very fast solves (<10s) may show slightly inflated times.
+
+4. **Dataset lookup:** To verify the slug matching is working, open any problem page, run `window.location.pathname.split('/').filter(Boolean)[1]` in the console to get the slug, then check if `companyData.json` has that key.
 
 ---
 
@@ -151,6 +204,7 @@ Every key step is logged with the prefix `[LeetCode Tracker]` (content script) o
 
 - **No problem list tracking** — only individual solves on the problem page.
 - **No LeetCode API integration** — purely DOM-based detection.
-- **Deduplication** — v1 logs every attempt even if the same problem is solved on the same day (as specified). Change the dedup logic in `background.js` if needed.
-- **SPA navigation** — if you navigate between problems without a full page reload, the content script may not re-inject. A future version could use `chrome.webNavigation` events to handle this.
-- **Timer precision** — starts at `document_idle`, not when the page visually renders. Good enough for most use cases.
+- **Deduplication** — logs every attempt even if the same problem is solved on the same day. Change the dedup logic in `background.js` if needed.
+- **SPA navigation** — handled via pushState/popState interception + polling.
+- **Timer precision** — starts on Submit click, not when the page visually renders. Good enough for most use cases.
+- **Company dataset** — static snapshot; replace `companyData.json` with a newer version to update.

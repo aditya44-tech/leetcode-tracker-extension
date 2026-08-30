@@ -1,30 +1,45 @@
 /**
  * popup.js — Reads solve records from chrome.storage.local and renders
- * the popup summary, average times table, and recent-solves list.
+ * the popup summary, average times table, recent-solves list with
+ * company tags, and a company filter dropdown.
  */
+
+let allSolves = []; // kept in memory for filter + tag edits
 
 document.addEventListener("DOMContentLoaded", () => {
   console.log("[LeetCode Tracker Popup] Loaded");
+  render();
+});
 
+function render(filterCompany) {
   chrome.storage.local.get({ solves: [] }, (data) => {
     if (chrome.runtime.lastError) {
       console.error("[LeetCode Tracker Popup] Storage error:", chrome.runtime.lastError);
       return;
     }
 
-    const solves = data.solves;
-    console.log(`[LeetCode Tracker Popup] ${solves.length} solve(s) found`);
+    allSolves = data.solves;
+    console.log(`[LeetCode Tracker Popup] ${allSolves.length} solve(s) found`);
 
-    if (solves.length === 0) {
+    if (allSolves.length === 0) {
       document.getElementById("emptyState").classList.remove("hidden");
       return;
     }
+
+    // Apply company filter
+    const solves = filterCompany
+      ? allSolves.filter((s) => (s.companies || []).includes(filterCompany))
+      : allSolves;
 
     // ---- Show sections ----
     document.getElementById("summary").classList.remove("hidden");
     document.getElementById("averages").classList.remove("hidden");
     document.getElementById("recent").classList.remove("hidden");
     document.getElementById("clearBtn").classList.remove("hidden");
+    document.getElementById("filterBar").classList.remove("hidden");
+
+    // ---- Populate company filter dropdown ----
+    populateCompanyFilter(filterCompany);
 
     // ---- Difficulty counts ----
     const counts = { Easy: 0, Medium: 0, Hard: 0 };
@@ -44,6 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ---- Average times ----
     const avgTbody = document.querySelector("#avgTable tbody");
+    avgTbody.innerHTML = "";
     for (const diff of ["Easy", "Medium", "Hard"]) {
       const arr = times[diff];
       if (arr.length === 0) continue;
@@ -58,34 +74,184 @@ document.addEventListener("DOMContentLoaded", () => {
     // ---- Recent solves (last 10, most recent first) ----
     const recent = [...solves].reverse().slice(0, 10);
     const recentTbody = document.querySelector("#recentTable tbody");
-    for (const s of recent) {
+    recentTbody.innerHTML = "";
+    for (let i = 0; i < recent.length; i++) {
+      const s = recent[i];
+      // Find the real index in allSolves so we can update storage
+      const realIndex = allSolves.indexOf(s);
       const tr = document.createElement("tr");
       const dateStr = s.date ? formatDate(s.date) : "—";
       const diff = s.difficulty || "Medium";
+      const companies = s.companies || [];
+
+      const tagsHTML = companies.length > 0
+        ? companies.map((c) => renderTag(c, realIndex)).join("")
+        : `<button class="tag-add-btn" data-index="${realIndex}">+ Tag</button>`;
+
       tr.innerHTML = `
         <td class="problem-name" title="${escapeHtml(s.problemName)}">${escapeHtml(s.problemName)}</td>
-        <td><span class="diff-badge ${diff.toLowerCase()}">${diff}</span></td>
+        <td class="tags-cell">${tagsHTML}</td>
         <td class="time-col">${formatTime(s.timeSpentSeconds || 0)}</td>
         <td class="date-col">${dateStr}</td>`;
       recentTbody.appendChild(tr);
     }
+
+    // ---- Wire up tag events ----
+    wireTagEvents();
+  });
+}
+
+/* ---- Company filter ---- */
+
+function populateCompanyFilter(currentFilter) {
+  const select = document.getElementById("companyFilter");
+  const clearBtn = document.getElementById("clearFilter");
+
+  // Collect all unique companies across all solves
+  const companySet = new Set();
+  for (const s of allSolves) {
+    for (const c of (s.companies || [])) {
+      companySet.add(c);
+    }
+  }
+
+  const sorted = [...companySet].sort();
+  select.innerHTML = '<option value="">All companies</option>';
+  for (const c of sorted) {
+    const opt = document.createElement("option");
+    opt.value = c;
+    opt.textContent = c;
+    if (c === currentFilter) opt.selected = true;
+    select.appendChild(opt);
+  }
+
+  clearBtn.classList.toggle("hidden", !currentFilter);
+
+  select.onchange = () => {
+    const val = select.value;
+    render(val || undefined);
+  };
+
+  clearBtn.onclick = () => {
+    select.value = "";
+    render();
+  };
+}
+
+/* ---- Company tags ---- */
+
+function renderTag(company, solveIndex) {
+  return `<span class="company-pill" data-company="${escapeHtml(company)}" data-index="${solveIndex}">
+    ${escapeHtml(company)}
+    <button class="pill-remove" data-company="${escapeHtml(company)}" data-index="${solveIndex}" title="Remove tag">×</button>
+  </span>`;
+}
+
+function wireTagEvents() {
+  // Remove tag buttons
+  document.querySelectorAll(".pill-remove").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const company = btn.dataset.company;
+      const index = parseInt(btn.dataset.index, 10);
+      removeTag(index, company);
+    });
   });
 
-  // ---- Clear button ----
-  document.getElementById("clearBtn").addEventListener("click", () => {
-    const confirmed = window.confirm(
-      "Are you sure you want to delete ALL solve stats? This cannot be undone."
-    );
-    if (!confirmed) return;
-
-    chrome.storage.local.set({ solves: [] }, () => {
-      if (chrome.runtime.lastError) {
-        console.error("[LeetCode Tracker Popup] Clear error:", chrome.runtime.lastError);
-        return;
-      }
-      console.log("[LeetCode Tracker Popup] Stats cleared");
-      window.location.reload();
+  // Add tag buttons
+  document.querySelectorAll(".tag-add-btn").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const index = parseInt(btn.dataset.index, 10);
+      showTagInput(btn, index);
     });
+  });
+}
+
+function showTagInput(btn, solveIndex) {
+  // Replace the button with an inline input
+  const wrapper = document.createElement("span");
+  wrapper.className = "tag-input-wrapper";
+  wrapper.innerHTML = `<input type="text" class="tag-input" placeholder="Company name" />`;
+
+  btn.replaceWith(wrapper);
+  const input = wrapper.querySelector("input");
+  input.focus();
+
+  const addTag = () => {
+    const name = input.value.trim();
+    if (name) {
+      addTagToStorage(solveIndex, name);
+    } else {
+      // Restore the button
+      wrapper.replaceWith(btn);
+    }
+  };
+
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") addTag();
+    if (e.key === "Escape") wrapper.replaceWith(btn);
+  });
+
+  input.addEventListener("blur", addTag);
+}
+
+function addTagToStorage(solveIndex, company) {
+  const solves = [...allSolves];
+  if (!solves[solveIndex]) return;
+
+  const record = { ...solves[solveIndex] };
+  record.companies = [...(record.companies || [])];
+
+  if (!record.companies.includes(company)) {
+    record.companies.push(company);
+    console.log(`[LeetCode Tracker Popup] Tag added: "${company}" → ${record.problemName}`);
+  }
+
+  solves[solveIndex] = record;
+  chrome.storage.local.set({ solves }, () => {
+    if (chrome.runtime.lastError) {
+      console.error("[LeetCode Tracker Popup] Tag save error:", chrome.runtime.lastError);
+    }
+    // Re-render with current filter
+    const currentFilter = document.getElementById("companyFilter").value || undefined;
+    render(currentFilter);
+  });
+}
+
+function removeTag(solveIndex, company) {
+  const solves = [...allSolves];
+  if (!solves[solveIndex]) return;
+
+  const record = { ...solves[solveIndex] };
+  record.companies = (record.companies || []).filter((c) => c !== company);
+  console.log(`[LeetCode Tracker Popup] Tag removed: "${company}" from ${record.problemName}`);
+
+  solves[solveIndex] = record;
+  chrome.storage.local.set({ solves }, () => {
+    if (chrome.runtime.lastError) {
+      console.error("[LeetCode Tracker Popup] Tag remove error:", chrome.runtime.lastError);
+    }
+    const currentFilter = document.getElementById("companyFilter").value || undefined;
+    render(currentFilter);
+  });
+}
+
+/* ---- Clear button ---- */
+
+document.getElementById("clearBtn").addEventListener("click", () => {
+  const confirmed = window.confirm(
+    "Are you sure you want to delete ALL solve stats? This cannot be undone."
+  );
+  if (!confirmed) return;
+
+  chrome.storage.local.set({ solves: [] }, () => {
+    if (chrome.runtime.lastError) {
+      console.error("[LeetCode Tracker Popup] Clear error:", chrome.runtime.lastError);
+      return;
+    }
+    console.log("[LeetCode Tracker Popup] Stats cleared");
+    window.location.reload();
   });
 });
 

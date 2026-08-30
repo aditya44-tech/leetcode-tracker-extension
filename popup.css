@@ -271,6 +271,147 @@ td.date-col {
   background: var(--hard-bg);
 }
 
+/* ---- Company filter ---- */
+#filterBar {
+  margin-bottom: 14px;
+}
+
+#filterBar label {
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-dim);
+  margin-bottom: 4px;
+}
+
+.filter-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+#companyFilter {
+  flex: 1;
+  font-family: var(--sans);
+  font-size: 12px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  outline: none;
+  cursor: pointer;
+}
+
+#companyFilter:focus {
+  border-color: var(--text-mid);
+}
+
+#clearFilter {
+  font-family: var(--sans);
+  font-size: 11px;
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-dim);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+#clearFilter:hover {
+  border-color: var(--hard);
+  color: var(--hard);
+  background: var(--hard-bg);
+}
+
+/* ---- Company pills (tags) ---- */
+.tags-cell {
+  white-space: nowrap;
+  max-width: 120px;
+}
+
+.company-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 1px 6px 1px 7px;
+  border-radius: 10px;
+  font-size: 9px;
+  font-weight: 600;
+  background: #e8e2d9;
+  color: var(--text-mid);
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+.pill-remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 13px;
+  height: 13px;
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 11px;
+  line-height: 1;
+  padding: 0;
+  margin-left: 1px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.15s, color 0.15s;
+}
+
+.pill-remove:hover {
+  background: var(--hard-bg);
+  color: var(--hard);
+}
+
+.tag-add-btn {
+  display: inline-block;
+  padding: 1px 6px;
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  font-family: var(--sans);
+  font-size: 9px;
+  font-weight: 500;
+  color: var(--text-dim);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+.tag-add-btn:hover {
+  border-color: var(--text-mid);
+  color: var(--text-mid);
+  background: var(--surface);
+}
+
+.tag-input-wrapper {
+  display: inline-block;
+}
+
+.tag-input {
+  font-family: var(--sans);
+  font-size: 10px;
+  padding: 2px 6px;
+  border: 1px solid var(--text-mid);
+  border-radius: 4px;
+  width: 90px;
+  outline: none;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.tag-input:focus {
+  border-color: var(--accent);
+}
+
 /* ---- Utility ---- */
 .hidden {
   display: none !important;

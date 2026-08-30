@@ -32,11 +32,7 @@
   --sans:       "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
   font-family: var(--sans);
@@ -47,255 +43,73 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ---- Header ---- */
-.header {
-  text-align: center;
-  margin-bottom: 20px;
-}
+.header { text-align: center; margin-bottom: 20px; }
+.header h1 { font-family: var(--serif); font-size: 24px; font-weight: 400; letter-spacing: -0.01em; color: var(--accent); line-height: 1.1; }
+.header h1 em { font-style: italic; color: var(--hard); }
+.header .subtitle { font-size: 11px; color: var(--text-dim); margin-top: 4px; letter-spacing: 0.3px; }
 
-.header h1 {
-  font-family: var(--serif);
-  font-size: 24px;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-  color: var(--accent);
-  line-height: 1.1;
-}
+h2 { font-family: var(--serif); font-size: 15px; font-weight: 400; color: var(--text); margin: 20px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
 
-.header h1 em {
-  font-style: italic;
-  color: var(--hard);
-}
-
-.header .subtitle {
-  font-size: 11px;
-  color: var(--text-dim);
-  margin-top: 4px;
-  letter-spacing: 0.3px;
-}
-
-/* ---- Section headings ---- */
-h2 {
-  font-family: var(--serif);
-  font-size: 15px;
-  font-weight: 400;
-  color: var(--text);
-  margin: 20px 0 10px;
-  padding-bottom: 6px;
-  border-bottom: 1px solid var(--border);
-}
-
-/* ---- Summary cards ---- */
-#summary {
-  display: flex;
-  gap: 8px;
-}
-
-.card {
-  flex: 1;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 14px 8px 12px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  transition: box-shadow 0.2s ease;
-}
-
-.card:hover {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-}
-
-.card-value {
-  font-family: var(--serif);
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 1;
-  color: var(--text);
-}
-
-.card-label {
-  font-size: 10px;
-  font-weight: 500;
-  color: var(--text-dim);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.card.easy .card-value  { color: var(--easy);  }
+#summary { display: flex; gap: 8px; }
+.card { flex: 1; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 8px 12px; text-align: center; display: flex; flex-direction: column; gap: 3px; transition: box-shadow 0.2s ease; }
+.card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+.card-value { font-family: var(--serif); font-size: 28px; font-weight: 400; line-height: 1; color: var(--text); }
+.card-label { font-size: 10px; font-weight: 500; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+.card.easy .card-value { color: var(--easy); }
 .card.medium .card-value { color: var(--medium); }
-.card.hard .card-value  { color: var(--hard);  }
+.card.hard .card-value { color: var(--hard); }
 
-/* ---- Average times ---- */
-#avgTable {
-  width: 100%;
-  border-collapse: collapse;
-}
+#avgTable { width: 100%; border-collapse: collapse; }
+#avgTable th, #avgTable td { padding: 10px 12px; text-align: left; font-size: 13px; }
+#avgTable thead th { font-weight: 500; font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-dim); border-bottom: 1px solid var(--border); }
+#avgTable tbody td { border-bottom: 1px solid var(--border-lt); color: var(--text); }
+#avgTable tbody tr:last-child td { border-bottom: none; }
+#avgTable .time-val { font-weight: 600; font-variant-numeric: tabular-nums; }
 
-#avgTable th,
-#avgTable td {
-  padding: 10px 12px;
-  text-align: left;
-  font-size: 13px;
-}
-
-#avgTable thead th {
-  font-weight: 500;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: var(--text-dim);
-  border-bottom: 1px solid var(--border);
-}
-
-#avgTable tbody td {
-  border-bottom: 1px solid var(--border-lt);
-  color: var(--text);
-}
-
-#avgTable tbody tr:last-child td {
-  border-bottom: none;
-}
-
-#avgTable .time-val {
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-}
-
-/* ---- Difficulty badges ---- */
-.diff-badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.2px;
-}
-
-.diff-badge.easy   { background: var(--easy-bg);   color: var(--easy);   }
+.diff-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; letter-spacing: 0.2px; }
+.diff-badge.easy { background: var(--easy-bg); color: var(--easy); }
 .diff-badge.medium { background: var(--medium-bg); color: var(--medium); }
-.diff-badge.hard   { background: var(--hard-bg);   color: var(--hard);   }
+.diff-badge.hard { background: var(--hard-bg); color: var(--hard); }
 
-/* ---- Recent solves table ---- */
-#recentTable {
-  width: 100%;
-  border-collapse: collapse;
-}
+#recentTable { width: 100%; border-collapse: collapse; }
+#recentTable th, #recentTable td { padding: 8px 10px; text-align: left; font-size: 12px; }
+#recentTable thead th { font-weight: 500; font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-dim); border-bottom: 1px solid var(--border); }
+#recentTable tbody td { border-bottom: 1px solid var(--border-lt); color: var(--text); vertical-align: middle; }
+#recentTable tbody tr:last-child td { border-bottom: none; }
+#recentTable tbody tr:hover { background: rgba(0,0,0,0.015); }
 
-#recentTable th,
-#recentTable td {
-  padding: 8px 10px;
-  text-align: left;
-  font-size: 12px;
-}
+td.problem-name { max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 500; }
+td.time-col { font-variant-numeric: tabular-nums; font-weight: 500; color: var(--text-mid); white-space: nowrap; }
+td.date-col { color: var(--text-dim); font-size: 11px; white-space: nowrap; }
 
-#recentTable thead th {
-  font-weight: 500;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: var(--text-dim);
-  border-bottom: 1px solid var(--border);
-}
+/* Company filter */
+#filterBar { margin-bottom: 14px; }
+#filterBar label { display: block; font-size: 10px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-dim); margin-bottom: 4px; }
+.filter-row { display: flex; gap: 6px; align-items: center; }
+#companyFilter { flex: 1; font-family: var(--sans); font-size: 12px; padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text); outline: none; cursor: pointer; }
+#companyFilter:focus { border-color: var(--text-mid); }
+#clearFilter { font-family: var(--sans); font-size: 11px; padding: 5px 10px; border: 1px solid var(--border); border-radius: 6px; background: transparent; color: var(--text-dim); cursor: pointer; transition: all 0.15s ease; }
+#clearFilter:hover { border-color: var(--hard); color: var(--hard); background: var(--hard-bg); }
 
-#recentTable tbody td {
-  border-bottom: 1px solid var(--border-lt);
-  color: var(--text);
-  vertical-align: middle;
-}
+/* Company pills */
+.tags-cell { white-space: nowrap; max-width: 120px; }
+.company-pill { display: inline-flex; align-items: center; gap: 2px; padding: 1px 6px 1px 7px; border-radius: 10px; font-size: 9px; font-weight: 600; background: #e8e2d9; color: var(--text-mid); line-height: 1.4; vertical-align: middle; }
+.pill-remove { display: inline-flex; align-items: center; justify-content: center; width: 13px; height: 13px; border: none; background: transparent; color: var(--text-dim); font-size: 11px; line-height: 1; padding: 0; margin-left: 1px; cursor: pointer; border-radius: 50%; transition: background 0.15s, color 0.15s; }
+.pill-remove:hover { background: var(--hard-bg); color: var(--hard); }
+.tag-add-btn { display: inline-block; padding: 1px 6px; border: 1px dashed var(--border); border-radius: 10px; font-family: var(--sans); font-size: 9px; font-weight: 500; color: var(--text-dim); background: transparent; cursor: pointer; transition: all 0.15s ease; line-height: 1.4; vertical-align: middle; }
+.tag-add-btn:hover { border-color: var(--text-mid); color: var(--text-mid); background: var(--surface); }
 
-#recentTable tbody tr:last-child td {
-  border-bottom: none;
-}
+#emptyState { text-align: center; padding: 32px 16px; }
+#emptyState .empty-icon { font-size: 32px; margin-bottom: 10px; opacity: 0.6; }
+#emptyState p { color: var(--text-dim); font-size: 13px; line-height: 1.5; }
 
-#recentTable tbody tr:hover {
-  background: rgba(0, 0, 0, 0.015);
-}
+#actions { margin-top: 16px; text-align: center; }
+#clearBtn { background: transparent; border: 1px solid var(--border); color: var(--text-dim); padding: 7px 20px; border-radius: 8px; cursor: pointer; font-family: var(--sans); font-size: 11px; font-weight: 500; letter-spacing: 0.3px; transition: all 0.2s ease; }
+#clearBtn:hover { border-color: var(--hard); color: var(--hard); background: var(--hard-bg); }
 
-td.problem-name {
-  max-width: 170px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 500;
-}
+.hidden { display: none !important; }
 
-td.time-col {
-  font-variant-numeric: tabular-nums;
-  font-weight: 500;
-  color: var(--text-mid);
-  white-space: nowrap;
-}
-
-td.date-col {
-  color: var(--text-dim);
-  font-size: 11px;
-  white-space: nowrap;
-}
-
-/* ---- Empty state ---- */
-#emptyState {
-  text-align: center;
-  padding: 32px 16px;
-}
-
-#emptyState .empty-icon {
-  font-size: 32px;
-  margin-bottom: 10px;
-  opacity: 0.6;
-}
-
-#emptyState p {
-  color: var(--text-dim);
-  font-size: 13px;
-  line-height: 1.5;
-}
-
-/* ---- Clear button ---- */
-#actions {
-  margin-top: 16px;
-  text-align: center;
-}
-
-#clearBtn {
-  background: transparent;
-  border: 1px solid var(--border);
-  color: var(--text-dim);
-  padding: 7px 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-family: var(--sans);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  transition: all 0.2s ease;
-}
-
-#clearBtn:hover {
-  border-color: var(--hard);
-  color: var(--hard);
-  background: var(--hard-bg);
-}
-
-/* ---- Utility ---- */
-.hidden {
-  display: none !important;
-}
-
-/* ---- Preview banner ---- */
-.preview-banner {
-  background: #f0ebe3;
-  color: #8a8279;
-  font-size: 10px;
-  font-weight: 500;
-  text-align: center;
-  padding: 5px 0;
-  margin: -20px -20px 16px;
-  border-bottom: 1px solid #e8e2d9;
-  letter-spacing: 0.3px;
-}
+.preview-banner { background: #f0ebe3; color: #8a8279; font-size: 10px; font-weight: 500; text-align: center; padding: 5px 0; margin: -20px -20px 16px; border-bottom: 1px solid #e8e2d9; letter-spacing: 0.3px; }
   </style>
 </head>
 <body>
@@ -304,6 +118,21 @@ td.date-col {
   <div class="header">
     <h1>Leet<em>Code</em> Tracker</h1>
     <div class="subtitle">Track your progress</div>
+  </div>
+
+  <!-- Company filter -->
+  <div id="filterBar">
+    <label for="companyFilter">Filter by company</label>
+    <div class="filter-row">
+      <select id="companyFilter">
+        <option value="">All companies</option>
+        <option value="Amazon">Amazon</option>
+        <option value="Google">Google</option>
+        <option value="Microsoft">Microsoft</option>
+        <option value="Facebook">Facebook</option>
+      </select>
+      <button id="clearFilter" style="display:none">Clear</button>
+    </div>
   </div>
 
   <!-- Summary cards -->
@@ -350,7 +179,7 @@ td.date-col {
     </table>
   </div>
 
-  <!-- Recent solves -->
+  <!-- Recent solves with company tags -->
   <div id="recent">
     <h2>Recent Solves</h2>
     <table id="recentTable">
@@ -360,49 +189,74 @@ td.date-col {
       <tbody>
         <tr>
           <td class="problem-name" title="Median of Two Sorted Arrays">Median of Two Sorted Arrays</td>
-          <td><span class="diff-badge hard">Hard</span></td>
+          <td class="tags-cell">
+            <span class="company-pill">Amazon <button class="pill-remove">×</button></span>
+            <span class="company-pill">Google <button class="pill-remove">×</button></span>
+          </td>
           <td class="time-col">38m 12s</td>
           <td class="date-col">Aug 30</td>
         </tr>
         <tr>
           <td class="problem-name" title="Longest Substring Without Repeating Characters">Longest Substring Without Repeating Characters</td>
-          <td><span class="diff-badge medium">Medium</span></td>
+          <td class="tags-cell">
+            <span class="company-pill">Amazon <button class="pill-remove">×</button></span>
+            <span class="company-pill">Google <button class="pill-remove">×</button></span>
+            <span class="company-pill">Microsoft <button class="pill-remove">×</button></span>
+          </td>
           <td class="time-col">14m 5s</td>
           <td class="date-col">Aug 29</td>
         </tr>
         <tr>
           <td class="problem-name" title="Two Sum">Two Sum</td>
-          <td><span class="diff-badge easy">Easy</span></td>
+          <td class="tags-cell">
+            <span class="company-pill">Amazon <button class="pill-remove">×</button></span>
+            <span class="company-pill">Google <button class="pill-remove">×</button></span>
+            <span class="company-pill">Microsoft <button class="pill-remove">×</button></span>
+          </td>
           <td class="time-col">3m 42s</td>
           <td class="date-col">Aug 29</td>
         </tr>
         <tr>
           <td class="problem-name" title="Merge Intervals">Merge Intervals</td>
-          <td><span class="diff-badge medium">Medium</span></td>
+          <td class="tags-cell">
+            <span class="company-pill">Amazon <button class="pill-remove">×</button></span>
+            <span class="company-pill">Google <button class="pill-remove">×</button></span>
+          </td>
           <td class="time-col">22m 18s</td>
           <td class="date-col">Aug 28</td>
         </tr>
         <tr>
           <td class="problem-name" title="Trapping Rain Water">Trapping Rain Water</td>
-          <td><span class="diff-badge hard">Hard</span></td>
+          <td class="tags-cell">
+            <span class="company-pill">Amazon <button class="pill-remove">×</button></span>
+            <span class="company-pill">Google <button class="pill-remove">×</button></span>
+            <span class="company-pill">Microsoft <button class="pill-remove">×</button></span>
+          </td>
           <td class="time-col">51m 30s</td>
           <td class="date-col">Aug 27</td>
         </tr>
         <tr>
           <td class="problem-name" title="Valid Parentheses">Valid Parentheses</td>
-          <td><span class="diff-badge easy">Easy</span></td>
+          <td class="tags-cell">
+            <span class="company-pill">Amazon <button class="pill-remove">×</button></span>
+          </td>
           <td class="time-col">2m 15s</td>
           <td class="date-col">Aug 27</td>
         </tr>
         <tr>
           <td class="problem-name" title="Group Anagrams">Group Anagrams</td>
-          <td><span class="diff-badge medium">Medium</span></td>
+          <td class="tags-cell">
+            <span class="company-pill">Amazon <button class="pill-remove">×</button></span>
+            <span class="company-pill">Facebook <button class="pill-remove">×</button></span>
+          </td>
           <td class="time-col">12m 40s</td>
           <td class="date-col">Aug 26</td>
         </tr>
         <tr>
           <td class="problem-name" title="Climbing Stairs">Climbing Stairs</td>
-          <td><span class="diff-badge easy">Easy</span></td>
+          <td class="tags-cell">
+            <button class="tag-add-btn">+ Tag</button>
+          </td>
           <td class="time-col">4m 8s</td>
           <td class="date-col">Aug 25</td>
         </tr>
@@ -410,13 +264,11 @@ td.date-col {
     </table>
   </div>
 
-  <!-- Empty state (hidden) -->
   <div id="emptyState" class="hidden">
     <div class="empty-icon">⌨</div>
     <p>No solves yet.<br/>Open a LeetCode problem to start tracking.</p>
   </div>
 
-  <!-- Clear button -->
   <div id="actions">
     <button id="clearBtn">Clear Stats</button>
   </div>
