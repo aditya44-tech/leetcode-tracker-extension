@@ -1,10 +1,10 @@
 /**
  * popup.js — Reads solve records from chrome.storage.local and renders
- * the popup summary, average times table, recent-solves list with
- * company tags, and a company filter dropdown.
+ * the popup: current problem with company logos, summary stats,
+ * average times, recent solves with company logo badges, and filtering.
  */
 
-let allSolves = []; // kept in memory for filter + tag edits
+let allSolves = [];
 
 document.addEventListener("DOMContentLoaded", () => {
   console.log("[LeetCode Tracker Popup] Loaded");
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function render(filterCompany) {
-  chrome.storage.local.get({ solves: [] }, (data) => {
+  chrome.storage.local.get({ solves: [], currentProblem: null }, (data) => {
     if (chrome.runtime.lastError) {
       console.error("[LeetCode Tracker Popup] Storage error:", chrome.runtime.lastError);
       return;
@@ -20,6 +20,9 @@ function render(filterCompany) {
 
     allSolves = data.solves;
     console.log(`[LeetCode Tracker Popup] ${allSolves.length} solve(s) found`);
+
+    // ---- Current problem ----
+    renderCurrentProblem(data.currentProblem);
 
     if (allSolves.length === 0) {
       document.getElementById("emptyState").classList.remove("hidden");
@@ -77,15 +80,15 @@ function render(filterCompany) {
     recentTbody.innerHTML = "";
     for (let i = 0; i < recent.length; i++) {
       const s = recent[i];
-      // Find the real index in allSolves so we can update storage
       const realIndex = allSolves.indexOf(s);
       const tr = document.createElement("tr");
       const dateStr = s.date ? formatDate(s.date) : "—";
       const diff = s.difficulty || "Medium";
       const companies = s.companies || [];
 
+      // Company logos instead of names
       const tagsHTML = companies.length > 0
-        ? companies.map((c) => renderTag(c, realIndex)).join("")
+        ? companies.map((c) => companyLogoHTML(c, realIndex)).join("")
         : `<button class="tag-add-btn" data-index="${realIndex}">+ Tag</button>`;
 
       tr.innerHTML = `
@@ -101,13 +104,63 @@ function render(filterCompany) {
   });
 }
 
+/* ---- Current problem ---- */
+
+function renderCurrentProblem(problem) {
+  const section = document.getElementById("currentProblem");
+  if (!problem || !problem.name) {
+    section.classList.add("hidden");
+    return;
+  }
+
+  section.classList.remove("hidden");
+  document.getElementById("currentName").textContent = problem.name;
+
+  const diffEl = document.getElementById("currentDiff");
+  const diff = problem.difficulty || "Unknown";
+  diffEl.textContent = diff;
+  diffEl.className = "current-diff " + diff.toLowerCase();
+
+  const companiesEl = document.getElementById("currentCompanies");
+  const companies = problem.companies || [];
+
+  if (companies.length > 0) {
+    companiesEl.innerHTML = companies
+      .map((c) => `<div class="current-company">${companyLogoHTMLNoRemove(c)}<span class="current-company-name">${escapeHtml(c)}</span></div>`)
+      .join("");
+  } else {
+    companiesEl.innerHTML = '<span class="no-companies">No company data — tag manually after solving</span>';
+  }
+}
+
+/* ---- Company logo helper ---- */
+
+function companyLogoURL(company) {
+  // Clearbit Logo API — free, no auth needed for this use case
+  const slug = company.toLowerCase().replace(/\s+/g, "");
+  return `https://logo.clearbit.com/${slug}.com`;
+}
+
+function companyLogoHTML(company, solveIndex) {
+  const url = companyLogoURL(company);
+  return `<span class="company-logo-pill" title="${escapeHtml(company)}" data-company="${escapeHtml(company)}" data-index="${solveIndex}">
+    <img class="company-logo" src="${url}" alt="${escapeHtml(company)}" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'" />
+    <span class="company-logo-fallback" style="display:none">${escapeHtml(company.charAt(0))}</span>
+    <button class="pill-remove" data-company="${escapeHtml(company)}" data-index="${solveIndex}" title="Remove">×</button>
+  </span>`;
+}
+
+function companyLogoHTMLNoRemove(company) {
+  const url = companyLogoURL(company);
+  return `<img class="company-logo current-logo" src="${url}" alt="${escapeHtml(company)}" title="${escapeHtml(company)}" onerror="this.style.display='none';this.nextElementSibling.style.display='inline-flex'" /><span class="company-logo-fallback current-fallback" style="display:none">${escapeHtml(company.charAt(0))}</span>`;
+}
+
 /* ---- Company filter ---- */
 
 function populateCompanyFilter(currentFilter) {
   const select = document.getElementById("companyFilter");
   const clearBtn = document.getElementById("clearFilter");
 
-  // Collect all unique companies across all solves
   const companySet = new Set();
   for (const s of allSolves) {
     for (const c of (s.companies || [])) {
@@ -138,17 +191,9 @@ function populateCompanyFilter(currentFilter) {
   };
 }
 
-/* ---- Company tags ---- */
-
-function renderTag(company, solveIndex) {
-  return `<span class="company-pill" data-company="${escapeHtml(company)}" data-index="${solveIndex}">
-    ${escapeHtml(company)}
-    <button class="pill-remove" data-company="${escapeHtml(company)}" data-index="${solveIndex}" title="Remove tag">×</button>
-  </span>`;
-}
+/* ---- Tag events ---- */
 
 function wireTagEvents() {
-  // Remove tag buttons
   document.querySelectorAll(".pill-remove").forEach((btn) => {
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -158,7 +203,6 @@ function wireTagEvents() {
     });
   });
 
-  // Add tag buttons
   document.querySelectorAll(".tag-add-btn").forEach((btn) => {
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -169,7 +213,6 @@ function wireTagEvents() {
 }
 
 function showTagInput(btn, solveIndex) {
-  // Replace the button with an inline input
   const wrapper = document.createElement("span");
   wrapper.className = "tag-input-wrapper";
   wrapper.innerHTML = `<input type="text" class="tag-input" placeholder="Company name" />`;
@@ -183,7 +226,6 @@ function showTagInput(btn, solveIndex) {
     if (name) {
       addTagToStorage(solveIndex, name);
     } else {
-      // Restore the button
       wrapper.replaceWith(btn);
     }
   };
@@ -213,7 +255,6 @@ function addTagToStorage(solveIndex, company) {
     if (chrome.runtime.lastError) {
       console.error("[LeetCode Tracker Popup] Tag save error:", chrome.runtime.lastError);
     }
-    // Re-render with current filter
     const currentFilter = document.getElementById("companyFilter").value || undefined;
     render(currentFilter);
   });

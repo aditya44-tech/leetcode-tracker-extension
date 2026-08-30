@@ -12,6 +12,18 @@
     <div class="subtitle">Track your progress</div>
   </div>
 
+  <!-- Current problem (auto-populated from content script) -->
+  <div id="currentProblem" class="hidden">
+    <h2>Current Problem</h2>
+    <div class="current-card">
+      <div class="current-top">
+        <span class="current-name" id="currentName"></span>
+        <span class="current-diff" id="currentDiff"></span>
+      </div>
+      <div class="current-companies" id="currentCompanies"></div>
+    </div>
+  </div>
+
   <!-- Company filter -->
   <div id="filterBar" class="hidden">
     <label for="companyFilter">Filter by company</label>
@@ -71,9 +83,14 @@
     <p>No solves yet.<br/>Open a LeetCode problem to start tracking.</p>
   </div>
 
-  <!-- Clear button -->
+  <!-- Actions -->
   <div id="actions">
-    <button id="clearBtn" class="hidden">Clear Stats</button>
+    <div class="actions-row">
+      <button id="exportBtn" class="hidden">Export</button>
+      <button id="importBtn">Import</button>
+      <button id="clearBtn" class="hidden">Clear Stats</button>
+    </div>
+    <input type="file" id="importFile" accept=".json" class="hidden" />
   </div>
 
   <script src="popup.js"></script>

@@ -333,42 +333,7 @@ td.date-col {
   max-width: 120px;
 }
 
-.company-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 2px;
-  padding: 1px 6px 1px 7px;
-  border-radius: 10px;
-  font-size: 9px;
-  font-weight: 600;
-  background: #e8e2d9;
-  color: var(--text-mid);
-  line-height: 1.4;
-  vertical-align: middle;
-}
 
-.pill-remove {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 13px;
-  height: 13px;
-  border: none;
-  background: transparent;
-  color: var(--text-dim);
-  font-size: 11px;
-  line-height: 1;
-  padding: 0;
-  margin-left: 1px;
-  cursor: pointer;
-  border-radius: 50%;
-  transition: background 0.15s, color 0.15s;
-}
-
-.pill-remove:hover {
-  background: var(--hard-bg);
-  color: var(--hard);
-}
 
 .tag-add-btn {
   display: inline-block;
@@ -410,6 +375,151 @@ td.date-col {
 
 .tag-input:focus {
   border-color: var(--accent);
+}
+
+/* ---- Current problem card ---- */
+.current-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.current-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.current-name {
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 240px;
+}
+
+.current-diff {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.current-diff.easy   { background: var(--easy-bg);   color: var(--easy);   }
+.current-diff.medium { background: var(--medium-bg); color: var(--medium); }
+.current-diff.hard   { background: var(--hard-bg);   color: var(--hard);   }
+
+.current-companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.current-company {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.current-company-name {
+  font-size: 11px;
+  color: var(--text-mid);
+  font-weight: 500;
+}
+
+.no-companies {
+  font-size: 11px;
+  color: var(--text-dim);
+  font-style: italic;
+}
+
+/* ---- Company logo pills (recent list) ---- */
+.tags-cell {
+  white-space: nowrap;
+  max-width: 110px;
+}
+
+.company-logo-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 4px 2px 2px;
+  border-radius: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  vertical-align: middle;
+  cursor: default;
+  transition: border-color 0.15s;
+}
+
+.company-logo-pill:hover {
+  border-color: var(--text-dim);
+}
+
+.company-logo {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.company-logo-fallback {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  background: var(--border);
+  color: var(--text-mid);
+  font-size: 9px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.pill-remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 11px;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+
+.pill-remove:hover {
+  background: var(--hard-bg);
+  color: var(--hard);
+}
+
+/* ---- Current problem logos (larger) ---- */
+.current-logo {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+}
+
+.current-fallback {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  font-size: 11px;
 }
 
 /* ---- Utility ---- */

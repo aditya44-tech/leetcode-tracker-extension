@@ -393,6 +393,28 @@
   /* --------------------------------------------------------------- */
   /*  Bootstrap (runs on DOM idle — run_at: document_idle)            */
   /* --------------------------------------------------------------- */
+  /*  Save current problem to storage (popup reads this)             */
+  /* ---------------------------------------------------------------
+   *  Saves { name, difficulty, slug, companies } to chrome.storage.local
+   *  under the key "currentProblem".  The popup reads this on open
+   *  to display the current problem with company logos.              */
+  function saveCurrentProblem() {
+    const slug = slugFromURL();
+    const companies = lookupCompanies(slug);
+    const state = {
+      name: problemName,
+      difficulty,
+      slug,
+      companies,
+      url: window.location.href,
+      timestamp: Date.now(),
+    };
+    chrome.storage.local.set({ currentProblem: state }, () => {
+      log(`Saved current problem to storage: "${problemName}" [${companies.length} companies]`);
+    });
+  }
+
+  /* --------------------------------------------------------------- */
   function init() {
     log("Content script loaded on: " + window.location.href);
 
@@ -405,6 +427,8 @@
       .then((data) => {
         companyDataset = data;
         log(`Dataset loaded — ${Object.keys(data).length} slugs`);
+        // Re-save now that we have the dataset (companies may be richer)
+        saveCurrentProblem();
       })
       .catch((err) => {
         log(`⚠ Dataset load failed (${err.message}) — manual-only tagging`);
@@ -421,6 +445,9 @@
 
     log(`Problem detected — "${problemName}" [${difficulty || "unknown"}]`);
     log("⏳ Timer NOT started yet — waiting for Submit button click");
+
+    // Save immediately (may have empty companies until dataset loads)
+    saveCurrentProblem();
 
     // Attach submit-button listener (no MutationObserver yet!)
     attachSubmitListener();
