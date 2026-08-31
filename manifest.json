@@ -1,10 +1,12 @@
 {
   "manifest_version": 3,
   "name": "LeetCode Tracker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tracks difficulty and solve time for LeetCode problems.",
   "permissions": [
-    "storage"
+    "storage",
+    "tabs",
+    "activeTab"
   ],
   "host_permissions": [
     "https://leetcode.com/*"
@@ -14,7 +16,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://leetcode.com/*"],
+      "matches": ["https://leetcode.com/problems/*"],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
@@ -26,7 +28,7 @@
   "web_accessible_resources": [
     {
       "resources": ["logos/*.svg", "companyData.json", "problemMeta.json"],
-      "matches": ["https://leetcode.com/*"]
+      "matches": ["<all_urls>"]
     }
   ]
 }

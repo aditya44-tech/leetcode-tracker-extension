@@ -221,7 +221,7 @@ td.problem-name {
   width: 100%;
 }
 
-#recentTable col:nth-child(1) { width: 40%; }
+#recentTable col:nth-child(1) { width: 45%; }
 #recentTable col:nth-child(2) { width: auto; }
 #recentTable col:nth-child(3) { width: 60px; }
 #recentTable col:nth-child(4) { width: 55px; }
