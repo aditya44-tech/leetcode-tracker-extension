@@ -1,0 +1,1260 @@
+ID,Title,Difficulty,Acceptance,Companies,CompanyCount,AvgFrequency,LeetCodeLink
+1,Two Sum,Easy,45.6%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Nvidia, Oracle, Samsung, Spotify, Uber, X",14,2.26,https://leetcode.com/problems/two-sum
+146,LRU Cache,Medium,33.2%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Nvidia, Oracle, Spotify, Uber, X",13,2.112,https://leetcode.com/problems/lru-cache
+200,Number of Islands,Medium,46.8%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Nvidia, Oracle, Spotify, Uber, X",13,1.989,https://leetcode.com/problems/number-of-islands
+20,Valid Parentheses,Easy,39.0%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Samsung, Spotify, Uber, X",13,1.478,https://leetcode.com/problems/valid-parentheses
+56,Merge Intervals,Medium,39.3%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Netflix, Oracle, Uber, X",12,1.887,https://leetcode.com/problems/merge-intervals
+23,Merge k Sorted Lists,Hard,40.2%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Nvidia, Oracle, Uber, X",12,1.881,https://leetcode.com/problems/merge-k-sorted-lists
+33,Search in Rotated Sorted Array,Medium,34.5%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Nvidia, Oracle, Samsung, Uber",12,1.453,https://leetcode.com/problems/search-in-rotated-sorted-array
+206,Reverse Linked List,Easy,62.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Nvidia, Oracle, Spotify, Uber, X",12,1.14,https://leetcode.com/problems/reverse-linked-list
+706,Design HashMap,Easy,61.3%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Nvidia, Oracle, Uber, X",12,0.477,https://leetcode.com/problems/design-hashmap
+42,Trapping Rain Water,Hard,48.9%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Nvidia, Oracle, Uber, X",11,2.121,https://leetcode.com/problems/trapping-rain-water
+76,Minimum Window Substring,Hard,34.6%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber, X",11,1.856,https://leetcode.com/problems/minimum-window-substring
+53,Maximum Subarray,Easy,46.5%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Nvidia, Oracle, Uber",11,1.618,https://leetcode.com/problems/maximum-subarray
+380,Insert Delete GetRandom O(1),Medium,47.5%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber, X",11,1.542,https://leetcode.com/problems/insert-delete-getrandom-o1
+3,Longest Substring Without Repeating Characters,Medium,30.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Samsung, Spotify, Uber",11,1.426,https://leetcode.com/problems/longest-substring-without-repeating-characters
+21,Merge Two Sorted Lists,Easy,53.5%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Samsung, Uber",11,1.347,https://leetcode.com/problems/merge-two-sorted-lists
+215,Kth Largest Element in an Array,Medium,55.4%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Spotify, Uber",11,1.31,https://leetcode.com/problems/kth-largest-element-in-an-array
+127,Word Ladder,Medium,29.6%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Samsung, Spotify, Uber",11,1.291,https://leetcode.com/problems/word-ladder
+57,Insert Interval,Hard,33.5%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber, X",11,1.256,https://leetcode.com/problems/insert-interval
+295,Find Median from Data Stream,Hard,44.3%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Netflix, Oracle, Uber, X",11,1.24,https://leetcode.com/problems/find-median-from-data-stream
+88,Merge Sorted Array,Easy,39.4%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Netflix, Oracle, Uber",11,1.179,https://leetcode.com/problems/merge-sorted-array
+8,String to Integer (atoi),Medium,15.4%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Nvidia, Oracle, Uber",11,1.126,https://leetcode.com/problems/string-to-integer-atoi
+22,Generate Parentheses,Medium,62.7%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Nvidia, Samsung, Spotify, Uber",11,1.037,https://leetcode.com/problems/generate-parentheses
+155,Min Stack,Easy,44.5%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Netflix, Oracle, Uber",11,0.795,https://leetcode.com/problems/min-stack
+101,Symmetric Tree,Easy,46.8%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber, X",11,0.503,https://leetcode.com/problems/symmetric-tree
+981,Time Based Key-Value Store,Medium,53.1%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Netflix, Oracle, Uber, X",11,0.451,https://leetcode.com/problems/time-based-key-value-store
+70,Climbing Stairs,Easy,47.8%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Nvidia, Oracle, Uber",11,0.321,https://leetcode.com/problems/climbing-stairs
+15,3Sum,Medium,26.8%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Samsung, Uber",10,2.043,https://leetcode.com/problems/3sum
+2,Add Two Numbers,Medium,33.9%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Nvidia, Oracle, Uber",10,1.988,https://leetcode.com/problems/add-two-numbers
+10,Regular Expression Matching,Hard,26.8%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber, X",10,1.987,https://leetcode.com/problems/regular-expression-matching
+341,Flatten Nested List Iterator,Medium,52.9%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber, X",10,1.972,https://leetcode.com/problems/flatten-nested-list-iterator
+238,Product of Array Except Self,Medium,60.1%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,1.82,https://leetcode.com/problems/product-of-array-except-self
+5,Longest Palindromic Substring,Medium,29.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Samsung, Uber",10,1.745,https://leetcode.com/problems/longest-palindromic-substring
+139,Word Break,Medium,40.1%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber, X",10,1.672,https://leetcode.com/problems/word-break
+91,Decode Ways,Medium,24.7%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber, X",10,1.632,https://leetcode.com/problems/decode-ways
+236,Lowest Common Ancestor of a Binary Tree,Medium,45.7%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,1.604,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree
+121,Best Time to Buy and Sell Stock,Easy,50.5%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,1.603,https://leetcode.com/problems/best-time-to-buy-and-sell-stock
+54,Spiral Matrix,Medium,34.1%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,1.479,https://leetcode.com/problems/spiral-matrix
+98,Validate Binary Search Tree,Medium,27.8%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,1.366,https://leetcode.com/problems/validate-binary-search-tree
+560,Subarray Sum Equals K,Medium,43.9%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,1.325,https://leetcode.com/problems/subarray-sum-equals-k
+239,Sliding Window Maximum,Hard,43.0%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber, X",10,1.251,https://leetcode.com/problems/sliding-window-maximum
+13,Roman to Integer,Easy,55.7%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,1.231,https://leetcode.com/problems/roman-to-integer
+34,Find First and Last Position of Element in Sorted Array,Medium,36.2%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Netflix, Oracle, Uber",10,1.177,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array
+125,Valid Palindrome,Easy,36.7%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,1.152,https://leetcode.com/problems/valid-palindrome
+32,Longest Valid Parentheses,Hard,28.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Samsung, Uber",10,1.033,https://leetcode.com/problems/longest-valid-parentheses
+46,Permutations,Medium,63.5%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,1.027,https://leetcode.com/problems/permutations
+12,Integer to Roman,Medium,55.1%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, X",10,0.995,https://leetcode.com/problems/integer-to-roman
+199,Binary Tree Right Side View,Medium,54.1%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Nvidia, Oracle, Uber",10,0.987,https://leetcode.com/problems/binary-tree-right-side-view
+128,Longest Consecutive Sequence,Hard,45.1%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Spotify, Uber",10,0.986,https://leetcode.com/problems/longest-consecutive-sequence
+102,Binary Tree Level Order Traversal,Medium,54.6%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,0.948,https://leetcode.com/problems/binary-tree-level-order-traversal
+114,Flatten Binary Tree to Linked List,Medium,49.3%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Nvidia, Oracle, Uber",10,0.891,https://leetcode.com/problems/flatten-binary-tree-to-linked-list
+235,Lowest Common Ancestor of a Binary Search Tree,Easy,49.9%,"Adobe, Amazon, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber, X",10,0.889,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree
+36,Valid Sudoku,Medium,48.7%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber, X",10,0.863,https://leetcode.com/problems/valid-sudoku
+692,Top K Frequent Words,Medium,51.8%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,0.854,https://leetcode.com/problems/top-k-frequent-words
+322,Coin Change,Medium,35.5%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,0.826,https://leetcode.com/problems/coin-change
+50,Pow(x;n),Medium,30.3%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,0.73,https://leetcode.com/problems/powx-n
+79,Word Search,Medium,35.6%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",10,0.709,https://leetcode.com/problems/word-search
+647,Palindromic Substrings,Medium,60.6%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber, X",10,0.653,https://leetcode.com/problems/palindromic-substrings
+347,Top K Frequent Elements,Medium,61.2%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Spotify, Uber",10,0.576,https://leetcode.com/problems/top-k-frequent-elements
+739,Daily Temperatures,Medium,63.3%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Nvidia, Uber",10,0.345,https://leetcode.com/problems/daily-temperatures
+297,Serialize and Deserialize Binary Tree,Hard,47.5%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",9,2.744,https://leetcode.com/problems/serialize-and-deserialize-binary-tree
+273,Integer to English Words,Hard,27.1%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",9,2.383,https://leetcode.com/problems/integer-to-english-words
+138,Copy List with Random Pointer,Medium,36.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,2.065,https://leetcode.com/problems/copy-list-with-random-pointer
+4,Median of Two Sorted Arrays,Hard,29.6%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,1.985,https://leetcode.com/problems/median-of-two-sorted-arrays
+973,K Closest Points to Origin,Medium,63.8%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",9,1.785,https://leetcode.com/problems/k-closest-points-to-origin
+173,Binary Search Tree Iterator,Medium,56.6%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",9,1.777,https://leetcode.com/problems/binary-search-tree-iterator
+31,Next Permutation,Medium,32.6%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Samsung, Uber",9,1.77,https://leetcode.com/problems/next-permutation
+124,Binary Tree Maximum Path Sum,Hard,34.3%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber, X",9,1.692,https://leetcode.com/problems/binary-tree-maximum-path-sum
+218,The Skyline Problem,Hard,34.6%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber, X",9,1.64,https://leetcode.com/problems/the-skyline-problem
+133,Clone Graph,Medium,34.8%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber, X",9,1.612,https://leetcode.com/problems/clone-graph
+68,Text Justification,Hard,27.7%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber, X",9,1.536,https://leetcode.com/problems/text-justification
+636,Exclusive Time of Functions,Medium,52.0%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",9,1.499,https://leetcode.com/problems/exclusive-time-of-functions
+283,Move Zeroes,Easy,57.8%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,1.468,https://leetcode.com/problems/move-zeroes
+126,Word Ladder II,Hard,22.1%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",9,1.417,https://leetcode.com/problems/word-ladder-ii
+49,Group Anagrams,Medium,56.9%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,1.373,https://leetcode.com/problems/group-anagrams
+43,Multiply Strings,Medium,33.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber, X",9,1.359,https://leetcode.com/problems/multiply-strings
+240,Search a 2D Matrix II,Medium,43.2%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle",9,1.227,https://leetcode.com/problems/search-a-2d-matrix-ii
+415,Add Strings,Easy,47.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Nvidia, Oracle",9,1.154,https://leetcode.com/problems/add-strings
+208,Implement Trie (Prefix Tree),Medium,49.4%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber, X",9,1.146,https://leetcode.com/problems/implement-trie-prefix-tree
+72,Edit Distance,Hard,44.8%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber",9,1.124,https://leetcode.com/problems/edit-distance
+75,Sort Colors,Medium,47.3%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",9,1.117,https://leetcode.com/problems/sort-colors
+349,Intersection of Two Arrays,Easy,62.5%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",9,1.087,https://leetcode.com/problems/intersection-of-two-arrays
+11,Container With Most Water,Medium,50.8%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,1.079,https://leetcode.com/problems/container-with-most-water
+528,Random Pick with Weight,Medium,43.9%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber, X",9,1.048,https://leetcode.com/problems/random-pick-with-weight
+48,Rotate Image,Medium,56.7%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Nvidia, Uber",9,1.041,https://leetcode.com/problems/rotate-image
+51,N-Queens,Hard,46.6%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,1.03,https://leetcode.com/problems/n-queens
+105,Construct Binary Tree from Preorder and Inorder Traversal,Medium,48.8%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, X",9,1.027,https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
+300,Longest Increasing Subsequence,Medium,42.6%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.959,https://leetcode.com/problems/longest-increasing-subsequence
+140,Word Break II,Hard,32.6%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber, X",9,0.864,https://leetcode.com/problems/word-break-ii
+37,Sudoku Solver,Hard,43.6%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.855,https://leetcode.com/problems/sudoku-solver
+767,Reorganize String,Medium,48.7%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber, X",9,0.849,https://leetcode.com/problems/reorganize-string
+152,Maximum Product Subarray,Medium,31.7%,"Adobe, Amazon, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",9,0.81,https://leetcode.com/problems/maximum-product-subarray
+207,Course Schedule,Medium,43.1%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",9,0.786,https://leetcode.com/problems/course-schedule
+695,Max Area of Island,Medium,62.7%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.782,https://leetcode.com/problems/max-area-of-island
+41,First Missing Positive,Hard,32.0%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.779,https://leetcode.com/problems/first-missing-positive
+24,Swap Nodes in Pairs,Medium,50.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.775,https://leetcode.com/problems/swap-nodes-in-pairs
+62,Unique Paths,Medium,54.1%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.774,https://leetcode.com/problems/unique-paths
+350,Intersection of Two Arrays II,Easy,51.4%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",9,0.752,https://leetcode.com/problems/intersection-of-two-arrays-ii
+315,Count of Smaller Numbers After Self,Hard,41.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.751,https://leetcode.com/problems/count-of-smaller-numbers-after-self
+378,Kth Smallest Element in a Sorted Matrix,Medium,54.3%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber, X",9,0.751,https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix
+221,Maximal Square,Medium,37.7%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.731,https://leetcode.com/problems/maximal-square
+45,Jump Game II,Hard,30.6%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.713,https://leetcode.com/problems/jump-game-ii
+7,Reverse Integer,Easy,25.8%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.697,https://leetcode.com/problems/reverse-integer
+344,Reverse String,Easy,68.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.651,https://leetcode.com/problems/reverse-string
+55,Jump Game,Medium,34.6%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.642,https://leetcode.com/problems/jump-game
+122,Best Time to Buy and Sell Stock II,Easy,57.0%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.618,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii
+103,Binary Tree Zigzag Level Order Traversal,Medium,48.3%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Samsung",9,0.612,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal
+279,Perfect Squares,Medium,47.4%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber",9,0.599,https://leetcode.com/problems/perfect-squares
+450,Delete Node in a BST,Medium,43.1%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",9,0.582,https://leetcode.com/problems/delete-node-in-a-bst
+64,Minimum Path Sum,Medium,54.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Nvidia, Uber",9,0.56,https://leetcode.com/problems/minimum-path-sum
+141,Linked List Cycle,Easy,41.1%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle",9,0.528,https://leetcode.com/problems/linked-list-cycle
+59,Spiral Matrix II,Medium,53.9%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.514,https://leetcode.com/problems/spiral-matrix-ii
+104,Maximum Depth of Binary Tree,Easy,66.0%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber",9,0.426,https://leetcode.com/problems/maximum-depth-of-binary-tree
+26,Remove Duplicates from Sorted Array,Easy,45.1%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.422,https://leetcode.com/problems/remove-duplicates-from-sorted-array
+210,Course Schedule II,Medium,40.7%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber, X",9,0.379,https://leetcode.com/problems/course-schedule-ii
+202,Happy Number,Easy,50.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber, X",9,0.361,https://leetcode.com/problems/happy-number
+547,Friend Circles,Medium,58.6%,"Adobe, Amazon, Facebook, Google, LinkedIn, Meta, Microsoft, Uber, X",9,0.334,https://leetcode.com/problems/friend-circles
+977,Squares of a Sorted Array,Easy,72.1%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",9,0.307,https://leetcode.com/problems/squares-of-a-sorted-array
+113,Path Sum II,Medium,46.7%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle",9,0.289,https://leetcode.com/problems/path-sum-ii
+40,Combination Sum II,Medium,48.2%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber",9,0.285,https://leetcode.com/problems/combination-sum-ii
+118,Pascal's Triangle,Easy,52.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber, X",9,0.275,https://leetcode.com/problems/pascals-triangle
+253,Meeting Rooms II,Medium,45.7%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,2.788,https://leetcode.com/problems/meeting-rooms-ii
+17,Letter Combinations of a Phone Number,Medium,46.8%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,2.46,https://leetcode.com/problems/letter-combinations-of-a-phone-number
+269,Alien Dictionary,Hard,33.3%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber, X",8,2.203,https://leetcode.com/problems/alien-dictionary
+277,Find the Celebrity,Medium,41.8%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber",8,2.102,https://leetcode.com/problems/find-the-celebrity
+65,Valid Number,Hard,15.3%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft",8,1.843,https://leetcode.com/problems/valid-number
+227,Basic Calculator II,Medium,36.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,1.642,https://leetcode.com/problems/basic-calculator-ii
+543,Diameter of Binary Tree,Easy,48.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,1.492,https://leetcode.com/problems/diameter-of-binary-tree
+29,Divide Two Integers,Medium,16.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,1.476,https://leetcode.com/problems/divide-two-integers
+212,Word Search II,Hard,34.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,1.473,https://leetcode.com/problems/word-search-ii
+286,Walls and Gates,Medium,54.5%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Spotify, Uber",8,1.456,https://leetcode.com/problems/walls-and-gates
+311,Sparse Matrix Multiplication,Medium,61.9%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber",8,1.339,https://leetcode.com/problems/sparse-matrix-multiplication
+67,Add Binary,Easy,45.2%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,1.199,https://leetcode.com/problems/add-binary
+449,Serialize and Deserialize BST,Medium,52.0%,"Amazon, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",8,1.18,https://leetcode.com/problems/serialize-and-deserialize-bst
+428,Serialize and Deserialize N-ary Tree,Hard,59.4%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber",8,1.179,https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree
+329,Longest Increasing Path in a Matrix,Hard,43.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",8,1.163,https://leetcode.com/problems/longest-increasing-path-in-a-matrix
+44,Wildcard Matching,Hard,24.7%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft, Oracle, X",8,1.156,https://leetcode.com/problems/wildcard-matching
+721,Accounts Merge,Medium,48.8%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle",8,1.155,https://leetcode.com/problems/accounts-merge
+490,The Maze,Medium,51.4%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber, X",8,1.136,https://leetcode.com/problems/the-maze
+78,Subsets,Medium,62.0%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",8,1.082,https://leetcode.com/problems/subsets
+381,Insert Delete GetRandom O(1) - Duplicates allowed,Hard,34.1%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber",8,1.059,https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed
+85,Maximal Rectangle,Hard,37.7%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft, Samsung, Uber",8,1.036,https://leetcode.com/problems/maximal-rectangle
+150,Evaluate Reverse Polish Notation,Medium,36.3%,"Amazon, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle, Uber",8,1.004,https://leetcode.com/problems/evaluate-reverse-polish-notation
+621,Task Scheduler,Medium,50.1%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,0.986,https://leetcode.com/problems/task-scheduler
+535,Encode and Decode TinyURL,Medium,79.9%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,0.974,https://leetcode.com/problems/encode-and-decode-tinyurl
+38,Count and Say,Easy,44.6%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,0.971,https://leetcode.com/problems/count-and-say
+205,Isomorphic Strings,Easy,39.8%,"Adobe, Amazon, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle",8,0.936,https://leetcode.com/problems/isomorphic-strings
+362,Design Hit Counter,Medium,63.7%,"Amazon, Apple, Google, LinkedIn, Microsoft, Netflix, Oracle, Uber",8,0.927,https://leetcode.com/problems/design-hit-counter
+863,All Nodes Distance K in Binary Tree,Medium,55.4%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,0.889,https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree
+39,Combination Sum,Medium,56.1%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber",8,0.839,https://leetcode.com/problems/combination-sum
+445,Add Two Numbers II,Medium,54.5%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,0.837,https://leetcode.com/problems/add-two-numbers-ii
+987,Vertical Order Traversal of a Binary Tree,Medium,36.6%,"Adobe, Amazon, Facebook, Google, LinkedIn, Meta, Microsoft, Samsung",8,0.821,https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree
+74,Search a 2D Matrix,Medium,36.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",8,0.809,https://leetcode.com/problems/search-a-2d-matrix
+230,Kth Smallest Element in a BST,Medium,60.2%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,0.794,https://leetcode.com/problems/kth-smallest-element-in-a-bst
+18,4Sum,Medium,33.7%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Samsung",8,0.786,https://leetcode.com/problems/4sum
+694,Number of Distinct Islands,Medium,56.0%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,0.777,https://leetcode.com/problems/number-of-distinct-islands
+92,Reverse Linked List II,Medium,38.8%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,0.765,https://leetcode.com/problems/reverse-linked-list-ii
+387,First Unique Character in a String,Easy,53.4%,"Adobe, Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft",8,0.755,https://leetcode.com/problems/first-unique-character-in-a-string
+69,Sqrt(x),Easy,33.9%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber",8,0.741,https://leetcode.com/problems/sqrtx
+242,Valid Anagram,Easy,56.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,0.684,https://leetcode.com/problems/valid-anagram
+14,Longest Common Prefix,Easy,35.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,0.681,https://leetcode.com/problems/longest-common-prefix
+66,Plus One,Easy,43.0%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Spotify, Uber",8,0.67,https://leetcode.com/problems/plus-one
+28,Implement strStr(),Easy,34.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,0.66,https://leetcode.com/problems/implement-strstr
+229,Majority Element II,Medium,35.6%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",8,0.628,https://leetcode.com/problems/majority-element-ii
+153,Find Minimum in Rotated Sorted Array,Medium,45.1%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,0.612,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array
+373,Find K Pairs with Smallest Sums,Medium,36.7%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft, Uber",8,0.601,https://leetcode.com/problems/find-k-pairs-with-smallest-sums
+94,Binary Tree Inorder Traversal,Medium,63.3%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,0.594,https://leetcode.com/problems/binary-tree-inorder-traversal
+518,Coin Change 2,Medium,50.2%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle, Uber",8,0.582,https://leetcode.com/problems/coin-change-2
+19,Remove Nth Node From End of List,Medium,35.2%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,0.563,https://leetcode.com/problems/remove-nth-node-from-end-of-list
+287,Find the Duplicate Number,Medium,55.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,0.553,https://leetcode.com/problems/find-the-duplicate-number
+268,Missing Number,Easy,51.7%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,0.544,https://leetcode.com/problems/missing-number
+151,Reverse Words in a String,Medium,21.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Nvidia, Oracle",8,0.523,https://leetcode.com/problems/reverse-words-in-a-string
+9,Palindrome Number,Easy,48.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,0.506,https://leetcode.com/problems/palindrome-number
+6,ZigZag Conversion,Medium,36.3%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",8,0.488,https://leetcode.com/problems/zigzag-conversion
+412,Fizz Buzz,Easy,62.3%,"Adobe, Amazon, Apple, Google, LinkedIn, Microsoft, Oracle, Spotify",8,0.485,https://leetcode.com/problems/fizz-buzz
+16,3Sum Closest,Medium,46.0%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",8,0.479,https://leetcode.com/problems/3sum-closest
+204,Count Primes,Easy,31.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,0.473,https://leetcode.com/problems/count-primes
+136,Single Number,Easy,65.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",8,0.469,https://leetcode.com/problems/single-number
+47,Permutations II,Medium,46.4%,"Adobe, Amazon, Apple, Facebook, LinkedIn, Meta, Microsoft, Uber",8,0.272,https://leetcode.com/problems/permutations-ii
+203,Remove Linked List Elements,Easy,38.6%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",8,0.07,https://leetcode.com/problems/remove-linked-list-elements
+348,Design Tic-Tac-Toe,Medium,54.3%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,2.0,https://leetcode.com/problems/design-tic-tac-toe
+340,Longest Substring with At Most K Distinct Characters,Hard,44.1%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle, Uber",7,1.914,https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters
+642,Design Search Autocomplete System,Hard,44.7%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,1.892,https://leetcode.com/problems/design-search-autocomplete-system
+224,Basic Calculator,Hard,36.8%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft, Uber",7,1.864,https://leetcode.com/problems/basic-calculator
+149,Max Points on a Line,Hard,16.9%,"Amazon, Apple, Google, LinkedIn, Microsoft, Uber, X",7,1.819,https://leetcode.com/problems/max-points-on-a-line
+438,Find All Anagrams in a String,Medium,43.3%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle, Uber",7,1.691,https://leetcode.com/problems/find-all-anagrams-in-a-string
+314,Binary Tree Vertical Order Traversal,Medium,45.3%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft, Oracle",7,1.667,https://leetcode.com/problems/binary-tree-vertical-order-traversal
+211,Add and Search Word - Data structure design,Medium,38.1%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,1.63,https://leetcode.com/problems/add-and-search-word-data-structure-design
+143,Reorder List,Medium,37.1%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,1.565,https://leetcode.com/problems/reorder-list
+394,Decode String,Medium,50.0%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,1.542,https://leetcode.com/problems/decode-string
+161,One Edit Distance,Medium,32.3%,"Amazon, Facebook, Google, Meta, Microsoft, Uber, X",7,1.516,https://leetcode.com/problems/one-edit-distance
+305,Number of Islands II,Hard,40.1%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle, Uber",7,1.504,https://leetcode.com/problems/number-of-islands-ii
+772,Basic Calculator III,Hard,41.3%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,1.486,https://leetcode.com/problems/basic-calculator-iii
+426,Convert Binary Search Tree to Sorted Doubly Linked List,Medium,59.1%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle, Uber",7,1.485,https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list
+403,Frog Jump,Hard,39.7%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,1.467,https://leetcode.com/problems/frog-jump
+278,First Bad Version,Easy,35.7%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft, Uber",7,1.466,https://leetcode.com/problems/first-bad-version
+346,Moving Average from Data Stream,Easy,70.9%,"Amazon, Facebook, Google, Meta, Microsoft, Uber, X",7,1.434,https://leetcode.com/problems/moving-average-from-data-stream
+529,Minesweeper,Medium,59.1%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle, Uber",7,1.418,https://leetcode.com/problems/minesweeper
+986,Interval List Intersections,Medium,67.3%,"Amazon, Apple, Facebook, Google, Meta, Oracle, Uber",7,1.417,https://leetcode.com/problems/interval-list-intersections
+332,Reconstruct Itinerary,Medium,36.7%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,1.388,https://leetcode.com/problems/reconstruct-itinerary
+25,Reverse Nodes in k-Group,Hard,42.1%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,1.371,https://leetcode.com/problems/reverse-nodes-in-k-group
+399,Evaluate Division,Medium,51.6%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft, Uber",7,1.297,https://leetcode.com/problems/evaluate-division
+257,Binary Tree Paths,Easy,51.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,1.269,https://leetcode.com/problems/binary-tree-paths
+432,All O`one Data Structure,Hard,32.4%,"Amazon, Facebook, Google, LinkedIn, Meta, Microsoft, Uber",7,1.239,https://leetcode.com/problems/all-oone-data-structure
+116,Populating Next Right Pointers in Each Node,Medium,45.2%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,1.232,https://leetcode.com/problems/populating-next-right-pointers-in-each-node
+162,Find Peak Element,Medium,43.3%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,1.107,https://leetcode.com/problems/find-peak-element
+284,Peeking Iterator,Medium,45.7%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,1.101,https://leetcode.com/problems/peeking-iterator
+289,Game of Life,Medium,54.5%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle, Uber",7,1.073,https://leetcode.com/problems/game-of-life
+716,Max Stack,Easy,42.6%,"Amazon, Facebook, Google, LinkedIn, Meta, Microsoft, X",7,1.049,https://leetcode.com/problems/max-stack
+166,Fraction to Recurring Decimal,Medium,21.6%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,1.027,https://leetcode.com/problems/fraction-to-recurring-decimal
+460,LFU Cache,Hard,34.2%,"Adobe, Amazon, Apple, Google, LinkedIn, Microsoft, Uber",7,0.987,https://leetcode.com/problems/lfu-cache
+84,Largest Rectangle in Histogram,Hard,35.2%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft, X",7,0.983,https://leetcode.com/problems/largest-rectangle-in-histogram
+844,Backspace String Compare,Easy,46.4%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle, Uber",7,0.946,https://leetcode.com/problems/backspace-string-compare
+679,24 Game,Hard,46.4%,"Amazon, Facebook, Google, Meta, Microsoft, Uber, X",7,0.942,https://leetcode.com/problems/24-game
+681,Next Closest Time,Medium,45.0%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft, Uber",7,0.942,https://leetcode.com/problems/next-closest-time
+384,Shuffle an Array,Medium,52.8%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft",7,0.914,https://leetcode.com/problems/shuffle-an-array
+73,Set Matrix Zeroes,Medium,43.1%,"Adobe, Amazon, Apple, Facebook, Meta, Microsoft, Oracle",7,0.898,https://leetcode.com/problems/set-matrix-zeroes
+417,Pacific Atlantic Water Flow,Medium,41.1%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,0.887,https://leetcode.com/problems/pacific-atlantic-water-flow
+468,Validate IP Address,Medium,24.1%,"Amazon, Facebook, Google, Meta, Microsoft, Uber, X",7,0.868,https://leetcode.com/problems/validate-ip-address
+266,Palindrome Permutation,Easy,61.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,0.845,https://leetcode.com/problems/palindrome-permutation
+160,Intersection of Two Linked Lists,Easy,40.6%,"Amazon, Facebook, Google, LinkedIn, Meta, Microsoft, Oracle",7,0.843,https://leetcode.com/problems/intersection-of-two-linked-lists
+658,Find K Closest Elements,Medium,40.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,0.812,https://leetcode.com/problems/find-k-closest-elements
+1197,Minimum Knight Moves,Medium,36.1%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,0.809,https://leetcode.com/problems/minimum-knight-moves
+171,Excel Sheet Column Number,Easy,55.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,0.773,https://leetcode.com/problems/excel-sheet-column-number
+540,Single Element in a Sorted Array,Medium,57.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, X",7,0.743,https://leetcode.com/problems/single-element-in-a-sorted-array
+622,Design Circular Queue,Medium,43.7%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,0.742,https://leetcode.com/problems/design-circular-queue
+938,Range Sum of BST,Easy,81.3%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,0.7,https://leetcode.com/problems/range-sum-of-bst
+30,Substring with Concatenation of All Words,Hard,25.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.696,https://leetcode.com/problems/substring-with-concatenation-of-all-words
+480,Sliding Window Median,Hard,37.2%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Spotify",7,0.681,https://leetcode.com/problems/sliding-window-median
+443,String Compression,Easy,41.3%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Spotify",7,0.666,https://leetcode.com/problems/string-compression
+733,Flood Fill,Easy,55.3%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,0.66,https://leetcode.com/problems/flood-fill
+234,Palindrome Linked List,Easy,39.3%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.656,https://leetcode.com/problems/palindrome-linked-list
+169,Majority Element,Easy,58.7%,"Adobe, Amazon, Apple, Google, Microsoft, Oracle, X",7,0.649,https://leetcode.com/problems/majority-element
+209,Minimum Size Subarray Sum,Medium,38.2%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,0.623,https://leetcode.com/problems/minimum-size-subarray-sum
+416,Partition Equal Subset Sum,Medium,43.7%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,0.605,https://leetcode.com/problems/partition-equal-subset-sum
+323,Number of Connected Components in an Undirected Graph,Medium,56.0%,"Amazon, Facebook, Google, LinkedIn, Meta, Microsoft, X",7,0.596,https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph
+516,Longest Palindromic Subsequence,Medium,53.2%,"Amazon, Apple, Facebook, LinkedIn, Meta, Microsoft, Uber",7,0.552,https://leetcode.com/problems/longest-palindromic-subsequence
+407,Trapping Rain Water II,Hard,42.4%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, X",7,0.551,https://leetcode.com/problems/trapping-rain-water-ii
+214,Shortest Palindrome,Hard,29.8%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft, Oracle",7,0.542,https://leetcode.com/problems/shortest-palindrome
+316,Remove Duplicate Letters,Hard,35.8%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.535,https://leetcode.com/problems/remove-duplicate-letters
+430,Flatten a Multilevel Doubly Linked List,Medium,55.1%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Uber",7,0.533,https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list
+402,Remove K Digits,Medium,28.4%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft, Oracle",7,0.531,https://leetcode.com/problems/remove-k-digits
+652,Find Duplicate Subtrees,Medium,50.2%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle, Uber",7,0.529,https://leetcode.com/problems/find-duplicate-subtrees
+179,Largest Number,Medium,28.8%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,0.529,https://leetcode.com/problems/largest-number
+191,Number of 1 Bits,Easy,49.8%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.522,https://leetcode.com/problems/number-of-1-bits
+96,Unique Binary Search Trees,Medium,52.9%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.52,https://leetcode.com/problems/unique-binary-search-trees
+110,Balanced Binary Tree,Easy,43.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.507,https://leetcode.com/problems/balanced-binary-tree
+108,Convert Sorted Array to Binary Search Tree,Easy,57.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,0.506,https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
+198,House Robber,Easy,42.0%,"Adobe, Amazon, Apple, Google, LinkedIn, Microsoft, Uber",7,0.455,https://leetcode.com/problems/house-robber
+176,Second Highest Salary,Easy,31.6%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.41,https://leetcode.com/problems/second-highest-salary
+703,Kth Largest Element in a Stream,Easy,49.7%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.389,https://leetcode.com/problems/kth-largest-element-in-a-stream
+609,Find Duplicate File in System,Medium,59.5%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,0.362,https://leetcode.com/problems/find-duplicate-file-in-system
+77,Combinations,Medium,54.7%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.356,https://leetcode.com/problems/combinations
+112,Path Sum,Easy,41.2%,"Adobe, Amazon, Apple, Facebook, Meta, Microsoft, Oracle",7,0.353,https://leetcode.com/problems/path-sum
+237,Delete Node in a Linked List,Easy,63.8%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.338,https://leetcode.com/problems/delete-node-in-a-linked-list
+496,Next Greater Element I,Easy,63.8%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle, X",7,0.334,https://leetcode.com/problems/next-greater-element-i
+60,Permutation Sequence,Hard,38.4%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, X",7,0.266,https://leetcode.com/problems/permutation-sequence
+83,Remove Duplicates from Sorted List,Easy,45.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.264,https://leetcode.com/problems/remove-duplicates-from-sorted-list
+669,Trim a Binary Search Tree,Easy,63.0%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.244,https://leetcode.com/problems/trim-a-binary-search-tree
+525,Contiguous Array,Medium,42.8%,"Adobe, Amazon, Apple, Facebook, Google, Meta, Microsoft",7,0.201,https://leetcode.com/problems/contiguous-array
+100,Same Tree,Easy,53.4%,"Amazon, Apple, Facebook, Google, LinkedIn, Meta, Microsoft",7,0.151,https://leetcode.com/problems/same-tree
+217,Contains Duplicate,Easy,56.0%,"Adobe, Amazon, Apple, Facebook, Meta, Microsoft, Oracle",7,0.143,https://leetcode.com/problems/contains-duplicate
+905,Sort Array By Parity,Easy,74.1%,"Amazon, Apple, Facebook, Google, Meta, Microsoft, Oracle",7,0.084,https://leetcode.com/problems/sort-array-by-parity
+158,Read N Characters Given Read4 II - Call multiple times,Hard,33.8%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,2.476,https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times
+301,Remove Invalid Parentheses,Hard,43.3%,"Amazon, Apple, Facebook, Google, Meta, Uber",6,2.235,https://leetcode.com/problems/remove-invalid-parentheses
+336,Palindrome Pairs,Hard,33.7%,"Amazon, Apple, Facebook, Google, Meta, Uber",6,2.197,https://leetcode.com/problems/palindrome-pairs
+317,Shortest Distance from All Buildings,Hard,41.4%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,1.979,https://leetcode.com/problems/shortest-distance-from-all-buildings
+304,Range Sum Query 2D - Immutable,Medium,38.6%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,1.805,https://leetcode.com/problems/range-sum-query-2d-immutable
+282,Expression Add Operators,Hard,35.5%,"Apple, Facebook, Google, Meta, Microsoft, Uber",6,1.774,https://leetcode.com/problems/expression-add-operators
+71,Simplify Path,Medium,32.6%,"Adobe, Amazon, Facebook, Meta, Microsoft, Oracle",6,1.704,https://leetcode.com/problems/simplify-path
+388,Longest Absolute File Path,Medium,41.8%,"Amazon, Apple, Facebook, Google, Meta, Uber",6,1.587,https://leetcode.com/problems/longest-absolute-file-path
+419,Battleships in a Board,Medium,70.0%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,1.445,https://leetcode.com/problems/battleships-in-a-board
+296,Best Meeting Point,Hard,57.5%,"Amazon, Facebook, Google, LinkedIn, Meta, X",6,1.42,https://leetcode.com/problems/best-meeting-point
+270,Closest Binary Search Tree Value,Easy,48.5%,"Amazon, Facebook, Google, LinkedIn, Meta, Microsoft",6,1.365,https://leetcode.com/problems/closest-binary-search-tree-value
+785,Is Graph Bipartite?,Medium,47.5%,"Amazon, Facebook, Google, LinkedIn, Meta, Microsoft",6,1.343,https://leetcode.com/problems/is-graph-bipartite
+117,Populating Next Right Pointers in Each Node II,Medium,39.1%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle",6,1.334,https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii
+99,Recover Binary Search Tree,Hard,39.7%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,1.313,https://leetcode.com/problems/recover-binary-search-tree
+523,Continuous Subarray Sum,Medium,24.6%,"Amazon, Facebook, Google, Meta, Microsoft, Samsung",6,1.307,https://leetcode.com/problems/continuous-subarray-sum
+463,Island Perimeter,Easy,65.7%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,1.258,https://leetcode.com/problems/island-perimeter
+498,Diagonal Traverse,Medium,48.2%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,1.252,https://leetcode.com/problems/diagonal-traverse
+109,Convert Sorted List to Binary Search Tree,Medium,47.7%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle",6,1.169,https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree
+93,Restore IP Addresses,Medium,35.6%,"Adobe, Amazon, Apple, Facebook, Meta, Microsoft",6,1.143,https://leetcode.com/problems/restore-ip-addresses
+251,Flatten 2D Vector,Medium,45.7%,"Apple, Facebook, Google, Meta, Uber, X",6,1.109,https://leetcode.com/problems/flatten-2d-vector
+228,Summary Ranges,Medium,39.5%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,1.097,https://leetcode.com/problems/summary-ranges
+243,Shortest Word Distance,Easy,61.0%,"Amazon, Google, LinkedIn, Microsoft, Oracle, Uber",6,1.049,https://leetcode.com/problems/shortest-word-distance
+545,Boundary of Binary Tree,Medium,38.9%,"Adobe, Amazon, Apple, Google, Microsoft, Oracle",6,1.033,https://leetcode.com/problems/boundary-of-binary-tree
+939,Minimum Area Rectangle,Medium,51.8%,"Amazon, Facebook, Google, Meta, Microsoft, Nvidia",6,0.981,https://leetcode.com/problems/minimum-area-rectangle
+159,Longest Substring with At Most Two Distinct Characters,Medium,49.4%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft",6,0.978,https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters
+359,Logger Rate Limiter,Easy,70.8%,"Amazon, Apple, Google, LinkedIn, Microsoft, Uber",6,0.943,https://leetcode.com/problems/logger-rate-limiter
+572,Subtree of Another Tree,Easy,44.1%,"Amazon, Facebook, Google, Meta, Microsoft, Samsung",6,0.936,https://leetcode.com/problems/subtree-of-another-tree
+958,Check Completeness of a Binary Tree,Medium,52.1%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle",6,0.923,https://leetcode.com/problems/check-completeness-of-a-binary-tree
+148,Sort List,Medium,42.3%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft",6,0.92,https://leetcode.com/problems/sort-list
+741,Cherry Pickup,Hard,33.9%,"Adobe, Amazon, Apple, Google, Oracle, Uber",6,0.909,https://leetcode.com/problems/cherry-pickup
+632,Smallest Range Covering Elements from K Lists,Hard,52.4%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.89,https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists
+353,Design Snake Game,Medium,34.2%,"Amazon, Apple, Facebook, Google, Meta, Uber",6,0.871,https://leetcode.com/problems/design-snake-game
+168,Excel Sheet Column Title,Easy,31.1%,"Adobe, Apple, Facebook, Google, Meta, Microsoft",6,0.857,https://leetcode.com/problems/excel-sheet-column-title
+123,Best Time to Buy and Sell Stock III,Hard,37.5%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.845,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii
+333,Largest BST Subtree,Medium,35.8%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.826,https://leetcode.com/problems/largest-bst-subtree
+97,Interleaving String,Hard,31.5%,"Amazon, Apple, Google, Microsoft, Nvidia, Uber",6,0.823,https://leetcode.com/problems/interleaving-string
+472,Concatenated Words,Hard,43.7%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.797,https://leetcode.com/problems/concatenated-words
+670,Maximum Swap,Medium,43.6%,"Amazon, Apple, Facebook, Meta, Microsoft, Uber",6,0.796,https://leetcode.com/problems/maximum-swap
+794,Valid Tic-Tac-Toe State,Medium,32.6%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle",6,0.772,https://leetcode.com/problems/valid-tic-tac-toe-state
+564,Find the Closest Palindrome,Hard,19.7%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,0.762,https://leetcode.com/problems/find-the-closest-palindrome
+81,Search in Rotated Sorted Array II,Medium,33.0%,"Adobe, Amazon, Facebook, Google, Meta, Microsoft",6,0.762,https://leetcode.com/problems/search-in-rotated-sorted-array-ii
+688,Knight Probability in Chessboard,Medium,48.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.757,https://leetcode.com/problems/knight-probability-in-chessboard
+567,Permutation in String,Medium,44.4%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,0.748,https://leetcode.com/problems/permutation-in-string
+836,Rectangle Overlap,Easy,48.6%,"Adobe, Amazon, Apple, Google, Microsoft, Oracle",6,0.726,https://leetcode.com/problems/rectangle-overlap
+232,Implement Queue using Stacks,Easy,49.6%,"Amazon, Apple, Google, Microsoft, Oracle, Uber",6,0.699,https://leetcode.com/problems/implement-queue-using-stacks
+167,Two Sum II - Input array is sorted,Easy,54.1%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.695,https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
+759,Employee Free Time,Hard,66.2%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,0.691,https://leetcode.com/problems/employee-free-time
+226,Invert Binary Tree,Easy,65.0%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.676,https://leetcode.com/problems/invert-binary-tree
+63,Unique Paths II,Medium,34.6%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.671,https://leetcode.com/problems/unique-paths-ii
+312,Burst Balloons,Hard,51.8%,"Adobe, Amazon, Facebook, Google, Meta, Samsung",6,0.657,https://leetcode.com/problems/burst-balloons
+698,Partition to K Equal Sum Subsets,Medium,45.0%,"Amazon, Facebook, Google, LinkedIn, Meta, Microsoft",6,0.65,https://leetcode.com/problems/partition-to-k-equal-sum-subsets
+406,Queue Reconstruction by Height,Medium,66.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.594,https://leetcode.com/problems/queue-reconstruction-by-height
+773,Sliding Puzzle,Hard,59.3%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,0.593,https://leetcode.com/problems/sliding-puzzle
+611,Valid Triangle Number,Medium,48.4%,"Amazon, Facebook, LinkedIn, Meta, Microsoft, Uber",6,0.55,https://leetcode.com/problems/valid-triangle-number
+442,Find All Duplicates in an Array,Medium,67.8%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.548,https://leetcode.com/problems/find-all-duplicates-in-an-array
+1146,Snapshot Array,Medium,37.0%,"Amazon, Apple, Facebook, Google, Meta, Uber",6,0.538,https://leetcode.com/problems/snapshot-array
+61,Rotate List,Medium,30.0%,"Adobe, Amazon, Facebook, LinkedIn, Meta, Microsoft",6,0.524,https://leetcode.com/problems/rotate-list
+1091,Shortest Path in Binary Matrix,Medium,38.2%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,0.511,https://leetcode.com/problems/shortest-path-in-binary-matrix
+395,Longest Substring with At Least K Repeating Characters,Medium,41.4%,"Adobe, Amazon, Facebook, Google, Meta, Uber",6,0.505,https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters
+674,Longest Continuous Increasing Subsequence,Easy,45.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.503,https://leetcode.com/problems/longest-continuous-increasing-subsequence
+724,Find Pivot Index,Easy,44.0%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.502,https://leetcode.com/problems/find-pivot-index
+437,Path Sum III,Medium,47.2%,"Amazon, Facebook, Meta, Microsoft, Oracle, Uber",6,0.444,https://leetcode.com/problems/path-sum-iii
+503,Next Greater Element II,Medium,56.5%,"Amazon, Facebook, Google, Meta, Microsoft, Oracle",6,0.431,https://leetcode.com/problems/next-greater-element-ii
+771,Jewels and Stones,Easy,86.4%,"Adobe, Amazon, Apple, Facebook, Google, Meta",6,0.421,https://leetcode.com/problems/jewels-and-stones
+852,Peak Index in a Mountain Array,Easy,71.6%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,0.416,https://leetcode.com/problems/peak-index-in-a-mountain-array
+142,Linked List Cycle II,Medium,37.3%,"Adobe, Amazon, Apple, Google, LinkedIn, Microsoft",6,0.416,https://leetcode.com/problems/linked-list-cycle-ii
+1188,Design Bounded Blocking Queue,Medium,70.5%,"Amazon, Google, LinkedIn, Microsoft, Oracle, Uber",6,0.389,https://leetcode.com/problems/design-bounded-blocking-queue
+145,Binary Tree Postorder Traversal,Hard,55.0%,"Adobe, Amazon, Facebook, Google, Meta, Uber",6,0.376,https://leetcode.com/problems/binary-tree-postorder-traversal
+662,Maximum Width of Binary Tree,Medium,41.0%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,0.311,https://leetcode.com/problems/maximum-width-of-binary-tree
+290,Word Pattern,Easy,37.0%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,0.273,https://leetcode.com/problems/word-pattern
+515,Find Largest Value in Each Tree Row,Medium,61.1%,"Amazon, Apple, Facebook, LinkedIn, Meta, Microsoft",6,0.261,https://leetcode.com/problems/find-largest-value-in-each-tree-row
+451,Sort Characters By Frequency,Medium,63.0%,"Amazon, Facebook, Google, LinkedIn, Meta, Uber",6,0.258,https://leetcode.com/problems/sort-characters-by-frequency
+181,Employees Earning More Than Their Managers,Easy,56.9%,"Adobe, Amazon, Apple, Facebook, Google, Meta",6,0.257,https://leetcode.com/problems/employees-earning-more-than-their-managers
+435,Non-overlapping Intervals,Medium,42.9%,"Amazon, Apple, Facebook, Google, Meta, Microsoft",6,0.239,https://leetcode.com/problems/non-overlapping-intervals
+979,Distribute Coins in Binary Tree,Medium,68.9%,"Amazon, Facebook, Google, Meta, Microsoft, Uber",6,0.221,https://leetcode.com/problems/distribute-coins-in-binary-tree
+95,Unique Binary Search Trees II,Medium,40.6%,"Adobe, Amazon, Apple, Facebook, Meta, Microsoft",6,0.181,https://leetcode.com/problems/unique-binary-search-trees-ii
+1108,Defanging an IP Address,Easy,87.5%,"Adobe, Amazon, Apple, Facebook, Google, Meta",6,0.13,https://leetcode.com/problems/defanging-an-ip-address
+338,Counting Bits,Medium,69.5%,"Amazon, Apple, Facebook, Meta, Microsoft, Uber",6,0.096,https://leetcode.com/problems/counting-bits
+876,Middle of the Linked List,Easy,68.4%,"Adobe, Amazon, Apple, Microsoft, Oracle, Samsung",6,0.084,https://leetcode.com/problems/middle-of-the-linked-list
+154,Find Minimum in Rotated Sorted Array II,Hard,41.6%,"Adobe, Amazon, Facebook, Google, Meta, Uber",6,0.03,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii
+325,Maximum Size Subarray Sum Equals k,Medium,46.8%,"Amazon, Facebook, Google, Meta, Microsoft",5,2.289,https://leetcode.com/problems/maximum-size-subarray-sum-equals-k
+339,Nested List Weight Sum,Easy,74.0%,"Amazon, Facebook, LinkedIn, Meta, Uber",5,2.035,https://leetcode.com/problems/nested-list-weight-sum
+285,Inorder Successor in BST,Medium,40.4%,"Amazon, Facebook, Google, Meta, Microsoft",5,1.982,https://leetcode.com/problems/inorder-successor-in-bst
+393,UTF-8 Validation,Medium,37.5%,"Amazon, Apple, Facebook, Google, Meta",5,1.908,https://leetcode.com/problems/utf-8-validation
+489,Robot Room Cleaner,Hard,69.7%,"Amazon, Facebook, Google, Meta, Microsoft",5,1.896,https://leetcode.com/problems/robot-room-cleaner
+252,Meeting Rooms,Easy,54.6%,"Amazon, Facebook, Google, Meta, Microsoft",5,1.551,https://leetcode.com/problems/meeting-rooms
+708,Insert into a Sorted Circular Linked List,Medium,31.6%,"Amazon, Facebook, Google, Meta, Microsoft",5,1.547,https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list
+298,Binary Tree Longest Consecutive Sequence,Medium,47.1%,"Amazon, Facebook, Google, Meta, Uber",5,1.547,https://leetcode.com/problems/binary-tree-longest-consecutive-sequence
+272,Closest Binary Search Tree Value II,Hard,50.5%,"Amazon, Facebook, Google, LinkedIn, Meta",5,1.494,https://leetcode.com/problems/closest-binary-search-tree-value-ii
+358,Rearrange String k Distance Apart,Hard,34.9%,"Amazon, Facebook, Google, Meta, Microsoft",5,1.481,https://leetcode.com/problems/rearrange-string-k-distance-apart
+568,Maximum Vacation Days,Hard,40.8%,"Facebook, Google, Meta, Microsoft, Uber",5,1.369,https://leetcode.com/problems/maximum-vacation-days
+163,Missing Ranges,Medium,24.3%,"Amazon, Facebook, Google, Meta, Oracle",5,1.322,https://leetcode.com/problems/missing-ranges
+843,Guess the Word,Hard,46.1%,"Amazon, Facebook, Google, Meta, Microsoft",5,1.3,https://leetcode.com/problems/guess-the-word
+686,Repeated String Match,Easy,32.3%,"Adobe, Amazon, Facebook, Google, Meta",5,1.2,https://leetcode.com/problems/repeated-string-match
+249,Group Shifted Strings,Medium,55.1%,"Amazon, Facebook, Google, Meta, Uber",5,1.198,https://leetcode.com/problems/group-shifted-strings
+280,Wiggle Sort,Medium,63.8%,"Amazon, Facebook, Google, Meta, Microsoft",5,1.193,https://leetcode.com/problems/wiggle-sort
+261,Graph Valid Tree,Medium,42.2%,"Amazon, Facebook, Google, LinkedIn, Meta",5,1.126,https://leetcode.com/problems/graph-valid-tree
+135,Candy,Hard,31.6%,"Amazon, Apple, Google, Microsoft, Uber",5,1.112,https://leetcode.com/problems/candy
+505,The Maze II,Medium,47.7%,"Amazon, Facebook, Google, Meta, Oracle",5,1.084,https://leetcode.com/problems/the-maze-ii
+819,Most Common Word,Easy,44.8%,"Amazon, Apple, Google, Microsoft, Oracle",5,1.039,https://leetcode.com/problems/most-common-word
+187,Repeated DNA Sequences,Medium,38.9%,"Amazon, Apple, Google, LinkedIn, Microsoft",5,1.0,https://leetcode.com/problems/repeated-dna-sequences
+222,Count Complete Tree Nodes,Medium,46.8%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.983,https://leetcode.com/problems/count-complete-tree-nodes
+909,Snakes and Ladders,Medium,38.4%,"Amazon, Apple, Google, Microsoft, Uber",5,0.979,https://leetcode.com/problems/snakes-and-ladders
+334,Increasing Triplet Subsequence,Medium,40.0%,"Amazon, Facebook, Google, Meta, Uber",5,0.979,https://leetcode.com/problems/increasing-triplet-subsequence
+192,Word Frequency,Medium,25.8%,"Adobe, Amazon, Facebook, Google, Meta",5,0.898,https://leetcode.com/problems/word-frequency
+791,Custom Sort String,Medium,65.7%,"Amazon, Facebook, Google, Meta, Uber",5,0.847,https://leetcode.com/problems/custom-sort-string
+345,Reverse Vowels of a String,Easy,44.2%,"Amazon, Apple, Facebook, Google, Meta",5,0.799,https://leetcode.com/problems/reverse-vowels-of-a-string
+655,Print Binary Tree,Medium,55.0%,"Facebook, LinkedIn, Meta, Microsoft, Uber",5,0.766,https://leetcode.com/problems/print-binary-tree
+1060,Missing Element in Sorted Array,Medium,54.5%,"Amazon, Apple, Facebook, Google, Meta",5,0.742,https://leetcode.com/problems/missing-element-in-sorted-array
+130,Surrounded Regions,Medium,28.1%,"Amazon, Facebook, Google, Meta, Uber",5,0.741,https://leetcode.com/problems/surrounded-regions
+549,Binary Tree Longest Consecutive Sequence II,Medium,47.0%,"Amazon, Apple, Facebook, Google, Meta",5,0.73,https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii
+729,My Calendar I,Medium,51.8%,"Amazon, Apple, Google, Microsoft, Uber",5,0.722,https://leetcode.com/problems/my-calendar-i
+352,Data Stream as Disjoint Intervals,Hard,47.3%,"Amazon, Facebook, Google, Meta, Oracle",5,0.717,https://leetcode.com/problems/data-stream-as-disjoint-intervals
+223,Rectangle Area,Medium,37.8%,"Apple, Facebook, Meta, Microsoft, Nvidia",5,0.706,https://leetcode.com/problems/rectangle-area
+111,Minimum Depth of Binary Tree,Easy,37.4%,"Amazon, Apple, Facebook, Meta, Microsoft",5,0.672,https://leetcode.com/problems/minimum-depth-of-binary-tree
+452,Minimum Number of Arrows to Burst Balloons,Medium,49.6%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.658,https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons
+1027,Longest Arithmetic Sequence,Medium,53.4%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.654,https://leetcode.com/problems/longest-arithmetic-sequence
+137,Single Number II,Medium,52.4%,"Adobe, Amazon, Facebook, Google, Meta",5,0.639,https://leetcode.com/problems/single-number-ii
+188,Best Time to Buy and Sell Stock IV,Hard,28.0%,"Amazon, Apple, Facebook, Google, Meta",5,0.631,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv
+895,Maximum Frequency Stack,Hard,60.6%,"Amazon, Apple, Google, Microsoft, Uber",5,0.612,https://leetcode.com/problems/maximum-frequency-stack
+307,Range Sum Query - Mutable,Medium,34.6%,"Amazon, Facebook, Google, Meta, X",5,0.594,https://leetcode.com/problems/range-sum-query-mutable
+129,Sum Root to Leaf Numbers,Medium,49.1%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.574,https://leetcode.com/problems/sum-root-to-leaf-numbers
+554,Brick Wall,Medium,50.0%,"Adobe, Facebook, Google, Meta, Oracle",5,0.565,https://leetcode.com/problems/brick-wall
+177,Nth Highest Salary,Medium,31.4%,"Adobe, Amazon, Apple, Google, Uber",5,0.563,https://leetcode.com/problems/nth-highest-salary
+855,Exam Room,Medium,43.1%,"Amazon, Facebook, Google, Meta, Uber",5,0.543,https://leetcode.com/problems/exam-room
+189,Rotate Array,Easy,34.7%,"Amazon, Facebook, Meta, Microsoft, Uber",5,0.543,https://leetcode.com/problems/rotate-array
+337,House Robber III,Medium,50.6%,"Amazon, Facebook, Google, Meta, Uber",5,0.524,https://leetcode.com/problems/house-robber-iii
+328,Odd Even Linked List,Medium,55.7%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.5,https://leetcode.com/problems/odd-even-linked-list
+752,Open the Lock,Medium,51.8%,"Amazon, Facebook, Google, Meta, Uber",5,0.496,https://leetcode.com/problems/open-the-lock
+1044,Longest Duplicate Substring,Hard,31.9%,"Amazon, Apple, Google, Microsoft, Oracle",5,0.476,https://leetcode.com/problems/longest-duplicate-substring
+983,Minimum Cost For Tickets,Medium,60.5%,"Amazon, Facebook, Google, Meta, Uber",5,0.455,https://leetcode.com/problems/minimum-cost-for-tickets
+934,Shortest Bridge,Medium,48.2%,"Facebook, Google, Meta, Microsoft, Uber",5,0.451,https://leetcode.com/problems/shortest-bridge
+82,Remove Duplicates from Sorted List II,Medium,36.8%,"Adobe, Amazon, Apple, Google, Microsoft",5,0.432,https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii
+131,Palindrome Partitioning,Medium,47.5%,"Adobe, Amazon, Google, Microsoft, Uber",5,0.432,https://leetcode.com/problems/palindrome-partitioning
+969,Pancake Sorting,Medium,67.5%,"Amazon, Facebook, Meta, Microsoft, Uber",5,0.42,https://leetcode.com/problems/pancake-sorting
+787,Cheapest Flights Within K Stops,Medium,39.3%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.4,https://leetcode.com/problems/cheapest-flights-within-k-stops
+889,Construct Binary Tree from Preorder and Postorder Traversal,Medium,66.2%,"Amazon, Facebook, Google, Meta, Uber",5,0.397,https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal
+653,Two Sum IV - Input is a BST,Easy,55.5%,"Amazon, Facebook, Meta, Microsoft, Samsung",5,0.391,https://leetcode.com/problems/two-sum-iv-input-is-a-bst
+310,Minimum Height Trees,Medium,32.3%,"Amazon, Apple, Facebook, Google, Meta",5,0.39,https://leetcode.com/problems/minimum-height-trees
+231,Power of Two,Easy,43.7%,"Amazon, Apple, Google, Microsoft, Nvidia",5,0.384,https://leetcode.com/problems/power-of-two
+726,Number of Atoms,Hard,49.0%,"Adobe, Amazon, Facebook, Google, Meta",5,0.341,https://leetcode.com/problems/number-of-atoms
+303,Range Sum Query - Immutable,Easy,44.7%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.31,https://leetcode.com/problems/range-sum-query-immutable
+875,Koko Eating Bananas,Medium,52.1%,"Adobe, Amazon, Facebook, Google, Meta",5,0.295,https://leetcode.com/problems/koko-eating-bananas
+1229,Meeting Scheduler,Medium,52.7%,"Amazon, Apple, Google, Microsoft, Uber",5,0.287,https://leetcode.com/problems/meeting-scheduler
+993,Cousins in Binary Tree,Easy,52.0%,"Adobe, Amazon, Facebook, Meta, Microsoft",5,0.282,https://leetcode.com/problems/cousins-in-binary-tree
+1236,Web Crawler,Medium,64.3%,"Amazon, Facebook, Meta, Microsoft, Oracle",5,0.277,https://leetcode.com/problems/web-crawler
+219,Contains Duplicate II,Easy,37.7%,"Adobe, Amazon, Apple, Google, Microsoft",5,0.265,https://leetcode.com/problems/contains-duplicate-ii
+827,Making A Large Island,Hard,45.7%,"Amazon, Facebook, Google, Meta, Uber",5,0.255,https://leetcode.com/problems/making-a-large-island
+1008,Construct Binary Search Tree from Preorder Traversal,Medium,78.4%,"Amazon, Facebook, Meta, Microsoft, Oracle",5,0.25,https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal
+509,Fibonacci Number,Easy,67.2%,"Amazon, Apple, Facebook, Meta, Microsoft",5,0.249,https://leetcode.com/problems/fibonacci-number
+106,Construct Binary Tree from Inorder and Postorder Traversal,Medium,47.2%,"Amazon, Facebook, Meta, Microsoft, X",5,0.238,https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal
+371,Sum of Two Integers,Medium,50.7%,"Amazon, Apple, Facebook, Google, Meta",5,0.237,https://leetcode.com/problems/sum-of-two-integers
+178,Rank Scores,Medium,45.8%,"Adobe, Amazon, Apple, Facebook, Meta",5,0.233,https://leetcode.com/problems/rank-scores
+1062,Longest Repeating Substring,Medium,57.2%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.232,https://leetcode.com/problems/longest-repeating-substring
+414,Third Maximum Number,Easy,30.5%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.213,https://leetcode.com/problems/third-maximum-number
+1047,Remove All Adjacent Duplicates In String,Easy,68.6%,"Amazon, Facebook, Google, Meta, Oracle",5,0.183,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string
+701,Insert into a Binary Search Tree,Medium,77.7%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.179,https://leetcode.com/problems/insert-into-a-binary-search-tree
+796,Rotate String,Easy,49.6%,"Amazon, Apple, LinkedIn, Microsoft, Oracle",5,0.177,https://leetcode.com/problems/rotate-string
+1114,Print in Order,Easy,65.7%,"Adobe, Amazon, Apple, Google, Microsoft",5,0.148,https://leetcode.com/problems/print-in-order
+35,Search Insert Position,Easy,42.6%,"Adobe, Amazon, Apple, Google, Microsoft",5,0.148,https://leetcode.com/problems/search-insert-position
+107,Binary Tree Level Order Traversal II,Easy,53.5%,"Adobe, Amazon, Apple, Microsoft, Oracle",5,0.141,https://leetcode.com/problems/binary-tree-level-order-traversal-ii
+886,Possible Bipartition,Medium,44.2%,"Apple, Facebook, Google, Meta, Microsoft",5,0.14,https://leetcode.com/problems/possible-bipartition
+1143,Longest Common Subsequence,Medium,58.4%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.135,https://leetcode.com/problems/longest-common-subsequence
+1019,Next Greater Node In Linked List,Medium,57.4%,"Amazon, Facebook, Meta, Microsoft, Uber",5,0.135,https://leetcode.com/problems/next-greater-node-in-linked-list
+654,Maximum Binary Tree,Medium,79.9%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.125,https://leetcode.com/problems/maximum-binary-tree
+404,Sum of Left Leaves,Easy,50.9%,"Adobe, Amazon, Facebook, Google, Meta",5,0.075,https://leetcode.com/problems/sum-of-left-leaves
+309,Best Time to Buy and Sell Stock with Cooldown,Medium,47.4%,"Amazon, Apple, Facebook, Google, Meta",5,0.075,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown
+784,Letter Case Permutation,Medium,64.6%,"Amazon, Facebook, Meta, Microsoft, Spotify",5,0.062,https://leetcode.com/problems/letter-case-permutation
+872,Leaf-Similar Trees,Easy,64.5%,"Amazon, Facebook, Google, Meta, Microsoft",5,0.058,https://leetcode.com/problems/leaf-similar-trees
+953,Verifying an Alien Dictionary,Easy,54.1%,"Amazon, Facebook, Meta, Microsoft",4,2.682,https://leetcode.com/problems/verifying-an-alien-dictionary
+680,Valid Palindrome II,Easy,36.6%,"Facebook, Google, Meta, Microsoft",4,2.417,https://leetcode.com/problems/valid-palindrome-ii
+1249,Minimum Remove to Make Valid Parentheses,Medium,62.5%,"Amazon, Facebook, Meta, Microsoft",4,2.31,https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses
+308,Range Sum Query 2D - Mutable,Hard,35.6%,"Facebook, Google, Meta, Microsoft",4,2.27,https://leetcode.com/problems/range-sum-query-2d-mutable
+281,Zigzag Iterator,Medium,58.4%,"Amazon, Apple, Google, Microsoft",4,1.893,https://leetcode.com/problems/zigzag-iterator
+165,Compare Version Numbers,Medium,27.4%,"Amazon, Apple, Google, Microsoft",4,1.827,https://leetcode.com/problems/compare-version-numbers
+929,Unique Email Addresses,Easy,67.4%,"Adobe, Amazon, Google, Microsoft",4,1.626,https://leetcode.com/problems/unique-email-addresses
+398,Random Pick Index,Medium,56.0%,"Facebook, Google, Meta, Uber",4,1.623,https://leetcode.com/problems/random-pick-index
+351,Android Unlock Patterns,Medium,48.4%,"Amazon, Apple, Google, Microsoft",4,1.514,https://leetcode.com/problems/android-unlock-patterns
+256,Paint House,Easy,52.1%,"Apple, LinkedIn, Microsoft, X",4,1.424,https://leetcode.com/problems/paint-house
+134,Gas Station,Medium,38.5%,"Amazon, Apple, Google, Microsoft",4,1.422,https://leetcode.com/problems/gas-station
+427,Construct Quad Tree,Medium,61.4%,"Amazon, Apple, Google, Uber",4,1.407,https://leetcode.com/problems/construct-quad-tree
+1192,Critical Connections in a Network,Hard,48.6%,"Adobe, Amazon, Google, Microsoft",4,1.394,https://leetcode.com/problems/critical-connections-in-a-network
+766,Toeplitz Matrix,Easy,65.1%,"Apple, Facebook, Google, Meta",4,1.358,https://leetcode.com/problems/toeplitz-matrix
+410,Split Array Largest Sum,Hard,44.5%,"Amazon, Facebook, Google, Meta",4,1.294,https://leetcode.com/problems/split-array-largest-sum
+722,Remove Comments,Medium,34.6%,"Google, Microsoft, Oracle, Uber",4,1.276,https://leetcode.com/problems/remove-comments
+1057,Campus Bikes,Medium,57.7%,"Amazon, Facebook, Google, Meta",4,1.275,https://leetcode.com/problems/campus-bikes
+763,Partition Labels,Medium,76.1%,"Amazon, Apple, Facebook, Meta",4,1.143,https://leetcode.com/problems/partition-labels
+265,Paint House II,Hard,44.6%,"Facebook, Google, LinkedIn, Meta",4,1.143,https://leetcode.com/problems/paint-house-ii
+678,Valid Parenthesis String,Medium,31.0%,"Amazon, Facebook, Google, Meta",4,1.124,https://leetcode.com/problems/valid-parenthesis-string
+299,Bulls and Cows,Easy,42.4%,"Amazon, Google, Microsoft, Uber",4,1.069,https://leetcode.com/problems/bulls-and-cows
+494,Target Sum,Medium,46.3%,"Facebook, Google, Meta, Microsoft",4,0.992,https://leetcode.com/problems/target-sum
+715,Range Module,Hard,38.5%,"Amazon, Google, LinkedIn, Oracle",4,0.991,https://leetcode.com/problems/range-module
+274,H-Index,Medium,36.1%,"Adobe, Facebook, Google, Meta",4,0.969,https://leetcode.com/problems/h-index
+963,Minimum Area Rectangle II,Medium,50.9%,"Amazon, Facebook, Google, Meta",4,0.959,https://leetcode.com/problems/minimum-area-rectangle-ii
+935,Knight Dialer,Medium,45.2%,"Facebook, Google, Meta, Microsoft",4,0.929,https://leetcode.com/problems/knight-dialer
+1032,Stream of Characters,Hard,48.3%,"Amazon, Facebook, Google, Meta",4,0.922,https://leetcode.com/problems/stream-of-characters
+175,Combine Two Tables,Easy,60.8%,"Adobe, Amazon, Apple, Google",4,0.898,https://leetcode.com/problems/combine-two-tables
+605,Can Place Flowers,Easy,31.6%,"Amazon, Facebook, LinkedIn, Meta",4,0.884,https://leetcode.com/problems/can-place-flowers
+1004,Max Consecutive Ones III,Medium,59.1%,"Amazon, Facebook, Meta, Microsoft",4,0.84,https://leetcode.com/problems/max-consecutive-ones-iii
+556,Next Greater Element III,Medium,31.7%,"Amazon, Facebook, Meta, Microsoft",4,0.828,https://leetcode.com/problems/next-greater-element-iii
+730,Count Different Palindromic Subsequences,Hard,41.8%,"Facebook, Google, LinkedIn, Meta",4,0.781,https://leetcode.com/problems/count-different-palindromic-subsequences
+267,Palindrome Permutation II,Medium,36.4%,"Amazon, Google, Microsoft, Uber",4,0.777,https://leetcode.com/problems/palindrome-permutation-ii
+1011,Capacity To Ship Packages Within D Days,Medium,58.1%,"Amazon, Apple, Google, Uber",4,0.713,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days
+120,Triangle,Medium,44.2%,"Amazon, Apple, Google, Microsoft",4,0.705,https://leetcode.com/problems/triangle
+365,Water and Jug Problem,Medium,30.6%,"Amazon, Google, Microsoft, Uber",4,0.694,https://leetcode.com/problems/water-and-jug-problem
+392,Is Subsequence,Easy,49.2%,"Amazon, Facebook, Google, Meta",4,0.654,https://leetcode.com/problems/is-subsequence
+250,Count Univalue Subtrees,Medium,52.0%,"Amazon, Facebook, Google, Meta",4,0.633,https://leetcode.com/problems/count-univalue-subtrees
+241,Different Ways to Add Parentheses,Medium,55.2%,"Amazon, Facebook, Google, Meta",4,0.629,https://leetcode.com/problems/different-ways-to-add-parentheses
+90,Subsets II,Medium,47.1%,"Amazon, Facebook, Meta, Microsoft",4,0.611,https://leetcode.com/problems/subsets-ii
+805,Split Array With Same Average,Hard,26.4%,"Amazon, Google, Microsoft, Uber",4,0.599,https://leetcode.com/problems/split-array-with-same-average
+486,Predict the Winner,Medium,47.9%,"Amazon, Apple, Google, Uber",4,0.595,https://leetcode.com/problems/predict-the-winner
+776,Split BST,Medium,55.8%,"Amazon, Facebook, Google, Meta",4,0.589,https://leetcode.com/problems/split-bst
+788,Rotated Digits,Easy,57.1%,"Facebook, Google, Meta, Microsoft",4,0.586,https://leetcode.com/problems/rotated-digits
+185,Department Top Three Salaries,Hard,34.5%,"Adobe, Amazon, Google, Netflix",4,0.578,https://leetcode.com/problems/department-top-three-salaries
+195,Tenth Line,Easy,33.0%,"Adobe, Apple, Google, Oracle",4,0.556,https://leetcode.com/problems/tenth-line
+792,Number of Matching Subsequences,Medium,47.4%,"Amazon, Facebook, Google, Meta",4,0.51,https://leetcode.com/problems/number-of-matching-subsequences
+1026,Maximum Difference Between Node and Ancestor,Medium,66.0%,"Amazon, Facebook, Google, Meta",4,0.505,https://leetcode.com/problems/maximum-difference-between-node-and-ancestor
+542,01 Matrix,Medium,39.8%,"Amazon, Apple, Google, Uber",4,0.496,https://leetcode.com/problems/01-matrix
+742,Closest Leaf in a Binary Tree,Medium,43.6%,"Amazon, Facebook, Google, Meta",4,0.482,https://leetcode.com/problems/closest-leaf-in-a-binary-tree
+1219,Path with Maximum Gold,Medium,65.1%,"Amazon, Facebook, Google, Meta",4,0.48,https://leetcode.com/problems/path-with-maximum-gold
+382,Linked List Random Node,Medium,52.1%,"Amazon, Facebook, Google, Meta",4,0.473,https://leetcode.com/problems/linked-list-random-node
+801,Minimum Swaps To Make Sequences Increasing,Medium,38.9%,"Amazon, Facebook, Google, Meta",4,0.469,https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing
+671,Second Minimum Node In a Binary Tree,Easy,42.7%,"Amazon, LinkedIn, Microsoft, Uber",4,0.465,https://leetcode.com/problems/second-minimum-node-in-a-binary-tree
+839,Similar String Groups,Hard,38.6%,"Amazon, Facebook, Google, Meta",4,0.461,https://leetcode.com/problems/similar-string-groups
+676,Implement Magic Dictionary,Medium,54.5%,"Facebook, Google, Meta, Microsoft",4,0.443,https://leetcode.com/problems/implement-magic-dictionary
+887,Super Egg Drop,Hard,27.1%,"Facebook, Google, Meta, Microsoft",4,0.418,https://leetcode.com/problems/super-egg-drop
+628,Maximum Product of Three Numbers,Easy,47.1%,"Amazon, Apple, Facebook, Meta",4,0.403,https://leetcode.com/problems/maximum-product-of-three-numbers
+493,Reverse Pairs,Hard,25.2%,"Amazon, Google, Microsoft, Uber",4,0.391,https://leetcode.com/problems/reverse-pairs
+862,Shortest Subarray with Sum at Least K,Hard,24.6%,"Amazon, Facebook, Google, Meta",4,0.368,https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k
+220,Contains Duplicate III,Medium,20.9%,"Adobe, Apple, Google, Microsoft",4,0.366,https://leetcode.com/problems/contains-duplicate-iii
+420,Strong Password Checker,Hard,14.0%,"Adobe, Amazon, Google, Uber",4,0.364,https://leetcode.com/problems/strong-password-checker
+1242,Web Crawler Multithreaded,Medium,45.9%,"Amazon, Facebook, Meta, Oracle",4,0.364,https://leetcode.com/problems/web-crawler-multithreaded
+936,Stamping The Sequence,Hard,42.8%,"Facebook, Google, Meta, Uber",4,0.353,https://leetcode.com/problems/stamping-the-sequence
+1038,Binary Search Tree to Greater Sum Tree,Medium,80.8%,"Amazon, Apple, Microsoft, Uber",4,0.345,https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree
+377,Combination Sum IV,Medium,45.3%,"Amazon, Facebook, Google, Meta",4,0.344,https://leetcode.com/problems/combination-sum-iv
+997,Find the Town Judge,Easy,50.1%,"Amazon, Facebook, Google, Meta",4,0.343,https://leetcode.com/problems/find-the-town-judge
+1031,Maximum Sum of Two Non-Overlapping Subarrays,Medium,57.9%,"Amazon, Facebook, Google, Meta",4,0.303,https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays
+413,Arithmetic Slices,Medium,57.9%,"Amazon, Facebook, Meta, Microsoft",4,0.293,https://leetcode.com/problems/arithmetic-slices
+448,Find All Numbers Disappeared in an Array,Easy,55.9%,"Adobe, Apple, Google, Microsoft",4,0.273,https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array
+918,Maximum Sum Circular Subarray,Medium,33.7%,"Amazon, Facebook, Meta, Uber",4,0.259,https://leetcode.com/problems/maximum-sum-circular-subarray
+1233,Remove Sub-Folders from the Filesystem,Medium,59.5%,"Amazon, Facebook, Google, Meta",4,0.257,https://leetcode.com/problems/remove-sub-folders-from-the-filesystem
+1275,Find Winner on a Tic Tac Toe Game,Easy,52.8%,"Amazon, Apple, Facebook, Meta",4,0.227,https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game
+617,Merge Two Binary Trees,Easy,74.1%,"Adobe, Amazon, Apple, Oracle",4,0.221,https://leetcode.com/problems/merge-two-binary-trees
+735,Asteroid Collision,Medium,41.0%,"Amazon, Google, Microsoft, Uber",4,0.218,https://leetcode.com/problems/asteroid-collision
+383,Ransom Note,Easy,53.1%,"Amazon, Apple, Microsoft, Spotify",4,0.217,https://leetcode.com/problems/ransom-note
+1245,Tree Diameter,Medium,60.1%,"Amazon, Facebook, Google, Meta",4,0.215,https://leetcode.com/problems/tree-diameter
+968,Binary Tree Cameras,Hard,37.5%,"Facebook, Google, Meta, Uber",4,0.199,https://leetcode.com/problems/binary-tree-cameras
+172,Factorial Trailing Zeroes,Easy,37.8%,"Amazon, Facebook, Meta, Microsoft",4,0.189,https://leetcode.com/problems/factorial-trailing-zeroes
+714,Best Time to Buy and Sell Stock with Transaction Fee,Medium,54.7%,"Amazon, Facebook, Google, Meta",4,0.185,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee
+532,K-diff Pairs in an Array,Easy,31.6%,"Amazon, Microsoft, Oracle, X",4,0.172,https://leetcode.com/problems/k-diff-pairs-in-an-array
+821,Shortest Distance to a Character,Easy,66.9%,"Apple, Facebook, Google, Meta",4,0.171,https://leetcode.com/problems/shortest-distance-to-a-character
+367,Valid Perfect Square,Easy,41.7%,"Amazon, Google, LinkedIn, Microsoft",4,0.168,https://leetcode.com/problems/valid-perfect-square
+1254,Number of Closed Islands,Medium,60.5%,"Amazon, Facebook, Google, Meta",4,0.141,https://leetcode.com/problems/number-of-closed-islands
+646,Maximum Length of Pair Chain,Medium,51.9%,"Amazon, Facebook, Meta, Uber",4,0.133,https://leetcode.com/problems/maximum-length-of-pair-chain
+884,Uncommon Words from Two Sentences,Easy,63.3%,"Amazon, Facebook, Meta, Microsoft",4,0.133,https://leetcode.com/problems/uncommon-words-from-two-sentences
+916,Word Subsets,Medium,47.8%,"Amazon, Facebook, Google, Meta",4,0.112,https://leetcode.com/problems/word-subsets
+190,Reverse Bits,Easy,39.8%,"Amazon, Apple, Google, Samsung",4,0.103,https://leetcode.com/problems/reverse-bits
+1021,Remove Outermost Parentheses,Easy,78.0%,"Apple, Facebook, Google, Meta",4,0.09,https://leetcode.com/problems/remove-outermost-parentheses
+832,Flipping an Image,Easy,76.2%,"Facebook, Google, Meta, Microsoft",4,0.084,https://leetcode.com/problems/flipping-an-image
+376,Wiggle Subsequence,Medium,39.6%,"Amazon, Facebook, Meta, Uber",4,0.073,https://leetcode.com/problems/wiggle-subsequence
+80,Remove Duplicates from Sorted Array II,Medium,44.0%,"Amazon, Facebook, Google, Meta",4,0.063,https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii
+260,Single Number III,Medium,64.3%,"Amazon, Apple, Facebook, Meta",4,0.04,https://leetcode.com/problems/single-number-iii
+1305,All Elements in Two Binary Search Trees,Medium,76.1%,"Amazon, Facebook, Meta, Oracle",4,0.036,https://leetcode.com/problems/all-elements-in-two-binary-search-trees
+1304,Find N Unique Integers Sum up to Zero,Easy,76.3%,"Amazon, Facebook, Meta, Microsoft",4,0.032,https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero
+157,Read N Characters Given Read4,Easy,34.2%,"Facebook, Google, Meta",3,3.762,https://leetcode.com/problems/read-n-characters-given-read4
+247,Strobogrammatic Number II,Medium,47.6%,"Facebook, Google, Meta",3,2.736,https://leetcode.com/problems/strobogrammatic-number-ii
+360,Sort Transformed Array,Medium,48.8%,"Facebook, Google, Meta",3,2.705,https://leetcode.com/problems/sort-transformed-array
+246,Strobogrammatic Number,Easy,45.0%,"Facebook, Google, Meta",3,2.61,https://leetcode.com/problems/strobogrammatic-number
+364,Nested List Weight Sum II,Medium,62.8%,"Facebook, LinkedIn, Meta",3,2.523,https://leetcode.com/problems/nested-list-weight-sum-ii
+689,Maximum Sum of 3 Non-Overlapping Subarrays,Hard,46.3%,"Facebook, Google, Meta",3,2.491,https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays
+244,Shortest Word Distance II,Medium,52.3%,"Amazon, LinkedIn, Uber",3,2.344,https://leetcode.com/problems/shortest-word-distance-ii
+361,Bomb Enemy,Medium,46.0%,"Amazon, Google, Uber",3,2.208,https://leetcode.com/problems/bomb-enemy
+465,Optimal Account Balancing,Hard,46.9%,"Amazon, Google, Uber",3,2.2,https://leetcode.com/problems/optimal-account-balancing
+683,K Empty Slots,Hard,35.6%,"Amazon, Google, Microsoft",3,2.152,https://leetcode.com/problems/k-empty-slots
+254,Factor Combinations,Medium,46.7%,"Google, LinkedIn, Uber",3,2.008,https://leetcode.com/problems/factor-combinations
+366,Find Leaves of Binary Tree,Medium,70.6%,"Amazon, Google, LinkedIn",3,1.728,https://leetcode.com/problems/find-leaves-of-binary-tree
+994,Rotting Oranges,Medium,49.2%,"Adobe, Amazon, Microsoft",3,1.719,https://leetcode.com/problems/rotting-oranges
+635,Design Log Storage System,Medium,58.6%,"Amazon, Google, X",3,1.682,https://leetcode.com/problems/design-log-storage-system
+271,Encode and Decode Strings,Medium,31.5%,"Google, Microsoft, X",3,1.635,https://leetcode.com/problems/encode-and-decode-strings
+248,Strobogrammatic Number III,Hard,39.6%,"Facebook, Google, Meta",3,1.63,https://leetcode.com/problems/strobogrammatic-number-iii
+433,Minimum Genetic Mutation,Medium,41.8%,"Amazon, Google, X",3,1.611,https://leetcode.com/problems/minimum-genetic-mutation
+616,Add Bold Tag in String,Medium,43.1%,"Facebook, Google, Meta",3,1.547,https://leetcode.com/problems/add-bold-tag-in-string
+291,Word Pattern II,Hard,43.4%,"Facebook, Meta, Uber",3,1.474,https://leetcode.com/problems/word-pattern-ii
+400,Nth Digit,Medium,31.7%,"Facebook, Google, Meta",3,1.36,https://leetcode.com/problems/nth-digit
+363,Max Sum of Rectangle No Larger Than K,Hard,37.3%,"Facebook, Google, Meta",3,1.346,https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k
+408,Valid Word Abbreviation,Easy,30.6%,"Facebook, Google, Meta",3,1.343,https://leetcode.com/problems/valid-word-abbreviation
+186,Reverse Words in a String II,Medium,43.3%,"Amazon, Microsoft, Uber",3,1.338,https://leetcode.com/problems/reverse-words-in-a-string-ii
+591,Tag Validator,Hard,34.3%,"Google, Microsoft, Uber",3,1.338,https://leetcode.com/problems/tag-validator
+815,Bus Routes,Hard,42.5%,"Amazon, Google, Uber",3,1.312,https://leetcode.com/problems/bus-routes
+391,Perfect Rectangle,Hard,30.5%,"Apple, Google, Uber",3,1.253,https://leetcode.com/problems/perfect-rectangle
+727,Minimum Window Subsequence,Hard,41.8%,"Amazon, Google, Microsoft",3,1.236,https://leetcode.com/problems/minimum-window-subsequence
+750,Number Of Corner Rectangles,Medium,66.4%,"Facebook, Google, Meta",3,1.229,https://leetcode.com/problems/number-of-corner-rectangles
+1055,Shortest Way to Form String,Medium,56.9%,"Facebook, Google, Meta",3,1.216,https://leetcode.com/problems/shortest-way-to-form-string
+833,Find And Replace in String,Medium,50.4%,"Google, LinkedIn, Microsoft",3,1.208,https://leetcode.com/problems/find-and-replace-in-string
+640,Solve the Equation,Medium,42.0%,"Amazon, Google, Uber",3,1.17,https://leetcode.com/problems/solve-the-equation
+477,Total Hamming Distance,Medium,50.4%,"Facebook, Google, Meta",3,1.138,https://leetcode.com/problems/total-hamming-distance
+921,Minimum Add to Make Parentheses Valid,Medium,73.7%,"Amazon, Facebook, Meta",3,1.133,https://leetcode.com/problems/minimum-add-to-make-parentheses-valid
+780,Reaching Points,Hard,29.4%,"Google, Uber, X",3,1.048,https://leetcode.com/problems/reaching-points
+687,Longest Univalue Path,Easy,36.2%,"Amazon, Apple, Google",3,1.033,https://leetcode.com/problems/longest-univalue-path
+557,Reverse Words in a String III,Easy,69.8%,"Amazon, Apple, Microsoft",3,1.018,https://leetcode.com/problems/reverse-words-in-a-string-iii
+354,Russian Doll Envelopes,Hard,35.6%,"Amazon, Google, Microsoft",3,0.997,https://leetcode.com/problems/russian-doll-envelopes
+319,Bulb Switcher,Medium,45.4%,"Amazon, Facebook, Meta",3,0.986,https://leetcode.com/problems/bulb-switcher
+837,New 21 Game,Medium,34.6%,"Apple, Google, Uber",3,0.962,https://leetcode.com/problems/new-21-game
+536,Construct Binary Tree from String,Medium,48.3%,"Amazon, Facebook, Meta",3,0.93,https://leetcode.com/problems/construct-binary-tree-from-string
+723,Candy Crush,Medium,69.2%,"Facebook, Google, Meta",3,0.903,https://leetcode.com/problems/candy-crush
+1123,Lowest Common Ancestor of Deepest Leaves,Medium,66.8%,"Facebook, Google, Meta",3,0.838,https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves
+324,Wiggle Sort II,Medium,29.9%,"Facebook, Google, Meta",3,0.801,https://leetcode.com/problems/wiggle-sort-ii
+743,Network Delay Time,Medium,45.0%,"Amazon, Google, Microsoft",3,0.799,https://leetcode.com/problems/network-delay-time
+174,Dungeon Game,Hard,32.3%,"Amazon, Google, Microsoft",3,0.769,https://leetcode.com/problems/dungeon-game
+115,Distinct Subsequences,Hard,38.3%,"Adobe, Amazon, Google",3,0.741,https://leetcode.com/problems/distinct-subsequences
+702,Search in a Sorted Array of Unknown Size,Medium,66.9%,"Amazon, Google, Microsoft",3,0.732,https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size
+745,Prefix and Suffix Search,Hard,34.1%,"Facebook, Google, Meta",3,0.72,https://leetcode.com/problems/prefix-and-suffix-search
+459,Repeated Substring Pattern,Easy,42.2%,"Amazon, Google, Microsoft",3,0.704,https://leetcode.com/problems/repeated-substring-pattern
+871,Minimum Number of Refueling Stops,Hard,31.4%,"Amazon, Google, Microsoft",3,0.683,https://leetcode.com/problems/minimum-number-of-refueling-stops
+456,132 Pattern,Medium,28.9%,"Amazon, Google, Oracle",3,0.675,https://leetcode.com/problems/132-pattern
+1155,Number of Dice Rolls With Target Sum,Medium,49.0%,"Amazon, Google, Microsoft",3,0.668,https://leetcode.com/problems/number-of-dice-rolls-with-target-sum
+405,Convert a Number to Hexadecimal,Easy,43.9%,"Facebook, Meta, Microsoft",3,0.66,https://leetcode.com/problems/convert-a-number-to-hexadecimal
+710,Random Pick with Blacklist,Hard,32.5%,"Amazon, Google, Uber",3,0.651,https://leetcode.com/problems/random-pick-with-blacklist
+769,Max Chunks To Make Sorted,Medium,54.8%,"Google, Microsoft, Uber",3,0.648,https://leetcode.com/problems/max-chunks-to-make-sorted
+86,Partition List,Medium,41.5%,"Amazon, Apple, Microsoft",3,0.616,https://leetcode.com/problems/partition-list
+1094,Car Pooling,Medium,56.7%,"Amazon, Facebook, Meta",3,0.606,https://leetcode.com/problems/car-pooling
+639,Decode Ways II,Hard,26.6%,"Facebook, Google, Meta",3,0.589,https://leetcode.com/problems/decode-ways-ii
+355,Design Twitter,Medium,30.3%,"Amazon, Oracle, X",3,0.586,https://leetcode.com/problems/design-twitter
+389,Find the Difference,Easy,55.3%,"Adobe, Amazon, Google",3,0.54,https://leetcode.com/problems/find-the-difference
+637,Average of Levels in Binary Tree,Easy,63.1%,"Amazon, Facebook, Meta",3,0.539,https://leetcode.com/problems/average-of-levels-in-binary-tree
+582,Kill Process,Medium,60.8%,"Amazon, Apple, Google",3,0.486,https://leetcode.com/problems/kill-process
+593,Valid Square,Medium,43.1%,"Facebook, Google, Meta",3,0.464,https://leetcode.com/problems/valid-square
+690,Employee Importance,Easy,57.3%,"Amazon, Google, Uber",3,0.445,https://leetcode.com/problems/employee-importance
+343,Integer Break,Medium,50.4%,"Adobe, Apple, Google",3,0.414,https://leetcode.com/problems/integer-break
+1136,Parallel Courses,Hard,61.1%,"Google, Microsoft, Uber",3,0.408,https://leetcode.com/problems/parallel-courses
+1269,Number of Ways to Stay in the Same Place After Some Steps,Hard,43.2%,"Facebook, Google, Meta",3,0.403,https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps
+890,Find and Replace Pattern,Medium,73.4%,"Amazon, Apple, Google",3,0.4,https://leetcode.com/problems/find-and-replace-pattern
+470,Implement Rand10() Using Rand7(),Medium,46.3%,"Apple, LinkedIn, Microsoft",3,0.393,https://leetcode.com/problems/implement-rand10-using-rand7
+213,House Robber II,Medium,36.5%,"Amazon, Google, Microsoft",3,0.377,https://leetcode.com/problems/house-robber-ii
+992,Subarrays with K Different Integers,Hard,48.6%,"Amazon, Google, Uber",3,0.363,https://leetcode.com/problems/subarrays-with-k-different-integers
+561,Array Partition I,Easy,72.0%,"Adobe, Amazon, Apple",3,0.284,https://leetcode.com/problems/array-partition-i
+1424,Diagonal Traverse II,Medium,42.4%,"Facebook, Google, Meta",3,0.275,https://leetcode.com/problems/diagonal-traverse-ii
+397,Integer Replacement,Medium,32.9%,"Amazon, Google, Microsoft",3,0.269,https://leetcode.com/problems/integer-replacement
+446,Arithmetic Slices II - Subsequence,Hard,32.7%,"Adobe, Facebook, Meta",3,0.254,https://leetcode.com/problems/arithmetic-slices-ii-subsequence
+368,Largest Divisible Subset,Medium,38.0%,"Adobe, Amazon, Google",3,0.247,https://leetcode.com/problems/largest-divisible-subset
+184,Department Highest Salary,Medium,36.7%,"Amazon, Apple, Oracle",3,0.247,https://leetcode.com/problems/department-highest-salary
+216,Combination Sum III,Medium,56.6%,"Amazon, Google, Microsoft",3,0.238,https://leetcode.com/problems/combination-sum-iii
+901,Online Stock Span,Medium,60.2%,"Amazon, Google, Microsoft",3,0.231,https://leetcode.com/problems/online-stock-span
+778,Swim in Rising Water,Hard,53.1%,"Facebook, Google, Meta",3,0.231,https://leetcode.com/problems/swim-in-rising-water
+1122,Relative Sort Array,Easy,67.7%,"Amazon, Google, Microsoft",3,0.203,https://leetcode.com/problems/relative-sort-array
+119,Pascal's Triangle II,Easy,49.0%,"Amazon, Google, Oracle",3,0.194,https://leetcode.com/problems/pascals-triangle-ii
+541,Reverse String II,Easy,48.4%,"Amazon, Google, Microsoft",3,0.192,https://leetcode.com/problems/reverse-string-ii
+1002,Find Common Characters,Easy,67.6%,"Adobe, Amazon, Apple",3,0.178,https://leetcode.com/problems/find-common-characters
+663,Equal Tree Partition,Medium,39.5%,"Amazon, Facebook, Meta",3,0.172,https://leetcode.com/problems/equal-tree-partition
+1360,Number of Days Between Two Dates,Easy,48.8%,"Amazon, Facebook, Meta",3,0.17,https://leetcode.com/problems/number-of-days-between-two-dates
+1209,Remove All Adjacent Duplicates in String II,Medium,56.9%,"Facebook, Google, Meta",3,0.155,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii
+581,Shortest Unsorted Continuous Subarray,Easy,31.1%,"Amazon, Google, Uber",3,0.145,https://leetcode.com/problems/shortest-unsorted-continuous-subarray
+1053,Previous Permutation With One Swap,Medium,48.5%,"Facebook, Meta, Microsoft",3,0.139,https://leetcode.com/problems/previous-permutation-with-one-swap
+264,Ugly Number II,Medium,42.0%,"Amazon, Oracle, Uber",3,0.129,https://leetcode.com/problems/ugly-number-ii
+27,Remove Element,Easy,48.2%,"Amazon, Google, Microsoft",3,0.123,https://leetcode.com/problems/remove-element
+995,Minimum Number of K Consecutive Bit Flips,Hard,46.8%,"Amazon, Facebook, Meta",3,0.123,https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips
+144,Binary Tree Preorder Traversal,Medium,55.7%,"Amazon, Google, Microsoft",3,0.12,https://leetcode.com/problems/binary-tree-preorder-traversal
+461,Hamming Distance,Easy,72.8%,"Amazon, Facebook, Meta",3,0.116,https://leetcode.com/problems/hamming-distance
+931,Minimum Falling Path Sum,Medium,62.5%,"Amazon, Apple, Google",3,0.112,https://leetcode.com/problems/minimum-falling-path-sum
+966,Vowel Spellchecker,Medium,47.2%,"Amazon, Facebook, Meta",3,0.107,https://leetcode.com/problems/vowel-spellchecker
+665,Non-decreasing Array,Easy,19.5%,"Adobe, Amazon, Google",3,0.105,https://leetcode.com/problems/non-decreasing-array
+811,Subdomain Visit Count,Easy,69.9%,"Amazon, Apple, Google",3,0.105,https://leetcode.com/problems/subdomain-visit-count
+707,Design Linked List,Medium,24.5%,"Amazon, Microsoft, Oracle",3,0.104,https://leetcode.com/problems/design-linked-list
+965,Univalued Binary Tree,Easy,67.7%,"Amazon, Google, Oracle",3,0.103,https://leetcode.com/problems/univalued-binary-tree
+673,Number of Longest Increasing Subsequence,Medium,35.7%,"Amazon, Facebook, Meta",3,0.1,https://leetcode.com/problems/number-of-longest-increasing-subsequence
+601,Human Traffic of Stadium,Hard,41.7%,"Adobe, Amazon, Uber",3,0.1,https://leetcode.com/problems/human-traffic-of-stadium
+1206,Design Skiplist,Hard,57.3%,"Google, Microsoft, X",3,0.093,https://leetcode.com/problems/design-skiplist
+764,Largest Plus Sign,Medium,46.0%,"Facebook, Google, Meta",3,0.087,https://leetcode.com/problems/largest-plus-sign
+485,Max Consecutive Ones,Easy,54.6%,"Amazon, Google, Microsoft",3,0.066,https://leetcode.com/problems/max-consecutive-ones
+962,Maximum Width Ramp,Medium,45.4%,"Facebook, Google, Meta",3,0.055,https://leetcode.com/problems/maximum-width-ramp
+1287,Element Appearing More Than 25% In Sorted Array,Easy,60.2%,"Facebook, Google, Meta",3,0.049,https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array
+1266,Minimum Time Visiting All Points,Easy,79.6%,"Amazon, Facebook, Meta",3,0.046,https://leetcode.com/problems/minimum-time-visiting-all-points
+814,Binary Tree Pruning,Medium,74.5%,"Amazon, Google, X",3,0.044,https://leetcode.com/problems/binary-tree-pruning
+1051,Height Checker,Easy,71.1%,"Adobe, Amazon, Google",3,0.039,https://leetcode.com/problems/height-checker
+258,Add Digits,Easy,57.6%,"Adobe, Apple, Microsoft",3,0.035,https://leetcode.com/problems/add-digits
+709,To Lower Case,Easy,79.3%,"Adobe, Apple, Google",3,0.035,https://leetcode.com/problems/to-lower-case
+1498,Number of Subsequences That Satisfy the Given Sum Condition,Medium,36.7%,"Facebook, Google, Meta",3,0.029,https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition
+989,Add to Array-Form of Integer,Easy,44.2%,"Facebook, Google, Meta",3,0.024,https://leetcode.com/problems/add-to-array-form-of-integer
+1365,How Many Numbers Are Smaller Than the Current Number,Easy,85.6%,"Adobe, Amazon, Google",3,0.016,https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number
+700,Search in a Binary Search Tree,Easy,73.1%,"Adobe, Apple, Google",3,0.012,https://leetcode.com/problems/search-in-a-binary-search-tree
+1528,Shuffle String,Easy,86.1%,"Facebook, Meta, Microsoft",3,0.004,https://leetcode.com/problems/shuffle-string
+904,Fruit Into Baskets,Medium,42.5%,"Amazon, Google",2,2.87,https://leetcode.com/problems/fruit-into-baskets
+156,Binary Tree Upside Down,Medium,55.0%,"Google, LinkedIn",2,2.84,https://leetcode.com/problems/binary-tree-upside-down
+896,Monotonic Array,Easy,57.9%,"Facebook, Meta",2,2.84,https://leetcode.com/problems/monotonic-array
+937,Reorder Data in Log Files,Easy,54.3%,"Amazon, Apple",2,2.839,https://leetcode.com/problems/reorder-data-in-log-files
+1007,Minimum Domino Rotations For Equal Row,Medium,50.0%,"Amazon, Google",2,2.812,https://leetcode.com/problems/minimum-domino-rotations-for-equal-row
+482,License Key Formatting,Easy,43.1%,"Google, X",2,2.757,https://leetcode.com/problems/license-key-formatting
+825,Friends Of Appropriate Ages,Medium,42.7%,"Facebook, Meta",2,2.515,https://leetcode.com/problems/friends-of-appropriate-ages
+425,Word Squares,Hard,47.7%,"Google, Oracle",2,2.512,https://leetcode.com/problems/word-squares
+824,Goat Latin,Easy,63.4%,"Facebook, Meta",2,2.336,https://leetcode.com/problems/goat-latin
+737,Sentence Similarity II,Medium,45.8%,"Amazon, Google",2,2.135,https://leetcode.com/problems/sentence-similarity-ii
+597,Friend Requests I: Overall Acceptance Rate,Easy,41.0%,"Facebook, Meta",2,2.027,https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate
+1428,Leftmost Column with at Least a One,Medium,46.8%,"Facebook, Meta",2,1.959,https://leetcode.com/problems/leftmost-column-with-at-least-a-one
+1096,Brace Expansion II,Hard,62.2%,"Adobe, Google",2,1.87,https://leetcode.com/problems/brace-expansion-ii
+1153,String Transforms Into Another String,Hard,35.8%,"Amazon, Google",2,1.786,https://leetcode.com/problems/string-transforms-into-another-string
+943,Find the Shortest Superstring,Hard,42.9%,"Amazon, Google",2,1.764,https://leetcode.com/problems/find-the-shortest-superstring
+1110,Delete Nodes And Return Forest,Medium,67.0%,"Amazon, Google",2,1.759,https://leetcode.com/problems/delete-nodes-and-return-forest
+457,Circular Array Loop,Medium,29.4%,"Google, Microsoft",2,1.721,https://leetcode.com/problems/circular-array-loop
+369,Plus One Linked List,Medium,58.2%,"Amazon, Google",2,1.72,https://leetcode.com/problems/plus-one-linked-list
+602,Friend Requests II: Who Has the Most Friends,Medium,53.4%,"Facebook, Meta",2,1.719,https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends
+527,Word Abbreviation,Hard,54.3%,"Google, Uber",2,1.704,https://leetcode.com/problems/word-abbreviation
+1066,Campus Bikes II,Medium,54.2%,"Amazon, Google",2,1.583,https://leetcode.com/problems/campus-bikes-ii
+552,Student Attendance Record II,Hard,36.7%,"Google, Uber",2,1.571,https://leetcode.com/problems/student-attendance-record-ii
+1000,Minimum Cost to Merge Stones,Hard,39.8%,"Amazon, Google",2,1.567,https://leetcode.com/problems/minimum-cost-to-merge-stones
+731,My Calendar II,Medium,49.1%,"Amazon, Google",2,1.565,https://leetcode.com/problems/my-calendar-ii
+849,Maximize Distance to Closest Person,Easy,42.6%,"Amazon, Google",2,1.562,https://leetcode.com/problems/maximize-distance-to-closest-person
+1167,Minimum Cost to Connect Sticks,Medium,62.8%,"Amazon, Google",2,1.55,https://leetcode.com/problems/minimum-cost-to-connect-sticks
+558,Logical OR of Two Binary Grids Represented as Quad-Trees,Medium,44.6%,"Amazon, Google",2,1.52,https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees
+911,Online Election,Medium,50.4%,"Apple, Google",2,1.376,https://leetcode.com/problems/online-election
+900,RLE Iterator,Medium,53.5%,"Amazon, Google",2,1.3,https://leetcode.com/problems/rle-iterator
+375,Guess Number Higher or Lower II,Medium,40.3%,"Adobe, Google",2,1.276,https://leetcode.com/problems/guess-number-higher-or-lower-ii
+401,Binary Watch,Easy,47.5%,"Apple, Google",2,1.269,https://leetcode.com/problems/binary-watch
+865,Smallest Subtree with all the Deepest Nodes,Medium,60.8%,"Facebook, Meta",2,1.261,https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes
+262,Trips and Users,Hard,32.7%,"Amazon, Uber",2,1.258,https://leetcode.com/problems/trips-and-users
+951,Flip Equivalent Binary Trees,Medium,65.8%,"Amazon, Google",2,1.237,https://leetcode.com/problems/flip-equivalent-binary-trees
+1170,Compare Strings by Frequency of the Smallest Character,Easy,58.7%,"Google, Oracle",2,1.221,https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character
+510,Inorder Successor in BST II,Medium,58.0%,"Google, Microsoft",2,1.205,https://leetcode.com/problems/inorder-successor-in-bst-ii
+447,Number of Boomerangs,Easy,51.8%,"Amazon, Google",2,1.198,https://leetcode.com/problems/number-of-boomerangs
+1102,Path With Maximum Minimum Value,Medium,49.2%,"Amazon, Google",2,1.19,https://leetcode.com/problems/path-with-maximum-minimum-value
+1135,Connecting Cities With Minimum Cost,Medium,57.5%,"Amazon, Uber",2,1.19,https://leetcode.com/problems/connecting-cities-with-minimum-cost
+225,Implement Stack using Queues,Easy,45.1%,"Amazon, Microsoft",2,1.161,https://leetcode.com/problems/implement-stack-using-queues
+770,Basic Calculator IV,Hard,48.1%,"Amazon, Google",2,1.154,https://leetcode.com/problems/basic-calculator-iv
+885,Spiral Matrix III,Medium,69.4%,"Facebook, Meta",2,1.154,https://leetcode.com/problems/spiral-matrix-iii
+379,Design Phone Directory,Medium,46.8%,"Google, Microsoft",2,1.057,https://leetcode.com/problems/design-phone-directory
+1048,Longest String Chain,Medium,54.7%,"Amazon, Google",2,1.053,https://leetcode.com/problems/longest-string-chain
+464,Can I Win,Medium,28.8%,"Google, LinkedIn",2,1.037,https://leetcode.com/problems/can-i-win
+631,Design Excel Sum Formula,Hard,31.6%,"Amazon, Microsoft",2,1.037,https://leetcode.com/problems/design-excel-sum-formula
+682,Baseball Game,Easy,63.7%,"Amazon, Google",2,1.027,https://leetcode.com/problems/baseball-game
+946,Validate Stack Sequences,Medium,61.9%,"Google, LinkedIn",2,1.009,https://leetcode.com/problems/validate-stack-sequences
+548,Split Array with Equal Sum,Medium,46.4%,"Facebook, Meta",2,1.005,https://leetcode.com/problems/split-array-with-equal-sum
+980,Unique Paths III,Hard,73.3%,"Amazon, Google",2,0.97,https://leetcode.com/problems/unique-paths-iii
+1099,Two Sum Less Than K,Easy,60.6%,"Amazon, Google",2,0.965,https://leetcode.com/problems/two-sum-less-than-k
+691,Stickers to Spell Word,Hard,42.9%,"Facebook, Meta",2,0.964,https://leetcode.com/problems/stickers-to-spell-word
+1074,Number of Submatrices That Sum to Target,Hard,60.4%,"Amazon, Google",2,0.954,https://leetcode.com/problems/number-of-submatrices-that-sum-to-target
+807,Max Increase to Keep City Skyline,Medium,83.7%,"Amazon, Google",2,0.95,https://leetcode.com/problems/max-increase-to-keep-city-skyline
+475,Heaters,Easy,33.1%,"Amazon, Google",2,0.946,https://leetcode.com/problems/heaters
+684,Redundant Connection,Medium,57.4%,"Amazon, Google",2,0.945,https://leetcode.com/problems/redundant-connection
+356,Line Reflection,Medium,31.8%,"Amazon, Google",2,0.904,https://leetcode.com/problems/line-reflection
+1113,Reported Posts,Easy,64.1%,"Facebook, Meta",2,0.887,https://leetcode.com/problems/reported-posts
+1145,Binary Tree Coloring Game,Medium,51.2%,"Google, Microsoft",2,0.873,https://leetcode.com/problems/binary-tree-coloring-game
+854,K-Similar Strings,Hard,38.2%,"Amazon, Google",2,0.87,https://leetcode.com/problems/k-similar-strings
+920,Number of Music Playlists,Hard,46.5%,"Google, X",2,0.843,https://leetcode.com/problems/number-of-music-playlists
+409,Longest Palindrome,Easy,50.3%,"Amazon, Google",2,0.839,https://leetcode.com/problems/longest-palindrome
+1024,Video Stitching,Medium,49.2%,"Amazon, Google",2,0.825,https://leetcode.com/problems/video-stitching
+845,Longest Mountain in Array,Medium,37.2%,"Google, Microsoft",2,0.822,https://leetcode.com/problems/longest-mountain-in-array
+1216,Valid Palindrome III,Hard,47.8%,"Facebook, Meta",2,0.819,https://leetcode.com/problems/valid-palindrome-iii
+132,Palindrome Partitioning II,Hard,30.2%,"Amazon, Google",2,0.792,https://leetcode.com/problems/palindrome-partitioning-ii
+894,All Possible Full Binary Trees,Medium,75.2%,"Google, Oracle",2,0.772,https://leetcode.com/problems/all-possible-full-binary-trees
+604,Design Compressed String Iterator,Easy,37.5%,"Amazon, Google",2,0.77,https://leetcode.com/problems/design-compressed-string-iterator
+421,Maximum XOR of Two Numbers in an Array,Medium,53.5%,"Amazon, Google",2,0.769,https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array
+614,Second Degree Follower,Medium,30.3%,"Facebook, Meta",2,0.734,https://leetcode.com/problems/second-degree-follower
+335,Self Crossing,Hard,28.0%,"Amazon, Google",2,0.718,https://leetcode.com/problems/self-crossing
+1095,Find in Mountain Array,Hard,35.8%,"Apple, Google",2,0.7,https://leetcode.com/problems/find-in-mountain-array
+89,Gray Code,Medium,49.1%,"Amazon, Microsoft",2,0.663,https://leetcode.com/problems/gray-code
+233,Number of Digit One,Hard,31.3%,"Amazon, Apple",2,0.565,https://leetcode.com/problems/number-of-digit-one
+699,Falling Squares,Hard,41.8%,"Amazon, Uber",2,0.564,https://leetcode.com/problems/falling-squares
+386,Lexicographical Numbers,Medium,51.6%,"Adobe, Google",2,0.561,https://leetcode.com/problems/lexicographical-numbers
+1117,Building H2O,Medium,52.6%,"Amazon, LinkedIn",2,0.555,https://leetcode.com/problems/building-h2o
+732,My Calendar III,Hard,60.0%,"Amazon, Google",2,0.554,https://leetcode.com/problems/my-calendar-iii
+1010,Pairs of Songs With Total Durations Divisible by 60,Easy,47.4%,"Adobe, Amazon",2,0.544,https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60
+1326,Minimum Number of Taps to Open to Water a Garden,Hard,43.6%,"Google, X",2,0.482,https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden
+1142,User Activity for the Past 30 Days II,Easy,34.5%,"Facebook, Meta",2,0.469,https://leetcode.com/problems/user-activity-for-the-past-30-days-ii
+1132,Reported Posts II,Medium,34.4%,"Facebook, Meta",2,0.464,https://leetcode.com/problems/reported-posts-ii
+719,Find K-th Smallest Pair Distance,Hard,31.5%,"Amazon, Google",2,0.46,https://leetcode.com/problems/find-k-th-smallest-pair-distance
+847,Shortest Path Visiting All Nodes,Hard,52.0%,"Amazon, Google",2,0.458,https://leetcode.com/problems/shortest-path-visiting-all-nodes
+1213,Intersection of Three Sorted Arrays,Easy,78.9%,"Facebook, Meta",2,0.458,https://leetcode.com/problems/intersection-of-three-sorted-arrays
+321,Create Maximum Number,Hard,27.0%,"Amazon, Google",2,0.458,https://leetcode.com/problems/create-maximum-number
+720,Longest Word in Dictionary,Easy,48.2%,"Amazon, Google",2,0.449,https://leetcode.com/problems/longest-word-in-dictionary
+841,Keys and Rooms,Medium,64.3%,"Amazon, Google",2,0.437,https://leetcode.com/problems/keys-and-rooms
+491,Increasing Subsequences,Medium,46.1%,"Facebook, Meta",2,0.434,https://leetcode.com/problems/increasing-subsequences
+651,4 Keys Keyboard,Medium,52.5%,"Google, Microsoft",2,0.421,https://leetcode.com/problems/4-keys-keyboard
+765,Couples Holding Hands,Hard,54.3%,"Amazon, Google",2,0.405,https://leetcode.com/problems/couples-holding-hands
+1264,Page Recommendations,Medium,67.6%,"Facebook, Meta",2,0.399,https://leetcode.com/problems/page-recommendations
+864,Shortest Path to Get All Keys,Hard,40.1%,"Amazon, Google",2,0.398,https://leetcode.com/problems/shortest-path-to-get-all-keys
+941,Valid Mountain Array,Easy,33.2%,"Google, Uber",2,0.381,https://leetcode.com/problems/valid-mountain-array
+1023,Camelcase Matching,Medium,57.0%,"Amazon, Google",2,0.379,https://leetcode.com/problems/camelcase-matching
+924,Minimize Malware Spread,Hard,42.0%,"Amazon, Google",2,0.376,https://leetcode.com/problems/minimize-malware-spread
+804,Unique Morse Code Words,Easy,77.0%,"Apple, Google",2,0.369,https://leetcode.com/problems/unique-morse-code-words
+725,Split Linked List in Parts,Medium,52.2%,"Adobe, Amazon",2,0.367,https://leetcode.com/problems/split-linked-list-in-parts
+630,Course Schedule III,Hard,33.5%,"Google, Microsoft",2,0.367,https://leetcode.com/problems/course-schedule-iii
+1244,Design A Leaderboard,Medium,60.7%,"Amazon, Google",2,0.364,https://leetcode.com/problems/design-a-leaderboard
+1161,Maximum Level Sum of a Binary Tree,Medium,72.2%,"Amazon, Google",2,0.328,https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree
+478,Generate Random Point in a Circle,Medium,38.5%,"Facebook, Meta",2,0.309,https://leetcode.com/problems/generate-random-point-in-a-circle
+641,Design Circular Deque,Medium,52.7%,"Facebook, Meta",2,0.296,https://leetcode.com/problems/design-circular-deque
+668,Kth Smallest Number in Multiplication Table,Hard,45.6%,"Google, Uber",2,0.292,https://leetcode.com/problems/kth-smallest-number-in-multiplication-table
+879,Profitable Schemes,Hard,39.8%,"Google, LinkedIn",2,0.278,https://leetcode.com/problems/profitable-schemes
+374,Guess Number Higher or Lower,Easy,43.1%,"Apple, Google",2,0.269,https://leetcode.com/problems/guess-number-higher-or-lower
+917,Reverse Only Letters,Easy,58.0%,"Google, Microsoft",2,0.246,https://leetcode.com/problems/reverse-only-letters
+1375,Bulb Switcher III,Medium,62.6%,"Amazon, Microsoft",2,0.244,https://leetcode.com/problems/bulb-switcher-iii
+950,Reveal Cards In Increasing Order,Medium,74.6%,"Google, Microsoft",2,0.239,https://leetcode.com/problems/reveal-cards-in-increasing-order
+1131,Maximum of Absolute Value Expression,Medium,53.0%,"Google, Microsoft",2,0.233,https://leetcode.com/problems/maximum-of-absolute-value-expression
+768,Max Chunks To Make Sorted II,Hard,48.7%,"Google, Microsoft",2,0.228,https://leetcode.com/problems/max-chunks-to-make-sorted-ii
+1281,Subtract the Product and Sum of Digits of an Integer,Easy,85.2%,"Google, Uber",2,0.221,https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer
+586,Customer Placing the Largest Number of Orders,Easy,73.0%,"Amazon, X",2,0.218,https://leetcode.com/problems/customer-placing-the-largest-number-of-orders
+180,Consecutive Numbers,Medium,39.7%,"Amazon, Apple",2,0.212,https://leetcode.com/problems/consecutive-numbers
+578,Get Highest Answer Rate Question,Medium,39.3%,"Facebook, Meta",2,0.202,https://leetcode.com/problems/get-highest-answer-rate-question
+559,Maximum Depth of N-ary Tree,Easy,68.7%,"Amazon, Google",2,0.191,https://leetcode.com/problems/maximum-depth-of-n-ary-tree
+1315,Sum of Nodes with Even-Valued Grandparent,Medium,83.5%,"Amazon, Apple",2,0.191,https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent
+783,Minimum Distance Between BST Nodes,Easy,52.6%,"Amazon, Google",2,0.19,https://leetcode.com/problems/minimum-distance-between-bst-nodes
+657,Robot Return to Origin,Easy,73.5%,"Amazon, Google",2,0.187,https://leetcode.com/problems/robot-return-to-origin
+942,DI String Match,Easy,72.6%,"Amazon, Google",2,0.183,https://leetcode.com/problems/di-string-match
+453,Minimum Moves to Equal Array Elements,Easy,50.2%,"Amazon, Apple",2,0.181,https://leetcode.com/problems/minimum-moves-to-equal-array-elements
+1104,Path In Zigzag Labelled Binary Tree,Medium,72.0%,"Amazon, Microsoft",2,0.179,https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree
+1190,Reverse Substrings Between Each Pair of Parentheses,Medium,61.5%,"Adobe, Oracle",2,0.176,https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses
+1278,Palindrome Partitioning III,Hard,59.9%,"Apple, Uber",2,0.173,https://leetcode.com/problems/palindrome-partitioning-iii
+856,Score of Parentheses,Medium,60.5%,"Adobe, Amazon",2,0.171,https://leetcode.com/problems/score-of-parentheses
+881,Boats to Save People,Medium,46.8%,"Amazon, Google",2,0.169,https://leetcode.com/problems/boats-to-save-people
+87,Scramble String,Hard,33.7%,"Apple, Google",2,0.167,https://leetcode.com/problems/scramble-string
+661,Image Smoother,Easy,51.5%,"Amazon, Apple",2,0.155,https://leetcode.com/problems/image-smoother
+717,1-bit and 2-bit Characters,Easy,48.8%,"Google, Microsoft",2,0.152,https://leetcode.com/problems/1-bit-and-2-bit-characters
+919,Complete Binary Tree Inserter,Medium,57.3%,"Amazon, Google",2,0.146,https://leetcode.com/problems/complete-binary-tree-inserter
+530,Minimum Absolute Difference in BST,Easy,53.8%,"Apple, Google",2,0.139,https://leetcode.com/problems/minimum-absolute-difference-in-bst
+1043,Partition Array for Maximum Sum,Medium,65.2%,"Facebook, Meta",2,0.136,https://leetcode.com/problems/partition-array-for-maximum-sum
+705,Design HashSet,Easy,64.3%,"Amazon, Google",2,0.135,https://leetcode.com/problems/design-hashset
+501,Find Mode in Binary Search Tree,Easy,42.4%,"Amazon, Google",2,0.135,https://leetcode.com/problems/find-mode-in-binary-search-tree
+779,K-th Symbol in Grammar,Medium,37.2%,"Amazon, Google",2,0.132,https://leetcode.com/problems/k-th-symbol-in-grammar
+1013,Partition Array Into Three Parts With Equal Sum,Easy,51.8%,"Amazon, Microsoft",2,0.132,https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum
+1139,Largest 1-Bordered Square,Medium,47.5%,"Amazon, Samsung",2,0.131,https://leetcode.com/problems/largest-1-bordered-square
+848,Shifting Letters,Medium,44.6%,"Facebook, Meta",2,0.119,https://leetcode.com/problems/shifting-letters
+1439,Find the Kth Smallest Sum of a Matrix With Sorted Rows,Hard,59.5%,"Facebook, Meta",2,0.119,https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows
+1270,All People Report to the Given Manager,Medium,87.1%,"Amazon, Google",2,0.117,https://leetcode.com/problems/all-people-report-to-the-given-manager
+326,Power of Three,Easy,42.1%,"Apple, Google",2,0.109,https://leetcode.com/problems/power-of-three
+1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,Medium,83.8%,"Facebook, Meta",2,0.102,https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree
+954,Array of Doubled Pairs,Medium,35.6%,"Google, Uber",2,0.101,https://leetcode.com/problems/array-of-doubled-pairs
+1411,Number of Ways to Paint N × 3 Grid,Hard,61.1%,"Facebook, Meta",2,0.101,https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid
+1029,Two City Scheduling,Easy,56.1%,"Amazon, Google",2,0.101,https://leetcode.com/problems/two-city-scheduling
+1141,User Activity for the Past 30 Days I,Easy,54.1%,"Facebook, Meta",2,0.096,https://leetcode.com/problems/user-activity-for-the-past-30-days-i
+756,Pyramid Transition Matrix,Medium,54.6%,"Amazon, Google",2,0.096,https://leetcode.com/problems/pyramid-transition-matrix
+1198,Find Smallest Common Element in All Rows,Medium,74.9%,"Amazon, Microsoft",2,0.096,https://leetcode.com/problems/find-smallest-common-element-in-all-rows
+826,Most Profit Assigning Work,Medium,38.5%,"Amazon, Uber",2,0.093,https://leetcode.com/problems/most-profit-assigning-work
+1221,Split a String in Balanced Strings,Easy,83.3%,"Amazon, Apple",2,0.093,https://leetcode.com/problems/split-a-string-in-balanced-strings
+1077,Project Employees III,Medium,75.6%,"Facebook, Meta",2,0.091,https://leetcode.com/problems/project-employees-iii
+912,Sort an Array,Medium,63.9%,"Amazon, Apple",2,0.09,https://leetcode.com/problems/sort-an-array
+1241,Number of Comments per Post,Easy,67.0%,"Facebook, Meta",2,0.089,https://leetcode.com/problems/number-of-comments-per-post
+550,Game Play Analysis IV,Medium,45.3%,"Facebook, Meta",2,0.083,https://leetcode.com/problems/game-play-analysis-iv
+704,Binary Search,Easy,52.1%,"Amazon, Microsoft",2,0.082,https://leetcode.com/problems/binary-search
+1003,Check If Word Is Valid After Substitutions,Medium,55.3%,"Facebook, Meta",2,0.078,https://leetcode.com/problems/check-if-word-is-valid-after-substitutions
+867,Transpose Matrix,Easy,62.8%,"Apple, Microsoft",2,0.075,https://leetcode.com/problems/transpose-matrix
+1179,Reformat Department Table,Easy,80.6%,"Amazon, Google",2,0.074,https://leetcode.com/problems/reformat-department-table
+907,Sum of Subarray Minimums,Medium,32.3%,"Apple, Microsoft",2,0.065,https://leetcode.com/problems/sum-of-subarray-minimums
+1059,All Paths from Source Lead to Destination,Medium,44.7%,"Amazon, Google",2,0.063,https://leetcode.com/problems/all-paths-from-source-lead-to-destination
+1445,Apples & Oranges,Medium,87.1%,"Facebook, Meta",2,0.06,https://leetcode.com/problems/apples-oranges
+643,Maximum Average Subarray I,Easy,41.5%,"Google, Microsoft",2,0.059,https://leetcode.com/problems/maximum-average-subarray-i
+1325,Delete Leaves With a Given Value,Medium,73.0%,"Amazon, Google",2,0.056,https://leetcode.com/problems/delete-leaves-with-a-given-value
+1028,Recover a Tree From Preorder Traversal,Hard,69.9%,"Amazon, LinkedIn",2,0.054,https://leetcode.com/problems/recover-a-tree-from-preorder-traversal
+1079,Letter Tile Possibilities,Medium,75.4%,"Google, Microsoft",2,0.053,https://leetcode.com/problems/letter-tile-possibilities
+1267,Count Servers that Communicate,Medium,57.9%,"Amazon, Google",2,0.049,https://leetcode.com/problems/count-servers-that-communicate
+1344,Angle Between Hands of a Clock,Medium,61.4%,"Amazon, Microsoft",2,0.027,https://leetcode.com/problems/angle-between-hands-of-a-clock
+1339,Maximum Product of Splitted Binary Tree,Medium,37.2%,"Amazon, Microsoft",2,0.025,https://leetcode.com/problems/maximum-product-of-splitted-binary-tree
+1137,N-th Tribonacci Number,Easy,55.9%,"Facebook, Meta",2,0.021,https://leetcode.com/problems/n-th-tribonacci-number
+1470,Shuffle the Array,Easy,88.9%,"Adobe, Microsoft",2,0.005,https://leetcode.com/problems/shuffle-the-array
+275,H-Index II,Medium,36.0%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/h-index-ii
+893,Groups of Special-Equivalent Strings,Easy,66.5%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/groups-of-special-equivalent-strings
+998,Maximum Binary Tree II,Medium,63.0%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/maximum-binary-tree-ii
+1033,Moving Stones Until Consecutive,Easy,41.7%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/moving-stones-until-consecutive
+1040,Moving Stones Until Consecutive II,Medium,52.9%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/moving-stones-until-consecutive-ii
+1075,Project Employees I,Easy,64.8%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/project-employees-i
+1076,Project Employees II,Easy,53.7%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/project-employees-ii
+1211,Queries Quality and Percentage,Easy,68.3%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/queries-quality-and-percentage
+1225,Report Contiguous Dates,Hard,61.1%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/report-contiguous-dates
+1322,Ads Performance,Easy,57.8%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/ads-performance
+1357,Apply Discount Every n Orders,Medium,66.0%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/apply-discount-every-n-orders
+1361,Validate Binary Tree Nodes,Medium,48.5%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/validate-binary-tree-nodes
+1398,Customers Who Bought Products A and B but Not C,Medium,80.7%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c
+1443,Minimum Time to Collect All Apples in a Tree,Medium,55.4%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree
+1453,Maximum Number of Darts Inside of a Circular Dartboard,Hard,33.7%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard
+1460,Make Two Arrays Equal by Reversing Sub-arrays,Easy,73.9%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays
+1522,Diameter of N-Ary Tree,Medium,70.0%,"Facebook, Meta",2,0.0,https://leetcode.com/problems/diameter-of-n-ary-tree
+170,Two Sum III - Data structure design,Easy,33.5%,LinkedIn,1,5.34,https://leetcode.com/problems/two-sum-iii-data-structure-design
+288,Unique Word Abbreviation,Medium,21.9%,Google,1,5.083,https://leetcode.com/problems/unique-word-abbreviation
+975,Odd Even Jump,Hard,42.2%,Google,1,4.893,https://leetcode.com/problems/odd-even-jump
+418,Sentence Screen Fitting,Medium,32.6%,Google,1,4.782,https://leetcode.com/problems/sentence-screen-fitting
+753,Cracking the Safe,Hard,50.5%,Google,1,4.7,https://leetcode.com/problems/cracking-the-safe
+947,Most Stones Removed with Same Row or Column,Medium,55.2%,Google,1,4.023,https://leetcode.com/problems/most-stones-removed-with-same-row-or-column
+857,Minimum Cost to Hire K Workers,Hard,49.6%,Google,1,3.972,https://leetcode.com/problems/minimum-cost-to-hire-k-workers
+957,Prison Cells After N Days,Medium,40.7%,Amazon,1,3.849,https://leetcode.com/problems/prison-cells-after-n-days
+774,Minimize Max Distance to Gas Station,Hard,46.9%,Google,1,3.708,https://leetcode.com/problems/minimize-max-distance-to-gas-station
+734,Sentence Similarity,Easy,42.1%,Google,1,3.678,https://leetcode.com/problems/sentence-similarity
+809,Expressive Words,Medium,47.0%,Google,1,3.64,https://leetcode.com/problems/expressive-words
+471,Encode String with Shortest Length,Hard,47.1%,Google,1,3.627,https://leetcode.com/problems/encode-string-with-shortest-length
+803,Bricks Falling When Hit,Hard,30.8%,Google,1,3.427,https://leetcode.com/problems/bricks-falling-when-hit
+675,Cut Off Trees for Golf Event,Hard,34.6%,Amazon,1,3.362,https://leetcode.com/problems/cut-off-trees-for-golf-event
+588,Design In-Memory File System,Hard,45.9%,Amazon,1,3.361,https://leetcode.com/problems/design-in-memory-file-system
+1088,Confusing Number II,Hard,44.0%,Google,1,3.35,https://leetcode.com/problems/confusing-number-ii
+1231,Divide Chocolate,Hard,52.4%,Google,1,3.208,https://leetcode.com/problems/divide-chocolate
+818,Race Car,Hard,39.0%,Google,1,3.165,https://leetcode.com/problems/race-car
+562,Longest Line of Consecutive One in Matrix,Medium,45.9%,Google,1,3.145,https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix
+777,Swap Adjacent in LR String,Medium,34.8%,Google,1,3.107,https://leetcode.com/problems/swap-adjacent-in-lr-string
+1168,Optimize Water Distribution in a Village,Hard,60.9%,Google,1,3.102,https://leetcode.com/problems/optimize-water-distribution-in-a-village
+1152,Analyze User Website Visit Pattern,Medium,43.5%,Amazon,1,3.093,https://leetcode.com/problems/analyze-user-website-visit-pattern
+524,Longest Word in Dictionary through Deleting,Medium,48.4%,Google,1,3.072,https://leetcode.com/problems/longest-word-in-dictionary-through-deleting
+1087,Brace Expansion,Medium,62.7%,Google,1,3.025,https://leetcode.com/problems/brace-expansion
+259,3Sum Smaller,Medium,47.6%,Google,1,2.961,https://leetcode.com/problems/3sum-smaller
+736,Parse Lisp Expression,Hard,47.5%,Google,1,2.959,https://leetcode.com/problems/parse-lisp-expression
+544,Output Contest Matches,Medium,75.3%,Google,1,2.926,https://leetcode.com/problems/output-contest-matches
+294,Flip Game II,Medium,50.0%,Google,1,2.88,https://leetcode.com/problems/flip-game-ii
+846,Hand of Straights,Medium,54.2%,Google,1,2.817,https://leetcode.com/problems/hand-of-straights
+913,Cat and Mouse,Hard,31.3%,Google,1,2.812,https://leetcode.com/problems/cat-and-mouse
+1268,Search Suggestions System,Medium,63.2%,Amazon,1,2.619,https://leetcode.com/problems/search-suggestions-system
+276,Paint Fence,Easy,38.3%,Google,1,2.595,https://leetcode.com/problems/paint-fence
+757,Set Intersection Size At Least Two,Hard,40.1%,Uber,1,2.535,https://leetcode.com/problems/set-intersection-size-at-least-two
+659,Split Array into Consecutive Subsequences,Medium,43.7%,Google,1,2.527,https://leetcode.com/problems/split-array-into-consecutive-subsequences
+245,Shortest Word Distance III,Medium,55.3%,LinkedIn,1,2.48,https://leetcode.com/problems/shortest-word-distance-iii
+866,Prime Palindrome,Medium,24.9%,Amazon,1,2.427,https://leetcode.com/problems/prime-palindrome
+850,Rectangle Area II,Hard,47.5%,Google,1,2.39,https://leetcode.com/problems/rectangle-area-ii
+318,Maximum Product of Word Lengths,Medium,51.2%,Google,1,2.378,https://leetcode.com/problems/maximum-product-of-word-lengths
+320,Generalized Abbreviation,Medium,52.1%,Google,1,2.287,https://leetcode.com/problems/generalized-abbreviation
+835,Image Overlap,Medium,58.5%,Google,1,2.264,https://leetcode.com/problems/image-overlap
+444,Sequence Reconstruction,Medium,22.2%,Google,1,2.218,https://leetcode.com/problems/sequence-reconstruction
+711,Number of Distinct Islands II,Hard,47.3%,Amazon,1,2.197,https://leetcode.com/problems/number-of-distinct-islands-ii
+1239,Maximum Length of a Concatenated String with Unique Characters,Medium,47.8%,Microsoft,1,2.194,https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters
+484,Find Permutation,Medium,60.5%,Google,1,2.123,https://leetcode.com/problems/find-permutation
+293,Flip Game,Easy,60.7%,Google,1,2.005,https://leetcode.com/problems/flip-game
+497,Random Point in Non-overlapping Rectangles,Medium,37.8%,Google,1,1.957,https://leetcode.com/problems/random-point-in-non-overlapping-rectangles
+817,Linked List Components,Medium,57.3%,Google,1,1.952,https://leetcode.com/problems/linked-list-components
+1120,Maximum Average Subtree,Medium,61.9%,Amazon,1,1.918,https://leetcode.com/problems/maximum-average-subtree
+1279,Traffic Light Controlled Intersection,Easy,74.3%,Amazon,1,1.873,https://leetcode.com/problems/traffic-light-controlled-intersection
+685,Redundant Connection II,Hard,32.4%,Google,1,1.871,https://leetcode.com/problems/redundant-connection-ii
+800,Similar RGB Color,Easy,61.4%,Google,1,1.865,https://leetcode.com/problems/similar-rgb-color
+1240,Tiling a Rectangle with the Fewest Squares,Hard,50.1%,Google,1,1.864,https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares
+411,Minimum Unique Word Abbreviation,Hard,36.3%,Google,1,1.844,https://leetcode.com/problems/minimum-unique-word-abbreviation
+853,Car Fleet,Medium,42.3%,Google,1,1.775,https://leetcode.com/problems/car-fleet
+538,Convert BST to Greater Tree,Easy,55.4%,Amazon,1,1.715,https://leetcode.com/problems/convert-bst-to-greater-tree
+370,Range Addition,Medium,62.8%,Google,1,1.7,https://leetcode.com/problems/range-addition
+302,Smallest Rectangle Enclosing Black Pixels,Hard,51.6%,Google,1,1.645,https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels
+1438,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,42.1%,Google,1,1.552,https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
+499,The Maze III,Hard,41.0%,Google,1,1.544,https://leetcode.com/problems/the-maze-iii
+840,Magic Squares In Grid,Easy,37.3%,Google,1,1.449,https://leetcode.com/problems/magic-squares-in-grid
+1376,Time Needed to Inform All Employees,Medium,55.4%,Google,1,1.423,https://leetcode.com/problems/time-needed-to-inform-all-employees
+469,Convex Polygon,Medium,37.0%,Google,1,1.362,https://leetcode.com/problems/convex-polygon
+1056,Confusing Number,Easy,48.6%,Google,1,1.335,https://leetcode.com/problems/confusing-number
+327,Count of Range Sum,Hard,35.2%,Google,1,1.315,https://leetcode.com/problems/count-of-range-sum
+1293,Shortest Path in a Grid with Obstacles Elimination,Hard,42.8%,Google,1,1.309,https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination
+760,Find Anagram Mappings,Easy,81.1%,Google,1,1.289,https://leetcode.com/problems/find-anagram-mappings
+1423,Maximum Points You Can Obtain from Cards,Medium,42.6%,Google,1,1.251,https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards
+1547,Minimum Cost to Cut a Stick,Hard,47.2%,Google,1,1.21,https://leetcode.com/problems/minimum-cost-to-cut-a-stick
+608,Tree Node,Medium,67.1%,X,1,1.205,https://leetcode.com/problems/tree-node
+1100,Find K-Length Substrings With No Repeated Characters,Medium,72.7%,Amazon,1,1.184,https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters
+479,Largest Palindrome Product,Hard,29.0%,Apple,1,1.17,https://leetcode.com/problems/largest-palindrome-product
+660,Remove 9,Hard,53.3%,Google,1,1.114,https://leetcode.com/problems/remove-9
+1284,Minimum Number of Flips to Convert Binary Matrix to Zero Matrix,Hard,69.5%,Google,1,1.077,https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix
+1320,Minimum Distance to Type a Word Using Two Fingers,Hard,62.3%,Google,1,1.072,https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers
+1406,Stone Game III,Hard,56.1%,Google,1,1.067,https://leetcode.com/problems/stone-game-iii
+292,Nim Game,Easy,54.9%,Adobe,1,1.034,https://leetcode.com/problems/nim-game
+932,Beautiful Array,Medium,58.3%,Google,1,1.016,https://leetcode.com/problems/beautiful-array
+551,Student Attendance Record I,Easy,46.0%,Google,1,1.013,https://leetcode.com/problems/student-attendance-record-i
+508,Most Frequent Subtree Sum,Medium,57.9%,Amazon,1,0.993,https://leetcode.com/problems/most-frequent-subtree-sum
+422,Valid Word Square,Easy,37.7%,Google,1,0.956,https://leetcode.com/problems/valid-word-square
+1292,Maximum Side Length of a Square with Sum Less than or Equal to Threshold,Medium,48.6%,Google,1,0.956,https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold
+1214,Two Sum BSTs,Medium,67.6%,Amazon,1,0.954,https://leetcode.com/problems/two-sum-bsts
+585,Investments in 2016,Medium,54.7%,X,1,0.925,https://leetcode.com/problems/investments-in-2016
+1352,Product of the Last K Numbers,Medium,43.6%,Google,1,0.906,https://leetcode.com/problems/product-of-the-last-k-numbers
+1046,Last Stone Weight,Easy,62.2%,Amazon,1,0.904,https://leetcode.com/problems/last-stone-weight
+978,Longest Turbulent Subarray,Medium,46.6%,Amazon,1,0.895,https://leetcode.com/problems/longest-turbulent-subarray
+1121,Divide Array Into Increasing Sequences,Hard,56.9%,Google,1,0.887,https://leetcode.com/problems/divide-array-into-increasing-sequences
+1246,Palindrome Removal,Hard,46.0%,Microsoft,1,0.876,https://leetcode.com/problems/palindrome-removal
+744,Find Smallest Letter Greater Than Target,Easy,45.4%,LinkedIn,1,0.854,https://leetcode.com/problems/find-smallest-letter-greater-than-target
+1036,Escape a Large Maze,Hard,35.4%,Google,1,0.824,https://leetcode.com/problems/escape-a-large-maze
+914,X of a Kind in a Deck of Cards,Easy,35.1%,Google,1,0.814,https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards
+1296,Divide Array in Sets of K Consecutive Numbers,Medium,53.8%,Google,1,0.791,https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers
+1277,Count Square Submatrices with All Ones,Medium,73.3%,Google,1,0.787,https://leetcode.com/problems/count-square-submatrices-with-all-ones
+802,Find Eventual Safe States,Medium,48.9%,Google,1,0.783,https://leetcode.com/problems/find-eventual-safe-states
+424,Longest Repeating Character Replacement,Medium,47.0%,Google,1,0.771,https://leetcode.com/problems/longest-repeating-character-replacement
+1125,Smallest Sufficient Team,Hard,46.6%,Google,1,0.747,https://leetcode.com/problems/smallest-sufficient-team
+1083,Sales Analysis II,Easy,50.5%,Amazon,1,0.734,https://leetcode.com/problems/sales-analysis-ii
+1444,Number of Ways of Cutting a Pizza,Hard,52.8%,Google,1,0.723,https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza
+1215,Stepping Numbers,Medium,41.6%,Amazon,1,0.722,https://leetcode.com/problems/stepping-numbers
+595,Big Countries,Easy,77.3%,Adobe,1,0.696,https://leetcode.com/problems/big-countries
+1429,First Unique Number,Medium,47.0%,Amazon,1,0.689,https://leetcode.com/problems/first-unique-number
+1086,High Five,Easy,79.7%,Amazon,1,0.685,https://leetcode.com/problems/high-five
+1477,Find Two Non-overlapping Sub-arrays Each With Target Sum,Medium,30.0%,Google,1,0.682,https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum
+1368,Minimum Cost to Make at Least One Valid Path in a Grid,Hard,54.3%,Google,1,0.674,https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid
+164,Maximum Gap,Hard,35.5%,Amazon,1,0.67,https://leetcode.com/problems/maximum-gap
+748,Shortest Completing Word,Easy,56.7%,Google,1,0.668,https://leetcode.com/problems/shortest-completing-word
+1165,Single-Row Keyboard,Easy,84.8%,Google,1,0.654,https://leetcode.com/problems/single-row-keyboard
+1265,Print Immutable Linked List in Reverse,Medium,94.6%,Google,1,0.651,https://leetcode.com/problems/print-immutable-linked-list-in-reverse
+830,Positions of Large Groups,Easy,49.6%,Google,1,0.641,https://leetcode.com/problems/positions-of-large-groups
+517,Super Washing Machines,Hard,38.3%,Amazon,1,0.626,https://leetcode.com/problems/super-washing-machines
+587,Erect the Fence,Hard,35.9%,Google,1,0.623,https://leetcode.com/problems/erect-the-fence
+1022,Sum of Root To Leaf Binary Numbers,Easy,67.2%,Amazon,1,0.618,https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers
+775,Global and Local Inversions,Medium,42.1%,Amazon,1,0.603,https://leetcode.com/problems/global-and-local-inversions
+1312,Minimum Insertion Steps to Make a String Palindrome,Hard,58.1%,Google,1,0.601,https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome
+799,Champagne Tower,Medium,35.8%,Google,1,0.59,https://leetcode.com/problems/champagne-tower
+1140,Stone Game II,Medium,63.3%,Google,1,0.576,https://leetcode.com/problems/stone-game-ii
+831,Masking Personal Information,Medium,44.1%,X,1,0.571,https://leetcode.com/problems/masking-personal-information
+933,Number of Recent Calls,Easy,71.9%,Google,1,0.568,https://leetcode.com/problems/number-of-recent-calls
+1166,Design File System,Medium,56.8%,Amazon,1,0.563,https://leetcode.com/problems/design-file-system
+806,Number of Lines To Write String,Easy,64.9%,Google,1,0.563,https://leetcode.com/problems/number-of-lines-to-write-string
+634,Find the Derangement of An Array,Medium,40.1%,Amazon,1,0.562,https://leetcode.com/problems/find-the-derangement-of-an-array
+201,Bitwise AND of Numbers Range,Medium,39.4%,Adobe,1,0.562,https://leetcode.com/problems/bitwise-and-of-numbers-range
+440,K-th Smallest in Lexicographical Order,Hard,29.1%,Google,1,0.56,https://leetcode.com/problems/k-th-smallest-in-lexicographical-order
+982,Triples with Bitwise AND Equal To Zero,Hard,55.6%,Google,1,0.56,https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero
+1156,Swap For Longest Repeated Character Substring,Medium,49.0%,Microsoft,1,0.539,https://leetcode.com/problems/swap-for-longest-repeated-character-substring
+531,Lonely Pixel I,Medium,59.0%,Google,1,0.491,https://leetcode.com/problems/lonely-pixel-i
+580,Count Student Number in Departments,Medium,48.7%,X,1,0.487,https://leetcode.com/problems/count-student-number-in-departments
+1157,Online Majority Element In Subarray,Hard,39.0%,Google,1,0.478,https://leetcode.com/problems/online-majority-element-in-subarray
+385,Mini Parser,Medium,33.8%,Google,1,0.447,https://leetcode.com/problems/mini-parser
+1172,Dinner Plate Stacks,Hard,38.2%,Amazon,1,0.441,https://leetcode.com/problems/dinner-plate-stacks
+473,Matchsticks to Square,Medium,37.7%,Amazon,1,0.428,https://leetcode.com/problems/matchsticks-to-square
+183,Customers Who Never Order,Easy,53.4%,Amazon,1,0.424,https://leetcode.com/problems/customers-who-never-order
+1130,Minimum Cost Tree From Leaf Values,Medium,66.1%,Amazon,1,0.422,https://leetcode.com/problems/minimum-cost-tree-from-leaf-values
+1504,Count Submatrices With All Ones,Medium,61.7%,Google,1,0.413,https://leetcode.com/problems/count-submatrices-with-all-ones
+926,Flip String to Monotone Increasing,Medium,52.3%,Google,1,0.408,https://leetcode.com/problems/flip-string-to-monotone-increasing
+1335,Minimum Difficulty of a Job Schedule,Hard,57.6%,Amazon,1,0.396,https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule
+1373,Maximum Sum BST in Binary Tree,Hard,40.2%,Amazon,1,0.393,https://leetcode.com/problems/maximum-sum-bst-in-binary-tree
+790,Domino and Tromino Tiling,Medium,39.2%,Google,1,0.386,https://leetcode.com/problems/domino-and-tromino-tiling
+834,Sum of Distances in Tree,Hard,43.7%,Google,1,0.379,https://leetcode.com/problems/sum-of-distances-in-tree
+1084,Sales Analysis III,Easy,54.3%,Amazon,1,0.376,https://leetcode.com/problems/sales-analysis-iii
+1463,Cherry Pickup II,Hard,65.7%,Google,1,0.367,https://leetcode.com/problems/cherry-pickup-ii
+1081,Smallest Subsequence of Distinct Characters,Medium,50.4%,Amazon,1,0.366,https://leetcode.com/problems/smallest-subsequence-of-distinct-characters
+1345,Jump Game IV,Hard,38.0%,Google,1,0.363,https://leetcode.com/problems/jump-game-iv
+504,Base 7,Easy,46.2%,Google,1,0.363,https://leetcode.com/problems/base-7
+1223,Dice Roll Simulation,Medium,45.6%,Google,1,0.358,https://leetcode.com/problems/dice-roll-simulation
+1185,Day of the Week,Easy,64.0%,Microsoft,1,0.349,https://leetcode.com/problems/day-of-the-week
+859,Buddy Strings,Easy,27.4%,Google,1,0.349,https://leetcode.com/problems/buddy-strings
+618,Students Report By Geography,Hard,55.0%,Amazon,1,0.346,https://leetcode.com/problems/students-report-by-geography
+860,Lemonade Change,Easy,51.6%,Amazon,1,0.341,https://leetcode.com/problems/lemonade-change
+483,Smallest Good Base,Hard,35.7%,Google,1,0.339,https://leetcode.com/problems/smallest-good-base
+390,Elimination Game,Medium,44.5%,Amazon,1,0.338,https://leetcode.com/problems/elimination-game
+579,Find Cumulative Salary of an Employee,Hard,37.0%,Amazon,1,0.337,https://leetcode.com/problems/find-cumulative-salary-of-an-employee
+1405,Longest Happy String,Medium,49.0%,Amazon,1,0.336,https://leetcode.com/problems/longest-happy-string
+960,Delete Columns to Make Sorted III,Hard,53.6%,Google,1,0.334,https://leetcode.com/problems/delete-columns-to-make-sorted-iii
+431,Encode N-ary Tree to Binary Tree,Hard,70.8%,Microsoft,1,0.331,https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree
+1311,Get Watched Videos by Your Friends,Medium,43.1%,Amazon,1,0.321,https://leetcode.com/problems/get-watched-videos-by-your-friends
+873,Length of Longest Fibonacci Subsequence,Medium,48.0%,Amazon,1,0.312,https://leetcode.com/problems/length-of-longest-fibonacci-subsequence
+147,Insertion Sort List,Medium,41.1%,Microsoft,1,0.305,https://leetcode.com/problems/insertion-sort-list
+828,Count Unique Characters of All Substrings of a Given String,Hard,45.2%,Microsoft,1,0.297,https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string
+193,Valid Phone Numbers,Easy,25.3%,Apple,1,0.296,https://leetcode.com/problems/valid-phone-numbers
+996,Number of Squareful Arrays,Hard,47.8%,Apple,1,0.287,https://leetcode.com/problems/number-of-squareful-arrays
+758,Bold Words in String,Easy,46.0%,Google,1,0.284,https://leetcode.com/problems/bold-words-in-string
+945,Minimum Increment to Make Array Unique,Medium,46.3%,X,1,0.274,https://leetcode.com/problems/minimum-increment-to-make-array-unique
+1237,Find Positive Integer Solution for a Given Equation,Easy,69.7%,Google,1,0.272,https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation
+599,Minimum Index Sum of Two Lists,Easy,50.7%,Oracle,1,0.272,https://leetcode.com/problems/minimum-index-sum-of-two-lists
+1203,Sort Items by Groups Respecting Dependencies,Hard,47.6%,Google,1,0.271,https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies
+949,Largest Time for Given Digits,Easy,35.8%,Google,1,0.269,https://leetcode.com/problems/largest-time-for-given-digits
+746,Min Cost Climbing Stairs,Easy,50.3%,Amazon,1,0.261,https://leetcode.com/problems/min-cost-climbing-stairs
+197,Rising Temperature,Easy,38.4%,Adobe,1,0.258,https://leetcode.com/problems/rising-temperature
+466,Count The Repetitions,Hard,28.2%,Amazon,1,0.256,https://leetcode.com/problems/count-the-repetitions
+570,Managers with at Least 5 Direct Reports,Medium,66.0%,Amazon,1,0.255,https://leetcode.com/problems/managers-with-at-least-5-direct-reports
+1348,Tweet Counts Per Frequency,Medium,29.0%,X,1,0.251,https://leetcode.com/problems/tweet-counts-per-frequency
+762,Prime Number of Set Bits in Binary Representation,Easy,63.2%,Amazon,1,0.248,https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation
+747,Largest Number At Least Twice of Others,Easy,42.0%,Google,1,0.237,https://leetcode.com/problems/largest-number-at-least-twice-of-others
+507,Perfect Number,Easy,35.5%,Amazon,1,0.235,https://leetcode.com/problems/perfect-number
+925,Long Pressed Name,Easy,40.5%,Google,1,0.234,https://leetcode.com/problems/long-pressed-name
+313,Super Ugly Number,Medium,45.0%,Google,1,0.223,https://leetcode.com/problems/super-ugly-number
+795,Number of Subarrays with Bounded Maximum,Medium,46.3%,Adobe,1,0.217,https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum
+626,Exchange Seats,Medium,62.3%,Amazon,1,0.21,https://leetcode.com/problems/exchange-seats
+1202,Smallest String With Swaps,Medium,46.5%,Amazon,1,0.207,https://leetcode.com/problems/smallest-string-with-swaps
+952,Largest Component Size by Common Factor,Hard,30.3%,Google,1,0.207,https://leetcode.com/problems/largest-component-size-by-common-factor
+1138,Alphabet Board Path,Medium,48.4%,Google,1,0.205,https://leetcode.com/problems/alphabet-board-path
+728,Self Dividing Numbers,Easy,74.3%,Adobe,1,0.203,https://leetcode.com/problems/self-dividing-numbers
+1286,Iterator for Combination,Medium,68.2%,Google,1,0.195,https://leetcode.com/problems/iterator-for-combination
+1466,Reorder Routes to Make All Paths Lead to the City Zero,Medium,63.5%,Google,1,0.184,https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero
+1212,Team Scores in Football Tournament,Medium,55.8%,Oracle,1,0.177,https://leetcode.com/problems/team-scores-in-football-tournament
+1248,Count Number of Nice Subarrays,Medium,56.4%,Amazon,1,0.172,https://leetcode.com/problems/count-number-of-nice-subarrays
+331,Verify Preorder Serialization of a Binary Tree,Medium,40.4%,Google,1,0.172,https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree
+1162,As Far from Land as Possible,Medium,43.5%,Amazon,1,0.169,https://leetcode.com/problems/as-far-from-land-as-possible
+940,Distinct Subsequences II,Hard,41.5%,Google,1,0.169,https://leetcode.com/problems/distinct-subsequences-ii
+1430,Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree,Medium,44.8%,Amazon,1,0.169,https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree
+330,Patching Array,Hard,34.5%,Google,1,0.167,https://leetcode.com/problems/patching-array
+539,Minimum Time Difference,Medium,51.5%,Amazon,1,0.156,https://leetcode.com/problems/minimum-time-difference
+1366,Rank Teams by Votes,Medium,53.8%,Google,1,0.156,https://leetcode.com/problems/rank-teams-by-votes
+1148,Article Views I,Easy,75.8%,LinkedIn,1,0.154,https://leetcode.com/problems/article-views-i
+959,Regions Cut By Slashes,Medium,66.2%,Uber,1,0.151,https://leetcode.com/problems/regions-cut-by-slashes
+1395,Count Number of Teams,Medium,82.0%,Amazon,1,0.149,https://leetcode.com/problems/count-number-of-teams
+1483,Kth Ancestor of a Tree Node,Hard,27.6%,Google,1,0.146,https://leetcode.com/problems/kth-ancestor-of-a-tree-node
+713,Subarray Product Less Than K,Medium,39.1%,Google,1,0.145,https://leetcode.com/problems/subarray-product-less-than-k
+1381,Design a Stack With Increment Operation,Medium,74.7%,Microsoft,1,0.145,https://leetcode.com/problems/design-a-stack-with-increment-operation
+546,Remove Boxes,Hard,42.7%,Apple,1,0.144,https://leetcode.com/problems/remove-boxes
+1005,Maximize Sum Of Array After K Negations,Easy,51.3%,Amazon,1,0.138,https://leetcode.com/problems/maximize-sum-of-array-after-k-negations
+429,N-ary Tree Level Order Traversal,Medium,65.0%,Amazon,1,0.137,https://leetcode.com/problems/n-ary-tree-level-order-traversal
+255,Verify Preorder Sequence in Binary Search Tree,Medium,45.7%,Uber,1,0.135,https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree
+1479,Sales by Day of the Week,Hard,83.4%,Amazon,1,0.135,https://leetcode.com/problems/sales-by-day-of-the-week
+1160,Find Words That Can Be Formed by Characters,Easy,67.4%,Amazon,1,0.134,https://leetcode.com/problems/find-words-that-can-be-formed-by-characters
+974,Subarray Sums Divisible by K,Medium,48.9%,Amazon,1,0.128,https://leetcode.com/problems/subarray-sums-divisible-by-k
+1025,Divisor Game,Easy,66.3%,Google,1,0.128,https://leetcode.com/problems/divisor-game
+612,Shortest Distance in a Plane,Medium,59.5%,Microsoft,1,0.127,https://leetcode.com/problems/shortest-distance-in-a-plane
+1042,Flower Planting With No Adjacent,Easy,48.5%,LinkedIn,1,0.125,https://leetcode.com/problems/flower-planting-with-no-adjacent
+1218,Longest Arithmetic Subsequence of Given Difference,Medium,44.6%,Google,1,0.123,https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference
+454,4Sum II,Medium,53.1%,Apple,1,0.121,https://leetcode.com/problems/4sum-ii
+1299,Replace Elements with Greatest Element on Right Side,Easy,75.4%,Amazon,1,0.118,https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side
+948,Bag of Tokens,Medium,40.8%,Google,1,0.116,https://leetcode.com/problems/bag-of-tokens
+812,Largest Triangle Area,Easy,58.3%,Google,1,0.115,https://leetcode.com/problems/largest-triangle-area
+487,Max Consecutive Ones II,Medium,48.5%,Google,1,0.115,https://leetcode.com/problems/max-consecutive-ones-ii
+1068,Product Sales Analysis I,Easy,83.1%,Amazon,1,0.112,https://leetcode.com/problems/product-sales-analysis-i
+842,Split Array into Fibonacci Sequence,Medium,36.3%,Amazon,1,0.112,https://leetcode.com/problems/split-array-into-fibonacci-sequence
+196,Delete Duplicate Emails,Easy,41.1%,Amazon,1,0.112,https://leetcode.com/problems/delete-duplicate-emails
+1447,Simplified Fractions,Medium,61.0%,Google,1,0.109,https://leetcode.com/problems/simplified-fractions
+467,Unique Substrings in Wraparound String,Medium,35.6%,Google,1,0.107,https://leetcode.com/problems/unique-substrings-in-wraparound-string
+1386,Cinema Seat Allocation,Medium,34.8%,Microsoft,1,0.106,https://leetcode.com/problems/cinema-seat-allocation
+396,Rotate Function,Medium,36.3%,Amazon,1,0.103,https://leetcode.com/problems/rotate-function
+583,Delete Operation for Two Strings,Medium,48.6%,Google,1,0.095,https://leetcode.com/problems/delete-operation-for-two-strings
+1324,Print Words Vertically,Medium,57.9%,Microsoft,1,0.091,https://leetcode.com/problems/print-words-vertically
+1116,Print Zero Even Odd,Medium,56.0%,Microsoft,1,0.089,https://leetcode.com/problems/print-zero-even-odd
+474,Ones and Zeroes,Medium,42.8%,Google,1,0.088,https://leetcode.com/problems/ones-and-zeroes
+1247,Minimum Swaps to Make Strings Equal,Medium,60.1%,Amazon,1,0.086,https://leetcode.com/problems/minimum-swaps-to-make-strings-equal
+1082,Sales Analysis I,Easy,71.8%,Amazon,1,0.071,https://leetcode.com/problems/sales-analysis-i
+1300,Sum of Mutated Array Closest to Target,Medium,44.2%,Google,1,0.07,https://leetcode.com/problems/sum-of-mutated-array-closest-to-target
+1337,The K Weakest Rows in a Matrix,Easy,68.8%,Amazon,1,0.069,https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix
+1495,Friendly Movies Streamed Last Month,Easy,52.6%,Amazon,1,0.069,https://leetcode.com/problems/friendly-movies-streamed-last-month
+584,Find Customer Referee,Easy,72.3%,Amazon,1,0.066,https://leetcode.com/problems/find-customer-referee
+1332,Remove Palindromic Subsequences,Easy,60.1%,Amazon,1,0.066,https://leetcode.com/problems/remove-palindromic-subsequences
+1105,Filling Bookcase Shelves,Medium,58.1%,Google,1,0.065,https://leetcode.com/problems/filling-bookcase-shelves
+1251,Average Selling Price,Easy,81.6%,Amazon,1,0.062,https://leetcode.com/problems/average-selling-price
+1069,Product Sales Analysis II,Easy,82.9%,Amazon,1,0.061,https://leetcode.com/problems/product-sales-analysis-ii
+1171,Remove Zero Sum Consecutive Nodes from Linked List,Medium,41.4%,Uber,1,0.06,https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list
+52,N-Queens II,Hard,57.9%,Amazon,1,0.058,https://leetcode.com/problems/n-queens-ii
+922,Sort Array By Parity II,Easy,69.3%,Amazon,1,0.058,https://leetcode.com/problems/sort-array-by-parity-ii
+594,Longest Harmonious Subsequence,Easy,46.6%,Apple,1,0.054,https://leetcode.com/problems/longest-harmonious-subsequence
+1092,Shortest Common Supersequence,Hard,51.6%,Microsoft,1,0.053,https://leetcode.com/problems/shortest-common-supersequence
+829,Consecutive Numbers Sum,Hard,37.5%,Uber,1,0.053,https://leetcode.com/problems/consecutive-numbers-sum
+1303,Find the Team Size,Easy,87.8%,Amazon,1,0.052,https://leetcode.com/problems/find-the-team-size
+648,Replace Words,Medium,56.6%,Uber,1,0.051,https://leetcode.com/problems/replace-words
+740,Delete and Earn,Medium,48.6%,Uber,1,0.051,https://leetcode.com/problems/delete-and-earn
+1128,Number of Equivalent Domino Pairs,Easy,47.3%,Amazon,1,0.05,https://leetcode.com/problems/number-of-equivalent-domino-pairs
+1041,Robot Bounded In Circle,Medium,49.6%,X,1,0.048,https://leetcode.com/problems/robot-bounded-in-circle
+1385,Find the Distance Value Between Two Arrays,Easy,67.0%,Uber,1,0.047,https://leetcode.com/problems/find-the-distance-value-between-two-arrays
+357,Count Numbers with Unique Digits,Medium,48.4%,Google,1,0.046,https://leetcode.com/problems/count-numbers-with-unique-digits
+1382,Balance a Binary Search Tree,Medium,74.8%,Amazon,1,0.045,https://leetcode.com/problems/balance-a-binary-search-tree
+1456,Maximum Number of Vowels in a Substring of Given Length,Medium,52.4%,Amazon,1,0.042,https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length
+1235,Maximum Profit in Job Scheduling,Hard,44.0%,Google,1,0.041,https://leetcode.com/problems/maximum-profit-in-job-scheduling
+590,N-ary Tree Postorder Traversal,Easy,72.1%,Amazon,1,0.04,https://leetcode.com/problems/n-ary-tree-postorder-traversal
+1049,Last Stone Weight II,Medium,44.2%,Amazon,1,0.039,https://leetcode.com/problems/last-stone-weight-ii
+797,All Paths From Source to Target,Medium,77.9%,Amazon,1,0.039,https://leetcode.com/problems/all-paths-from-source-to-target
+1511,Customer Order Frequency,Easy,76.8%,Amazon,1,0.038,https://leetcode.com/problems/customer-order-frequency
+606,Construct String from Binary Tree,Easy,54.1%,Amazon,1,0.037,https://leetcode.com/problems/construct-string-from-binary-tree
+650,2 Keys Keyboard,Medium,49.2%,Microsoft,1,0.036,https://leetcode.com/problems/2-keys-keyboard
+575,Distribute Candies,Easy,61.4%,Microsoft,1,0.031,https://leetcode.com/problems/distribute-candies
+1342,Number of Steps to Reduce a Number to Zero,Easy,86.3%,Google,1,0.028,https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero
+961,N-Repeated Element in Size 2N Array,Easy,73.7%,Apple,1,0.026,https://leetcode.com/problems/n-repeated-element-in-size-2n-array
+877,Stone Game,Medium,64.8%,Adobe,1,0.025,https://leetcode.com/problems/stone-game
+1520,Maximum Number of Non-Overlapping Substrings,Hard,32.8%,Amazon,1,0.021,https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings
+1089,Duplicate Zeros,Easy,52.9%,Google,1,0.019,https://leetcode.com/problems/duplicate-zeros
+1351,Count Negative Numbers in a Sorted Matrix,Easy,76.5%,Amazon,1,0.013,https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix
+1313,Decompress Run-Length Encoded List,Easy,85.1%,Google,1,0.012,https://leetcode.com/problems/decompress-run-length-encoded-list
+1480,Running Sum of 1d Array,Easy,90.5%,Google,1,0.01,https://leetcode.com/problems/running-sum-of-1d-array
+1431,Kids With the Greatest Number of Candies,Easy,88.9%,Amazon,1,0.006,https://leetcode.com/problems/kids-with-the-greatest-number-of-candies
+1530,Number of Good Leaf Nodes Pairs,Medium,53.6%,Google,1,0.006,https://leetcode.com/problems/number-of-good-leaf-nodes-pairs
+481,Magical String,Medium,47.5%,Google,1,0.0,https://leetcode.com/problems/magical-string
+506,Relative Ranks,Easy,50.5%,Google,1,0.0,https://leetcode.com/problems/relative-ranks
+513,Find Bottom Left Tree Value,Medium,61.5%,Microsoft,1,0.0,https://leetcode.com/problems/find-bottom-left-tree-value
+514,Freedom Trail,Hard,43.0%,Google,1,0.0,https://leetcode.com/problems/freedom-trail
+519,Random Flip Matrix,Medium,36.7%,Google,1,0.0,https://leetcode.com/problems/random-flip-matrix
+520,Detect Capital,Easy,54.2%,Google,1,0.0,https://leetcode.com/problems/detect-capital
+521,Longest Uncommon Subsequence I,Easy,57.6%,Google,1,0.0,https://leetcode.com/problems/longest-uncommon-subsequence-i
+522,Longest Uncommon Subsequence II,Medium,34.0%,Google,1,0.0,https://leetcode.com/problems/longest-uncommon-subsequence-ii
+526,Beautiful Arrangement,Medium,57.8%,Google,1,0.0,https://leetcode.com/problems/beautiful-arrangement
+533,Lonely Pixel II,Medium,47.9%,Google,1,0.0,https://leetcode.com/problems/lonely-pixel-ii
+537,Complex Number Multiplication,Medium,67.4%,Amazon,1,0.0,https://leetcode.com/problems/complex-number-multiplication
+553,Optimal Division,Medium,56.8%,Amazon,1,0.0,https://leetcode.com/problems/optimal-division
+565,Array Nesting,Medium,55.5%,Apple,1,0.0,https://leetcode.com/problems/array-nesting
+569,Median Employee Salary,Hard,57.7%,Google,1,0.0,https://leetcode.com/problems/median-employee-salary
+633,Sum of Square Numbers,Easy,32.2%,LinkedIn,1,0.0,https://leetcode.com/problems/sum-of-square-numbers
+638,Shopping Offers,Medium,51.5%,Google,1,0.0,https://leetcode.com/problems/shopping-offers
+644,Maximum Average Subarray II,Hard,32.0%,Google,1,0.0,https://leetcode.com/problems/maximum-average-subarray-ii
+645,Set Mismatch,Easy,42.1%,Amazon,1,0.0,https://leetcode.com/problems/set-mismatch
+656,Coin Path,Hard,29.0%,Google,1,0.0,https://leetcode.com/problems/coin-path
+667,Beautiful Arrangement II,Medium,54.3%,Google,1,0.0,https://leetcode.com/problems/beautiful-arrangement-ii
+672,Bulb Switcher II,Medium,50.9%,Microsoft,1,0.0,https://leetcode.com/problems/bulb-switcher-ii
+738,Monotone Increasing Digits,Medium,44.3%,Amazon,1,0.0,https://leetcode.com/problems/monotone-increasing-digits
+782,Transform to Chessboard,Hard,46.5%,Google,1,0.0,https://leetcode.com/problems/transform-to-chessboard
+789,Escape The Ghosts,Medium,57.4%,Google,1,0.0,https://leetcode.com/problems/escape-the-ghosts
+793,Preimage Size of Factorial Zeroes Function,Hard,40.3%,Adobe,1,0.0,https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function
+808,Soup Servings,Medium,39.9%,Google,1,0.0,https://leetcode.com/problems/soup-servings
+813,Largest Sum of Averages,Medium,49.9%,Google,1,0.0,https://leetcode.com/problems/largest-sum-of-averages
+816,Ambiguous Coordinates,Medium,47.2%,Google,1,0.0,https://leetcode.com/problems/ambiguous-coordinates
+838,Push Dominoes,Medium,48.5%,Google,1,0.0,https://leetcode.com/problems/push-dominoes
+851,Loud and Rich,Medium,51.6%,Amazon,1,0.0,https://leetcode.com/problems/loud-and-rich
+868,Binary Gap,Easy,60.6%,X,1,0.0,https://leetcode.com/problems/binary-gap
+899,Orderly Queue,Hard,52.2%,Amazon,1,0.0,https://leetcode.com/problems/orderly-queue
+902,Numbers At Most N Given Digit Set,Hard,31.5%,Amazon,1,0.0,https://leetcode.com/problems/numbers-at-most-n-given-digit-set
+906,Super Palindromes,Hard,32.7%,Google,1,0.0,https://leetcode.com/problems/super-palindromes
+908,Smallest Range I,Easy,65.8%,Adobe,1,0.0,https://leetcode.com/problems/smallest-range-i
+910,Smallest Range II,Medium,26.6%,Adobe,1,0.0,https://leetcode.com/problems/smallest-range-ii
+944,Delete Columns to Make Sorted,Easy,70.3%,Google,1,0.0,https://leetcode.com/problems/delete-columns-to-make-sorted
+955,Delete Columns to Make Sorted II,Medium,33.2%,Google,1,0.0,https://leetcode.com/problems/delete-columns-to-make-sorted-ii
+972,Equal Rational Numbers,Hard,41.6%,Microsoft,1,0.0,https://leetcode.com/problems/equal-rational-numbers
+988,Smallest String Starting From Leaf,Medium,46.1%,Google,1,0.0,https://leetcode.com/problems/smallest-string-starting-from-leaf
+1006,Clumsy Factorial,Medium,53.3%,Microsoft,1,0.0,https://leetcode.com/problems/clumsy-factorial
+1012,Numbers With Repeated Digits,Hard,37.5%,Google,1,0.0,https://leetcode.com/problems/numbers-with-repeated-digits
+1015,Smallest Integer Divisible by K,Medium,32.1%,Google,1,0.0,https://leetcode.com/problems/smallest-integer-divisible-by-k
+1016,Binary String With Substrings Representing 1 To N,Medium,58.8%,Google,1,0.0,https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n
+1020,Number of Enclaves,Medium,57.8%,Google,1,0.0,https://leetcode.com/problems/number-of-enclaves
+1035,Uncrossed Lines,Medium,56.1%,Amazon,1,0.0,https://leetcode.com/problems/uncrossed-lines
+1037,Valid Boomerang,Easy,37.9%,Google,1,0.0,https://leetcode.com/problems/valid-boomerang
+1039,Minimum Score Triangulation of Polygon,Medium,49.1%,Uber,1,0.0,https://leetcode.com/problems/minimum-score-triangulation-of-polygon
+1045,Customers Who Bought All Products,Medium,67.7%,Amazon,1,0.0,https://leetcode.com/problems/customers-who-bought-all-products
+1050,Actors and Directors Who Cooperated At Least Three Times,Easy,71.7%,Amazon,1,0.0,https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times
+1054,Distant Barcodes,Medium,43.2%,Amazon,1,0.0,https://leetcode.com/problems/distant-barcodes
+1064,Fixed Point,Easy,66.5%,Uber,1,0.0,https://leetcode.com/problems/fixed-point
+1065,Index Pairs of a String,Easy,60.7%,Amazon,1,0.0,https://leetcode.com/problems/index-pairs-of-a-string
+1067,Digit Count in Range,Hard,40.0%,Amazon,1,0.0,https://leetcode.com/problems/digit-count-in-range
+1070,Product Sales Analysis III,Medium,48.9%,Amazon,1,0.0,https://leetcode.com/problems/product-sales-analysis-iii
+1078,Occurrences After Bigram,Easy,64.7%,Google,1,0.0,https://leetcode.com/problems/occurrences-after-bigram
+1080,Insufficient Nodes in Root to Leaf Paths,Medium,49.3%,Amazon,1,0.0,https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths
+1085,Sum of Digits in the Minimum Number,Easy,74.6%,Amazon,1,0.0,https://leetcode.com/problems/sum-of-digits-in-the-minimum-number
+1090,Largest Values From Labels,Medium,58.9%,Google,1,0.0,https://leetcode.com/problems/largest-values-from-labels
+1093,Statistics from a Large Sample,Medium,48.2%,Microsoft,1,0.0,https://leetcode.com/problems/statistics-from-a-large-sample
+1107,New Users Daily Count,Medium,45.1%,LinkedIn,1,0.0,https://leetcode.com/problems/new-users-daily-count
+1118,Number of Days in a Month,Easy,57.4%,Amazon,1,0.0,https://leetcode.com/problems/number-of-days-in-a-month
+1119,Remove Vowels from a String,Easy,89.9%,Amazon,1,0.0,https://leetcode.com/problems/remove-vowels-from-a-string
+1127,User Purchase Platform,Hard,48.9%,LinkedIn,1,0.0,https://leetcode.com/problems/user-purchase-platform
+1129,Shortest Path with Alternating Colors,Medium,38.9%,Amazon,1,0.0,https://leetcode.com/problems/shortest-path-with-alternating-colors
+1133,Largest Unique Number,Easy,66.8%,Amazon,1,0.0,https://leetcode.com/problems/largest-unique-number
+1134,Armstrong Number,Easy,78.2%,Amazon,1,0.0,https://leetcode.com/problems/armstrong-number
+1144,Decrease Elements To Make Array Zigzag,Medium,45.4%,Google,1,0.0,https://leetcode.com/problems/decrease-elements-to-make-array-zigzag
+1147,Longest Chunked Palindrome Decomposition,Hard,58.6%,Google,1,0.0,https://leetcode.com/problems/longest-chunked-palindrome-decomposition
+1149,Article Views II,Medium,48.2%,LinkedIn,1,0.0,https://leetcode.com/problems/article-views-ii
+1175,Prime Arrangements,Easy,51.0%,Amazon,1,0.0,https://leetcode.com/problems/prime-arrangements
+1176,Diet Plan Performance,Easy,53.8%,Amazon,1,0.0,https://leetcode.com/problems/diet-plan-performance
+1182,Shortest Distance to Target Color,Medium,52.8%,Google,1,0.0,https://leetcode.com/problems/shortest-distance-to-target-color
+1184,Distance Between Bus Stops,Easy,54.5%,Google,1,0.0,https://leetcode.com/problems/distance-between-bus-stops
+1199,Minimum Time to Build Blocks,Hard,37.4%,Google,1,0.0,https://leetcode.com/problems/minimum-time-to-build-blocks
+1207,Unique Number of Occurrences,Easy,71.6%,Google,1,0.0,https://leetcode.com/problems/unique-number-of-occurrences
+1255,Maximum Score Words Formed by Letters,Hard,69.4%,Amazon,1,0.0,https://leetcode.com/problems/maximum-score-words-formed-by-letters
+1259,Handshakes That Don't Cross,Hard,53.5%,Amazon,1,0.0,https://leetcode.com/problems/handshakes-that-dont-cross
+1260,Shift 2D Grid,Easy,61.4%,Amazon,1,0.0,https://leetcode.com/problems/shift-2d-grid
+1261,Find Elements in a Contaminated Binary Tree,Medium,74.3%,Google,1,0.0,https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree
+1272,Remove Interval,Medium,58.6%,Google,1,0.0,https://leetcode.com/problems/remove-interval
+1273,Delete Tree Nodes,Medium,63.5%,Microsoft,1,0.0,https://leetcode.com/problems/delete-tree-nodes
+1285,Find the Start and End Number of Continuous Ranges,Medium,83.8%,Microsoft,1,0.0,https://leetcode.com/problems/find-the-start-and-end-number-of-continuous-ranges
+1288,Remove Covered Intervals,Medium,57.9%,Amazon,1,0.0,https://leetcode.com/problems/remove-covered-intervals
+1289,Minimum Falling Path Sum II,Hard,60.9%,Google,1,0.0,https://leetcode.com/problems/minimum-falling-path-sum-ii
+1301,Number of Paths with Max Score,Hard,37.3%,Samsung,1,0.0,https://leetcode.com/problems/number-of-paths-with-max-score
+1302,Deepest Leaves Sum,Medium,83.6%,Google,1,0.0,https://leetcode.com/problems/deepest-leaves-sum
+1306,Jump Game III,Medium,60.4%,Microsoft,1,0.0,https://leetcode.com/problems/jump-game-iii
+1314,Matrix Block Sum,Medium,73.7%,Google,1,0.0,https://leetcode.com/problems/matrix-block-sum
+1316,Distinct Echo Substrings,Hard,46.4%,Google,1,0.0,https://leetcode.com/problems/distinct-echo-substrings
+1318,Minimum Flips to Make a OR b Equal to c,Medium,62.8%,Microsoft,1,0.0,https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c
+1327,List the Products Ordered in a Period,Easy,76.4%,Amazon,1,0.0,https://leetcode.com/problems/list-the-products-ordered-in-a-period
+1331,Rank Transform of an Array,Easy,58.0%,Google,1,0.0,https://leetcode.com/problems/rank-transform-of-an-array
+1334,Find the City With the Smallest Number of Neighbors at a Threshold Distance,Medium,44.5%,Uber,1,0.0,https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance
+1343,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,Medium,64.2%,LinkedIn,1,0.0,https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold
+1346,Check If N and Its Double Exist,Easy,37.9%,Google,1,0.0,https://leetcode.com/problems/check-if-n-and-its-double-exist
+1347,Minimum Number of Steps to Make Two Strings Anagram,Medium,74.7%,X,1,0.0,https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram
+1350,Students With Invalid Departments,Easy,89.5%,Amazon,1,0.0,https://leetcode.com/problems/students-with-invalid-departments
+1362,Closest Divisors,Medium,56.8%,Amazon,1,0.0,https://leetcode.com/problems/closest-divisors
+1363,Largest Multiple of Three,Hard,33.5%,Amazon,1,0.0,https://leetcode.com/problems/largest-multiple-of-three
+1369,Get the Second Most Recent Activity,Hard,65.1%,Microsoft,1,0.0,https://leetcode.com/problems/get-the-second-most-recent-activity
+1371,Find the Longest Substring Containing Vowels in Even Counts,Medium,58.2%,Microsoft,1,0.0,https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts
+1377,Frog Position After T Seconds,Hard,33.6%,Google,1,0.0,https://leetcode.com/problems/frog-position-after-t-seconds
+1380,Lucky Numbers in a Matrix,Easy,71.5%,Oracle,1,0.0,https://leetcode.com/problems/lucky-numbers-in-a-matrix
+1387,Sort Integers by The Power Value,Medium,70.2%,Google,1,0.0,https://leetcode.com/problems/sort-integers-by-the-power-value
+1388,Pizza With 3n Slices,Hard,44.7%,Google,1,0.0,https://leetcode.com/problems/pizza-with-3n-slices
+1392,Longest Happy Prefix,Hard,40.1%,Google,1,0.0,https://leetcode.com/problems/longest-happy-prefix
+1394,Find Lucky Integer in an Array,Easy,64.4%,Microsoft,1,0.0,https://leetcode.com/problems/find-lucky-integer-in-an-array
+1400,Construct K Palindrome Strings,Medium,60.4%,Uber,1,0.0,https://leetcode.com/problems/construct-k-palindrome-strings
+1401,Circle and Rectangle Overlapping,Medium,41.8%,Google,1,0.0,https://leetcode.com/problems/circle-and-rectangle-overlapping
+1404,Number of Steps to Reduce a Number in Binary Representation to One,Medium,50.4%,Amazon,1,0.0,https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one
+1408,String Matching in an Array,Easy,61.4%,Amazon,1,0.0,https://leetcode.com/problems/string-matching-in-an-array
+1409,Queries on a Permutation With Key,Medium,81.7%,Amazon,1,0.0,https://leetcode.com/problems/queries-on-a-permutation-with-key
+1410,HTML Entity Parser,Medium,54.0%,Oracle,1,0.0,https://leetcode.com/problems/html-entity-parser
+1414,Find the Minimum Number of Fibonacci Numbers Whose Sum Is K,Medium,63.2%,Google,1,0.0,https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k
+1415,The k-th Lexicographical String of All Happy Strings of Length n,Medium,70.4%,Microsoft,1,0.0,https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n
+1417,Reformat The String,Easy,55.0%,Microsoft,1,0.0,https://leetcode.com/problems/reformat-the-string
+1421,NPV Queries,Medium,80.6%,Amazon,1,0.0,https://leetcode.com/problems/npv-queries
+1422,Maximum Score After Splitting a String,Easy,54.7%,Google,1,0.0,https://leetcode.com/problems/maximum-score-after-splitting-a-string
+1441,Build an Array With Stack Operations,Easy,68.7%,Google,1,0.0,https://leetcode.com/problems/build-an-array-with-stack-operations
+1448,Count Good Nodes in Binary Tree,Medium,70.4%,Microsoft,1,0.0,https://leetcode.com/problems/count-good-nodes-in-binary-tree
+1449,Form Largest Integer With Digits That Add up to Target,Hard,41.8%,Google,1,0.0,https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+1452,People Whose List of Favorite Companies Is Not a Subset of Another List,Medium,53.3%,Google,1,0.0,https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list
+1457,Pseudo-Palindromic Paths in a Binary Tree,Medium,67.3%,Amazon,1,0.0,https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree
+1458,Max Dot Product of Two Subsequences,Hard,41.7%,Microsoft,1,0.0,https://leetcode.com/problems/max-dot-product-of-two-subsequences
+1459,Rectangles Area,Medium,61.5%,X,1,0.0,https://leetcode.com/problems/rectangles-area
+1461,Check If a String Contains All Binary Codes of Size K,Medium,44.6%,Google,1,0.0,https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k
+1462,Course Schedule IV,Medium,41.9%,Uber,1,0.0,https://leetcode.com/problems/course-schedule-iv
+1464,Maximum Product of Two Elements in an Array,Easy,78.1%,Samsung,1,0.0,https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array
+1469,Find All The Lonely Nodes,Easy,81.4%,Microsoft,1,0.0,https://leetcode.com/problems/find-all-the-lonely-nodes
+1471,The k Strongest Values in an Array,Medium,57.0%,Google,1,0.0,https://leetcode.com/problems/the-k-strongest-values-in-an-array
+1474,Delete N Nodes After M Nodes of a Linked List,Easy,74.2%,Microsoft,1,0.0,https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list
+1482,Minimum Number of Days to Make m Bouquets,Medium,45.8%,Google,1,0.0,https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets
+1485,Clone Binary Tree With Random Pointer,Medium,81.0%,Amazon,1,0.0,https://leetcode.com/problems/clone-binary-tree-with-random-pointer
+1488,Avoid Flood in The City,Medium,25.3%,Google,1,0.0,https://leetcode.com/problems/avoid-flood-in-the-city
+1489,Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree,Hard,50.6%,Amazon,1,0.0,https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree
+1490,Clone N-ary Tree,Medium,84.5%,Amazon,1,0.0,https://leetcode.com/problems/clone-n-ary-tree
+1494,Parallel Courses II,Hard,32.0%,Google,1,0.0,https://leetcode.com/problems/parallel-courses-ii
+1496,Path Crossing,Easy,55.9%,Amazon,1,0.0,https://leetcode.com/problems/path-crossing
+1499,Max Value of Equation,Hard,44.4%,Google,1,0.0,https://leetcode.com/problems/max-value-of-equation
+1502,Can Make Arithmetic Progression From Sequence,Easy,73.3%,Amazon,1,0.0,https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence
+1503,Last Moment Before All Ants Fall Out of a Plank,Medium,51.5%,Google,1,0.0,https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank
+1506,Find Root of N-Ary Tree,Medium,80.0%,Google,1,0.0,https://leetcode.com/problems/find-root-of-n-ary-tree
+1508,Range Sum of Sorted Subarray Sums,Medium,68.3%,Google,1,0.0,https://leetcode.com/problems/range-sum-of-sorted-subarray-sums
+1509,Minimum Difference Between Largest and Smallest Value in Three Moves,Medium,51.0%,Google,1,0.0,https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves
+1510,Stone Game IV,Hard,50.3%,Microsoft,1,0.0,https://leetcode.com/problems/stone-game-iv
+1513,Number of Substrings With Only 1s,Medium,40.3%,Google,1,0.0,https://leetcode.com/problems/number-of-substrings-with-only-1s
+1514,Path with Maximum Probability,Medium,36.5%,Google,1,0.0,https://leetcode.com/problems/path-with-maximum-probability
+1516,Move Sub-Tree of N-Ary Tree,Hard,60.1%,Google,1,0.0,https://leetcode.com/problems/move-sub-tree-of-n-ary-tree
+1518,Water Bottles,Easy,63.1%,Microsoft,1,0.0,https://leetcode.com/problems/water-bottles
+1519,Number of Nodes in the Sub-Tree With the Same Label,Medium,35.2%,Samsung,1,0.0,https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label
+1523,Count Odd Numbers in an Interval Range,Easy,55.8%,Microsoft,1,0.0,https://leetcode.com/problems/count-odd-numbers-in-an-interval-range
+1525,Number of Good Ways to Split a String,Medium,69.8%,Google,1,0.0,https://leetcode.com/problems/number-of-good-ways-to-split-a-string
+1526,Minimum Number of Increments on Subarrays to Form a Target Array,Hard,57.7%,Google,1,0.0,https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array
+1533,Find the Index of the Large Integer,Medium,57.1%,Amazon,1,0.0,https://leetcode.com/problems/find-the-index-of-the-large-integer
+1538,Guess the Majority in a Hidden Array,Medium,63.2%,Google,1,0.0,https://leetcode.com/problems/guess-the-majority-in-a-hidden-array
+1539,Kth Missing Positive Number,Easy,52.3%,Microsoft,1,0.0,https://leetcode.com/problems/kth-missing-positive-number
+1544,Make The String Great,Easy,54.4%,Google,1,0.0,https://leetcode.com/problems/make-the-string-great
+1546,Maximum Number of Non-Overlapping Subarrays With Sum Equals Target,Medium,40.6%,Google,1,0.0,https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target

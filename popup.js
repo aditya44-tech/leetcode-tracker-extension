@@ -151,89 +151,99 @@ function render(filterCompany) {
 
 /* ---- Current problem ---- */
 
-function renderCurrentProblem(problem) {
-  const section = document.getElementById("currentProblem");
+// Dataset loaded via <script src="companyData.js"> — no fetch needed
+function getCompanyDataset() {
+  return window.COMPANY_DATA || {};
+}
 
-  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+// Extract problem slug from a LeetCode tab URL
+// e.g. "https://leetcode.com/problems/two-sum/" → "two-sum"
+function slugFromTabURL(url) {
+  try {
+    const pathname = new URL(url).pathname; // "/problems/two-sum/"
+    const parts = pathname.split("/").filter(Boolean); // ["problems","two-sum"]
+    return parts.length >= 2 ? parts[1] : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+// Convert a slug to a human-readable name (fallback when name isn't in storage)
+// e.g. "two-sum" → "Two Sum"
+function slugToName(slug) {
+  if (!slug) return "";
+  return slug
+    .split("-")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+async function renderCurrentProblem(problem) {
+  const section = document.getElementById("currentProblem");
+  const companiesEl = document.getElementById("currentCompanies");
+
+  try {
+    const tabs = await chrome.tabs.query({ active: true, currentWindow: true });
     const activeTab = tabs[0];
 
-    // Only show if the ACTIVE TAB is a LeetCode problem page
     if (!activeTab || !activeTab.url || !activeTab.url.includes("leetcode.com/problems/")) {
       section.classList.add("hidden");
       return;
     }
 
-    // If no problem from content script, try to read from storage again
-    if (!problem || !problem.name) {
-      chrome.storage.local.get({ currentProblem: null }, (retry) => {
-        if (retry.currentProblem && retry.currentProblem.name) {
-          if (retry.currentProblem.slug && activeTab.url.includes(retry.currentProblem.slug)) {
-            renderCurrentProblem(retry.currentProblem);
-          } else {
-            section.classList.add("hidden");
-          }
-        } else {
-          section.classList.add("hidden");
-        }
-      });
-      return;
-    }
-
-    // Double check that the problem in storage matches the current active tab
-    if (problem.slug && !activeTab.url.includes(problem.slug)) {
+    // Extract slug directly from the active tab URL — this is the source of truth.
+    // Don't rely on problem.slug which may be stale during SPA navigation.
+    const urlSlug = slugFromTabURL(activeTab.url);
+    if (!urlSlug) {
       section.classList.add("hidden");
       return;
     }
 
+    // Company lookup — always use the URL slug directly against the dataset.
+    // This works immediately, even before content.js has updated storage.
+    console.log(`[LeetCode Tracker Popup] Looking up companies for slug: "${urlSlug}"`);
+    const ds = getCompanyDataset();
+    let companies = ds[urlSlug] || [];
+    console.log(`[LeetCode Tracker Popup] Dataset lookup "${urlSlug}" → ${companies.length} companies: ${companies.join(', ')}`);
+
+    // Use stored problem info only if its slug matches the current URL
+    const storedMatchesCurrent = problem && problem.slug === urlSlug;
+
+    // Fallback: if dataset had nothing, try stored companies
+    if (companies.length === 0 && storedMatchesCurrent && problem.companies && problem.companies.length > 0) {
+      companies = problem.companies;
+      console.log(`[LeetCode Tracker Popup] Using stored companies: ${companies.join(', ')}`);
+    }
+
+    // Show name: use stored name if it matches URL, otherwise derive from slug
+    const name = (storedMatchesCurrent && problem.name) ? problem.name : slugToName(urlSlug);
+
+    // Show difficulty: use stored if it matches, otherwise blank (content.js will update soon)
+    const diff = (storedMatchesCurrent && problem.difficulty) ? problem.difficulty : "";
+
     section.classList.remove("hidden");
-    document.getElementById("currentName").textContent = problem.name;
+    document.getElementById("currentName").textContent = name;
 
     const diffEl = document.getElementById("currentDiff");
-    const diff = problem.difficulty || "Unknown";
-    diffEl.textContent = diff;
-    diffEl.className = "current-diff " + (diff || "unknown").toLowerCase();
-    const companiesEl = document.getElementById("currentCompanies");
-    const companies = problem.companies || [];
-
-    function renderCompanies(list) {
-      if (list.length > 0) {
-        companiesEl.innerHTML = list
-          .map((c) => `<div class="current-company">${companyLogoHTMLNoRemove(c)}<span class="current-company-name">${escapeHtml(c)}</span></div>`)
-          .join("");
-      } else {
-        companiesEl.innerHTML = '<span class="no-companies">No company data</span>';
-      }
+    if (diff) {
+      diffEl.textContent = diff;
+      diffEl.className = "current-diff " + diff.toLowerCase();
+    } else {
+      diffEl.textContent = "";
+      diffEl.className = "current-diff";
     }
 
     if (companies.length > 0) {
-      renderCompanies(companies);
+      companiesEl.innerHTML = companies
+        .map((c) => `<div class="current-company">${companyLogoHTMLNoRemove(c)}<span class="current-company-name">${escapeHtml(c)}</span></div>`)
+        .join("");
     } else {
-      // Companies might not be saved yet — try loading dataset directly
-      companiesEl.innerHTML = '<span class="no-companies">Looking up companies...</span>';
-      (async () => {
-        try {
-          const dsResp = await fetch(chrome.runtime.getURL('companyData.json'));
-          const ds = await dsResp.json();
-          const slug = problem.slug || '';
-          const fromDataset = ds[slug] || [];
-          if (fromDataset.length > 0) {
-            renderCompanies(fromDataset);
-            // Also update storage so next open is instant
-            chrome.storage.local.get({ currentProblem: null }, (data) => {
-              if (data.currentProblem && data.currentProblem.slug === slug) {
-                data.currentProblem.companies = [...fromDataset];
-                chrome.storage.local.set({ currentProblem: data.currentProblem });
-              }
-            });
-          } else {
-            companiesEl.innerHTML = '<span class="no-companies">No company data — tag manually after solving</span>';
-          }
-        } catch (e) {
-          companiesEl.innerHTML = '<span class="no-companies">No company data</span>';
-        }
-      })();
+      companiesEl.innerHTML = '<span class="no-companies">No company data</span>';
     }
-  });
+  } catch (e) {
+    console.error('[LeetCode Tracker Popup] renderCurrentProblem error:', e);
+    section.classList.add("hidden");
+  }
 }
 
 /* ---- Company logo helper ---- */
@@ -457,15 +467,9 @@ async function syncProfile(silent = false) {
 
     // Step 4: Load company dataset and problem metadata
     if (!silent) syncStatus.textContent = "Loading company dataset...";
-    let companyDataset = {};
+    const companyDataset = getCompanyDataset();
+    console.log(`[LeetCode Tracker Popup] Dataset ready: ${Object.keys(companyDataset).length} slugs`);
     let problemMeta = {};
-    try {
-      const dsResp = await fetch(chrome.runtime.getURL("companyData.json"));
-      companyDataset = await dsResp.json();
-      console.log(`[LeetCode Tracker Popup] Dataset loaded ${Object.keys(companyDataset).length} slugs`);
-    } catch (e) {
-      console.log("[LeetCode Tracker Popup] Dataset load failed, syncing without companies");
-    }
     try {
       const metaResp = await fetch(chrome.runtime.getURL("problemMeta.json"));
       problemMeta = await metaResp.json();

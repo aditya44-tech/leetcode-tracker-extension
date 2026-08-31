@@ -27,7 +27,7 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["logos/*.svg", "companyData.json", "problemMeta.json"],
+      "resources": ["logos/*.svg", "companyData.json", "companyData.js", "problemMeta.json"],
       "matches": ["<all_urls>"]
     }
   ]
