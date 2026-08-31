@@ -1,54 +1,41 @@
-# LeetCode Tracker — Chrome Extension (Manifest V3)
+# LeetCode Tracker — Chrome Extension
 
-A lightweight Chrome extension that automatically tracks your LeetCode solve time and difficulty breakdown.
+> ⚠️ **Note:** This extension is currently in **beta testing**. You might encounter some bugs or edge cases. Feedback and contributions are welcome!
 
-## Company Dataset (`companyData.json`)
+A lightweight Chrome extension that automatically tracks your LeetCode solve time and difficulty breakdown, and shows which companies ask which questions!
 
-### Where it comes from
+## 📥 How to Install (Free)
 
-The dataset is sourced from community-maintained LeetCode company question lists (e.g., the `leetcode_company_questions_combined.csv` from GitHub). **It is NOT live data from LeetCode** — it's a static snapshot that you can replace with a newer version at any time.
+Since this extension is not on the Chrome Web Store, you can install it manually in a few easy steps:
 
-### Structure
+1. **Download the Extension:** Go to the **Releases** section on the right side of this GitHub page and download the `LeetCode-Tracker.zip` file from the latest release.
+2. **Extract the ZIP:** Extract the downloaded `.zip` file into a new folder on your computer.
+3. **Open Extensions in Chrome:** Open Google Chrome and go to `chrome://extensions/` in your address bar.
+4. **Enable Developer Mode:** Turn on the **Developer mode** toggle in the top-right corner.
+5. **Load the Extension:** Click the **Load unpacked** button in the top-left corner.
+6. **Select the Folder:** Select the folder where you extracted the extension.
 
-```json
-{
-  "two-sum": ["Amazon", "Google", "Microsoft", "Facebook"],
-  "number-of-islands": ["Amazon", "Google", "Facebook"],
-  "lru-cache": ["Amazon", "Google", "Microsoft"]
-}
-```
-
-- **Keys** are LeetCode URL slugs (the part after `/problems/` in the URL)
-- **Values** are arrays of company names that have asked that problem
-
-### How auto-tagging works
-
-1. `content.js` extracts the slug from `window.location.pathname` (e.g., `/problems/two-sum/` → `two-sum`)
-2. On page load, it fetches `companyData.json` via `chrome.runtime.getURL()` (local extension file, no network request)
-3. When a solve is accepted, the slug is looked up in the dataset and the matching companies are attached to the record
-4. If no match is found, `companies: []` is saved — you can tag manually in the popup
-
-### How to refresh the dataset
-
-Replace `companyData.json` with a newer version (same slug→array format), then reload the extension at `chrome://extensions`. No code changes needed.
-
-### Verifying the lookup in DevTools
-
-```js
-// 1. Check the slug for the current page
-window.location.pathname.split('/').filter(Boolean)[1]
-// → "two-sum"
-
-// 2. Check if the dataset has it
-fetch(chrome.runtime.getURL('companyData.json'))
-  .then(r => r.json())
-  .then(d => console.log(d['two-sum']))
-// → ["Amazon", "Google", ...]
-```
+🎉 **That's it!** The LeetCode Tracker icon will appear in your toolbar. 
+> **Tip:** Click the puzzle piece icon in Chrome and "Pin" the extension to your toolbar for easy access!
 
 ---
 
-## File Structure
+## 🏢 Company Dataset (`companyData.json`)
+
+### Where it comes from
+The dataset is sourced from community-maintained LeetCode company question lists. **It is NOT live data from LeetCode** — it's a static snapshot containing over 1,200 problems and 15 major tech companies.
+
+### How auto-tagging works
+1. `content.js` extracts the slug from the URL (e.g., `/problems/two-sum/` → `two-sum`).
+2. When a solve is accepted, the slug is looked up in the dataset and matching companies are attached to your record.
+3. If no match is found, it will say "No company data" — you can still manually tag companies in the popup.
+
+### How to refresh the dataset
+Replace the CSV file with a newer version and run `node build-company-data.js` to rebuild the dataset, then reload the extension at `chrome://extensions`.
+
+---
+
+## 📁 File Structure
 
 ```
 leetcode-tracker/
@@ -58,10 +45,10 @@ leetcode-tracker/
 ├── popup.html         # Extension popup UI (markup)
 ├── popup.css          # Popup styles (editorial light theme)
 ├── popup.js           # Popup logic — reads storage, renders stats + tags
-├── companyData.json   # Bundled dataset: slug → company[] mapping
+├── companyData.json   # Bundled dataset (used by content script)
+├── companyData.js     # Bundled dataset (used by popup)
 └── README.md          # This file
 ```
-
 
 
 ---
