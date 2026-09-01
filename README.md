@@ -1,10 +1,10 @@
-# LeetCode Tracker — Chrome Extension
+# LeetCode Tracker Chrome Extension
 
 > ⚠️ **Note:** This extension is currently in **beta testing**. You might encounter some bugs or edge cases. Feedback and contributions are welcome!
 
 A lightweight Chrome extension that automatically tracks your LeetCode solve time and difficulty breakdown, and shows which companies ask which questions!
 
-## 📥 How to Install (Free)
+## 📥 How to Install
 
 Since this extension is not on the Chrome Web Store, you can install it manually in a few easy steps:
 
