@@ -61,11 +61,11 @@ When a page matching `https://leetcode.com/problems/*` loads, the content script
 
 - **Problem name:** Parsed from `document.title` (e.g., `"Two Sum - LeetCode"` → `"Two Sum"`).
 - **Difficulty:** Detected via a multi-strategy fallback (see DOM Selectors below).
-- **Timer:** `startTime = Date.now()` fires when the Submit button is clicked (not on page load).
+- **Timer:** `startTime = Date.now()` fires exactly when the problem page loads, measuring your true solve time (reading + thinking + coding).
 
 ### 2. MutationObserver for "Accepted" (`content.js`)
 
-LeetCode is a React single-page app — there is **no page reload** when you submit code. The extension uses a `MutationObserver` to detect when the results panel updates. The observer is **only attached after the Submit button is clicked** — not on page load.
+LeetCode is a React single-page app — there is **no page reload** when you submit code. The extension uses a `MutationObserver` to detect when the results panel updates. The observer is **only attached after the Submit button is clicked** (or `Ctrl+Enter` is pressed) to save performance.
 
 ```
 MutationObserver observes:
@@ -161,7 +161,7 @@ LeetCode obfuscates CSS class names and changes them frequently. This extension 
 
 2. **Accepted detection:** Submit an accepted solution, then in DevTools search (Ctrl+F in Elements panel) for the text `Accepted`. Note the nearest `data-*` attribute or stable parent element. If none exists, the TreeWalker fallback will catch it, but you can narrow the observer scope for better performance.
 
-3. **Timer accuracy:** The timer starts when the Submit button is clicked. LeetCode's SPA navigation may mean the click detection is slightly delayed. For most problems this is negligible, but very fast solves (<10s) may show slightly inflated times.
+3. **Timer accuracy:** The timer starts precisely when the content script initializes upon page load. It gracefully handles SPA navigation between tabs within the same problem (like Description, Solutions, Submissions) without resetting, stopping only when your code is finally "Accepted".
 
 4. **Dataset lookup:** To verify the slug matching is working, open any problem page, run `window.location.pathname.split('/').filter(Boolean)[1]` in the console to get the slug, then check if `companyData.json` has that key.
 
@@ -192,6 +192,6 @@ Every key step is logged with the prefix `[LeetCode Tracker]` (content script) o
 - **No problem list tracking** — only individual solves on the problem page.
 - **No LeetCode API integration** — purely DOM-based detection.
 - **Deduplication** — logs every attempt even if the same problem is solved on the same day. Change the dedup logic in `background.js` if needed.
-- **SPA navigation** — handled via pushState/popState interception + polling.
-- **Timer precision** — starts on Submit click, not when the page visually renders. Good enough for most use cases.
+- **SPA navigation** — handled via pushState/popState interception + polling. Timer state is intelligently preserved when navigating within the same problem.
+- **Timer tracking** — captures total end-to-end solve time (page load to Accepted), including all failed submission attempts in between.
 - **Company dataset** — static snapshot; replace `companyData.json` with a newer version to update.

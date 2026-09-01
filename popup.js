@@ -5,6 +5,7 @@
  */
 
 let allSolves = [];
+let liveTimerInterval = null;
 
 document.addEventListener("DOMContentLoaded", () => {
   console.log("[LeetCode Tracker Popup] Loaded");
@@ -51,6 +52,7 @@ function render(filterCompany) {
     document.getElementById("recent").classList.add("hidden");
     document.getElementById("exportBtn").classList.add("hidden");
     document.getElementById("filterBar").classList.add("hidden");
+    document.getElementById("progressTitle").classList.add("hidden");
 
     if (allSolves.length === 0) {
       document.getElementById("emptyState").classList.remove("hidden");
@@ -75,6 +77,7 @@ function render(filterCompany) {
     document.getElementById("recent").classList.remove("hidden");
     document.getElementById("exportBtn").classList.remove("hidden");
     document.getElementById("filterBar").classList.remove("hidden");
+    document.getElementById("progressTitle").classList.remove("hidden");
 
     // ---- Populate company filter dropdown ----
     populateCompanyFilter(filterCompany);
@@ -188,6 +191,7 @@ async function renderCurrentProblem(problem) {
 
     if (!activeTab || !activeTab.url || !activeTab.url.includes("leetcode.com/problems/")) {
       section.classList.add("hidden");
+      stopLiveTimer();
       return;
     }
 
@@ -224,6 +228,17 @@ async function renderCurrentProblem(problem) {
     section.classList.remove("hidden");
     document.getElementById("currentName").textContent = name;
 
+    // Start the live timer or show final static time
+    const timerEl = document.getElementById('liveTimer');
+    if (problem && problem.solveFinalTime != null) {
+      stopLiveTimer();
+      timerEl.textContent = formatTimerDisplay(problem.solveFinalTime);
+      timerEl.classList.add("finished");
+    } else {
+      timerEl.classList.remove("finished");
+      startLiveTimer(problem && problem.solveStartTime ? problem.solveStartTime : null);
+    }
+
     const diffEl = document.getElementById("currentDiff");
     if (diff) {
       diffEl.textContent = diff;
@@ -243,6 +258,7 @@ async function renderCurrentProblem(problem) {
   } catch (e) {
     console.error('[LeetCode Tracker Popup] renderCurrentProblem error:', e);
     section.classList.add("hidden");
+    stopLiveTimer();
   }
 }
 
@@ -611,6 +627,44 @@ document.getElementById("exportBtn").addEventListener("click", () => {
     console.log(`[LeetCode Tracker Popup] Exported ${data.solves.length} solve(s)`);
   });
 });
+
+/* ---- Live Timer ---- */
+
+function formatTimerDisplay(seconds) {
+  seconds = Math.max(0, Math.round(seconds));
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = seconds % 60;
+  if (h > 0) {
+    return `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+  }
+  return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+}
+
+function startLiveTimer(solveStartTime) {
+  stopLiveTimer();
+  const el = document.getElementById('liveTimer');
+  if (!el) return;
+  if (!solveStartTime) {
+    el.textContent = '';
+    return;
+  }
+  function tick() {
+    const elapsed = (Date.now() - solveStartTime) / 1000;
+    el.textContent = formatTimerDisplay(elapsed);
+  }
+  tick(); // render immediately
+  liveTimerInterval = setInterval(tick, 1000);
+}
+
+function stopLiveTimer() {
+  if (liveTimerInterval) {
+    clearInterval(liveTimerInterval);
+    liveTimerInterval = null;
+  }
+  const el = document.getElementById('liveTimer');
+  if (el) el.textContent = '';
+}
 
 /* ---- Helpers ---- */
 

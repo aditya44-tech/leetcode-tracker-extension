@@ -259,9 +259,9 @@
     log(`[debug] Button clicked: "${btnText}"`);
 
     // Start timer on submit click
-    if (!startTime && !alreadyAccepted) {
+    if (!alreadyAccepted) {
       if (btnText.includes('submit')) {
-        log('✅ Submit detected (capture) — starting timer');
+        log('✅ Submit detected (capture) — starting result observer');
         startTracking();
       }
     }
@@ -269,7 +269,7 @@
 
   // Backup: detect submission by watching for Pending/Judging text in the result panel
   function documentMutationHandler(mutations) {
-    if (startTime || alreadyAccepted) return;
+    if (alreadyAccepted) return;
 
     for (const m of mutations) {
       for (const node of m.addedNodes) {
@@ -329,9 +329,8 @@
   /* --------------------------------------------------------------- */
   function onKeyDown(e) {
     if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {
-      // Only trigger if we're on a problem page and not already tracking
-      if (!startTime && !alreadyAccepted && window.location.pathname.includes("/problems/")) {
-        log("⌨️ Ctrl+Enter detected — starting timer");
+      if (!alreadyAccepted && window.location.pathname.includes("/problems/")) {
+        log("⌨️ Ctrl+Enter detected — starting result observer");
         startTracking();
       }
     }
@@ -350,8 +349,9 @@
   /* --------------------------------------------------------------- */
   function startTracking() {
     alreadyAccepted = false;
-    startTime = Date.now();
-    log(`Timer started at ${new Date(startTime).toISOString()}`);
+    // Timer already started at page load — just start watching for the result
+    const elapsed = startTime ? Math.round((Date.now() - startTime) / 1000) : 0;
+    log(`Submit detected — ${elapsed}s elapsed since page load. Watching for Accepted...`);
     startResultPanelObserver();
   }
 
@@ -468,11 +468,7 @@
     stopResultPanelObserver();
 
     const elapsed = startTime ? Math.round((Date.now() - startTime) / 1000) : null;
-    if (elapsed === null) {
-      log(`⚠ Accepted — ${problemName} (${difficulty}) — but timer was not started (no submit click detected). Saving with no time.`);
-    } else {
-      log(`✅ Accepted — ${problemName} (${difficulty}) — ${elapsed}s`);
-    }
+    log(`✅ Accepted — "${problemName}" (${difficulty}) — total time: ${elapsed != null ? elapsed + 's' : 'not tracked'}`);
 
     const slug = slugFromURL();
     const companies = lookupCompanies(slug);
@@ -496,13 +492,13 @@
       }
     });
 
-    saveCurrentProblem();
+    saveCurrentProblem(elapsed);
   }
 
   /* --------------------------------------------------------------- */
   /*  Current problem storage                                         */
   /* --------------------------------------------------------------- */
-  function saveCurrentProblem() {
+  function saveCurrentProblem(finalTime = null) {
     const slug = slugFromURL();
     const companies = lookupCompanies(slug);
     const state = {
@@ -511,6 +507,8 @@
       slug,
       companies,
       url: window.location.href,
+      solveStartTime: startTime,   // epoch ms — used by popup for live timer
+      solveFinalTime: finalTime,   // final elapsed seconds if accepted
       timestamp: Date.now(),
     };
     chrome.storage.local.set({ currentProblem: state }, () => {
@@ -563,12 +561,37 @@
   /* --------------------------------------------------------------- */
   /*  SPA navigation handling                                         */
   /* --------------------------------------------------------------- */
+  function getSlugFromUrlString(urlString) {
+    try {
+      const pathname = new URL(urlString).pathname;
+      if (!pathname.startsWith("/problems/")) return null;
+      const parts = pathname.split("/").filter(Boolean);
+      return parts.length >= 2 ? parts[1] : null;
+    } catch(e) {
+      return null;
+    }
+  }
+
   function onSPANavigation() {
     const newURL = location.href;
     if (newURL === currentURL) return;
 
     log(`SPA navigation: ${currentURL} → ${newURL}`);
+    
+    const oldSlug = getSlugFromUrlString(currentURL);
+    const newSlug = getSlugFromUrlString(newURL);
+    
     currentURL = newURL;
+
+    // If navigating within the same problem (e.g. clicking "Solutions" or "Submissions" tab),
+    // do not reset the timer or observers. Just update the URL in storage and ensure
+    // the submit button listener is attached to the new DOM.
+    if (oldSlug && newSlug && oldSlug === newSlug) {
+      log(`Navigated within same problem "${oldSlug}". Keeping timer running.`);
+      saveCurrentProblem();
+      setTimeout(attachSubmitListener, 1000);
+      return;
+    }
 
     stopResultPanelObserver();
     detachSubmitListener();
@@ -590,6 +613,10 @@
         problemName = slugToName(slug);
         if (problemName) log(`Fallback name from slug: "${problemName}"`);
       }
+
+      // Start the solve timer now — measures total time: reading + thinking + coding + fixing
+      startTime = Date.now();
+      log(`⏱ Timer started for "${problemName}" at ${new Date(startTime).toISOString()}`);
 
       log(`New problem — "${problemName}" [${difficulty || "unknown"}]`);
       retryDifficulty();
@@ -637,11 +664,20 @@
   /* --------------------------------------------------------------- */
   async function init() {
     log("Content script loaded on: " + window.location.href);
+    log("🚀 VERSION: Page-load timer active");
+
+    // Start the solve timer immediately — BEFORE anything else (datasets, detection, etc.)
+    // This captures the full time: reading + thinking + coding + retries → Accepted
+    if (!startTime) {
+      startTime = Date.now();
+      log(`⏱ Timer started at: ${new Date(startTime).toISOString()}`);
+    }
 
     await loadDatasets();
 
     if (!window.location.pathname.startsWith("/problems/")) {
       log("Not on a problem page — skipping");
+      startTime = null; // not on a problem, clear it
       return;
     }
 
@@ -656,12 +692,12 @@
 
     if (!problemName) {
       log("⚠ Could not detect problem name — retrying in 3s");
-      setTimeout(init, 3000);
+      setTimeout(init, 3000); // timer keeps running, startTime already set
       return;
     }
 
     log(`Problem detected — "${problemName}" [${difficulty || "unknown"}]`);
-    log("⏳ Timer NOT started yet — waiting for Submit button click or Ctrl+Enter");
+    log(`⏱ Timer running — ${Math.round((Date.now() - startTime) / 1000)}s elapsed since page load`);
 
     retryDifficulty();
     saveCurrentProblem();

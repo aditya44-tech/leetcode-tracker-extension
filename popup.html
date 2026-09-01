@@ -7,94 +7,100 @@
   <link rel="stylesheet" href="popup.css" />
 </head>
 <body>
-  <div class="header">
+  <header class="header">
     <h1>Leet<em>Code</em> Tracker</h1>
-    <div class="subtitle">Track your progress</div>
-  </div>
+    <p class="subtitle">Track your progress</p>
+  </header>
 
-  <!-- Current problem (auto-populated from content script) -->
-  <div id="currentProblem" class="hidden">
-    <h2>Current Problem</h2>
-    <div class="current-card">
-      <div class="current-top">
-        <span class="current-name" id="currentName"></span>
-        <span class="current-diff" id="currentDiff"></span>
+  <main>
+    <!-- Current problem (auto-populated from content script) -->
+    <section id="currentProblem" class="hidden" aria-label="Current problem">
+      <h2>Current Problem</h2>
+      <div class="current-card">
+        <div class="current-top">
+          <span class="current-name" id="currentName"></span>
+          <span class="current-diff" id="currentDiff"></span>
+          <span class="live-timer" id="liveTimer" aria-label="Time elapsed"></span>
+        </div>
+        <div class="current-companies" id="currentCompanies"></div>
       </div>
-      <div class="current-companies" id="currentCompanies"></div>
-    </div>
-  </div>
+    </section>
 
-  <!-- Company filter -->
-  <div id="filterBar" class="hidden">
-    <label for="companyFilter">Filter by company</label>
-    <div class="filter-row">
-      <select id="companyFilter">
-        <option value="">All companies</option>
-      </select>
-      <button id="clearFilter" class="hidden">Clear</button>
+    <!-- Company filter -->
+    <div id="filterBar" class="hidden">
+      <label for="companyFilter">Filter by company</label>
+      <div class="filter-row">
+        <select id="companyFilter">
+          <option value="">All companies</option>
+        </select>
+        <button id="clearFilter" class="hidden">Clear</button>
+      </div>
     </div>
-  </div>
 
-  <!-- Summary cards -->
-  <div id="summary" class="hidden">
-    <div class="card">
-      <span class="card-value" id="totalSolved">0</span>
-      <span class="card-label">Solved</span>
+    <!-- Summary cards -->
+    <h2 id="progressTitle" class="hidden">My Progress</h2>
+    <div id="summary" class="hidden" role="group" aria-label="Solve statistics">
+      <div class="card">
+        <span class="card-value" id="totalSolved">0</span>
+        <span class="card-label">Solved</span>
+      </div>
+      <div class="card easy">
+        <span class="card-value" id="easyCount">0</span>
+        <span class="card-label">Easy</span>
+      </div>
+      <div class="card medium">
+        <span class="card-value" id="mediumCount">0</span>
+        <span class="card-label">Medium</span>
+      </div>
+      <div class="card hard">
+        <span class="card-value" id="hardCount">0</span>
+        <span class="card-label">Hard</span>
+      </div>
     </div>
-    <div class="card easy">
-      <span class="card-value" id="easyCount">0</span>
-      <span class="card-label">Easy</span>
+
+    <!-- Average solve times -->
+    <section id="averages" class="hidden" aria-label="Average solve times">
+      <h2>Average Time</h2>
+      <table id="avgTable">
+        <thead>
+          <tr><th scope="col">Difficulty</th><th scope="col">Avg. Time</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <!-- Recent solves -->
+    <section id="recent" class="hidden" aria-label="Recent solves">
+      <h2>Recent Solves</h2>
+      <table id="recentTable">
+        <thead>
+          <tr><th scope="col">Problem</th><th scope="col">Diff</th><th scope="col">Time</th><th scope="col">Date</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <!-- Empty state -->
+    <div id="emptyState">
+      <span class="empty-icon" aria-hidden="true">⌨</span>
+      <p>No solves yet.<br/>Open a LeetCode problem to start tracking.</p>
     </div>
-    <div class="card medium">
-      <span class="card-value" id="mediumCount">0</span>
-      <span class="card-label">Medium</span>
+  </main>
+
+  <footer>
+    <!-- Sync profile -->
+    <div id="syncBar">
+      <button id="syncBtn">Sync my LeetCode profile</button>
+      <span id="syncStatus" aria-live="polite"></span>
     </div>
-    <div class="card hard">
-      <span class="card-value" id="hardCount">0</span>
-      <span class="card-label">Hard</span>
+
+    <!-- Actions -->
+    <div id="actions">
+      <div class="actions-row">
+        <button id="exportBtn" class="hidden">Export</button>
+      </div>
     </div>
-  </div>
-
-  <!-- Average solve times -->
-  <div id="averages" class="hidden">
-    <h2>Average Time</h2>
-    <table id="avgTable">
-      <thead>
-        <tr><th>Difficulty</th><th>Avg. Time</th></tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </div>
-
-  <!-- Recent solves -->
-  <div id="recent" class="hidden">
-    <h2>Recent Solves</h2>
-    <table id="recentTable">
-      <thead>
-        <tr><th>Problem</th><th>Diff</th><th>Time</th><th>Date</th></tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </div>
-
-  <!-- Empty state -->
-  <div id="emptyState">
-    <div class="empty-icon">⌨</div>
-    <p>No solves yet.<br/>Open a LeetCode problem to start tracking.</p>
-  </div>
-
-  <!-- Sync profile -->
-  <div id="syncBar">
-    <button id="syncBtn">Sync my LeetCode profile</button>
-    <span id="syncStatus"></span>
-  </div>
-
-  <!-- Actions -->
-  <div id="actions">
-    <div class="actions-row">
-      <button id="exportBtn" class="hidden">Export</button>
-    </div>
-  </div>
+  </footer>
 
   <script src="companyData.js"></script>
   <script src="popup.js"></script>
